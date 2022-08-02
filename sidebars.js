@@ -1,6 +1,10 @@
 module.exports = {
   sidebars:{
-   'Admin Setup': [
+    'Overview': [
+      'Overview/IntakeRepLinks', 
+      'Overview/SchedulerLinks',
+    ],
+    'Admin Setup': [
     'AdminSetup/Account', 
     'AdminSetup/BusinessUnit',
     'AdminSetup/GoalBankLibrary',
