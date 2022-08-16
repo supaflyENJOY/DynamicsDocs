@@ -1,8 +1,8 @@
 ---
 id: BasicInfo
-title: Profile Information
+title: Basic Info
 ---
-## Overview
+# Overview
 
 The Practitioner Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help a User navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. See below. 
 
@@ -10,6 +10,7 @@ The Practitioner Main Form is divided into different tabs and sections. Every Ta
 
 <br>
 
+# Profile Info 
 ## General Information 
 
 The first step in creating a Practitioner is populating the 'General Information' section. This contains some general information about the Practitioner. 
@@ -66,4 +67,9 @@ The 'Provider Preferences' section should be populated when a Practitioner has s
 
 The 'Roles' section displays all the roles the Practitioner has. I.e. BCBA, Supervisor. The Practitioner's role information is displayed in a grid with the Role Name as well as the Period Start and Period End of the Role. 
 
-To read about adding a Practitioner Role, [click here.](PractitionerRoles.md)
+### Add New Practitioner Role
+
+To create a new Practitioner Role, click on the 3 dots on the sub grid. This will open up the New Practitioner Role Main Form.
+<img src ="/img/addPractitionerRole.png" width="200"/>
+
+To read more about Practitioner Role, [click here.](PractitionerRoles.md)
