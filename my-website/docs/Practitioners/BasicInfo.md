@@ -69,7 +69,7 @@ The 'Roles' section displays all the roles the Practitioner has. I.e. BCBA, Supe
 
 ### Add New Practitioner Role
 
-To create a new Practitioner Role, click on the 3 dots on the sub grid. This will open up the New Practitioner Role Main Form.
-<img src ="/img/addPractitionerRole.png" width="200"/>
+To create a new Practitioner Role, click on the 3 dots on the Roles sub grid. This will open up the New Practitioner Role Main Form.
+<img src ="static/img/addPractitionerRole.png" width="200"/>
 
 To read more about Practitioner Role, [click here.](PractitionerRoles.md)
