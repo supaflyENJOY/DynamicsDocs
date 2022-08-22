@@ -73,3 +73,19 @@ To create a new Practitioner Role, click on the 3 dots on the Roles sub grid. Th
 <img src ="/static/img/addPractitionerRole.jpg" width="500"/>
 
 To read more about Practitioner Role, [click here.](PractitionerRoles.md)
+
+<br>
+
+## Timeline
+
+The 'Timeline' section displays activities related to this Practitioner for easy follow-up and tracking. 
+By clicking on the '+' sign, new emails can be created and sent out, new tasks can be assigned, and new notes can be added.    
+- Email 
+  - From - populated with the current User.
+  - To - populated with the Practitioner navigating from. 
+- Tasks 
+  - Owner - populated with the current User.
+  - Regarding - populated with the Practitioner navigating from.
+  - Duration - default is set at '30 minutes'.
+  - Priority - default is set as 'normal'.
+- Notes
