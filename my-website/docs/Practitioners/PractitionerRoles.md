@@ -57,3 +57,9 @@ The 'Practitioner Roles' section displays the Role (Code) and the Practitioner R
 >         - Code: Behavior Technician
 >         - Text: Behavior Technician
 >         - System: http://hl7.org/fhir/ValueSet/practitioner-role
+
+<br>
+
+Practitioner Role Name - The Practitioner Role Name is populated as the Practitioner Name and the Practitioner Role Codes separated by a '-'. If there is more then 1 Practitioner Role Code, they are separated by a ','. See below. 
+
+<img src ="/static/img/PractitionerRoleName.jpg" width="500"/>
