@@ -42,6 +42,7 @@ The 'Practitioner Roles' section displays the Role (Code) and the Practitioner R
 > - Practitioner Role - If this form is opened via the Practitioner Roles sub grid (on the Practitioner Role Main Form), this field is populated with the 'Practitioner Role'.
 >
 > <br>
+>
 > <b> NOTE: </b>  
 >
 > The Autism Care Solution has 2 Codeable Concept records include in the package for Practitioner Role Code.

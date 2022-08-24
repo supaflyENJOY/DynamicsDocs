@@ -11,6 +11,7 @@ The Practitioner Main Form is divided into different tabs and sections. Every Ta
 <br>
 
 # Profile Info 
+
 ## General Information 
 
 The first step in creating a Practitioner is populating the 'General Information' section. This contains some general information about the Practitioner. 
@@ -67,7 +68,7 @@ The 'Provider Preferences' section should be populated when a Practitioner has s
 
 The 'Roles' section displays all the roles the Practitioner has. I.e. BCBA, Supervisor. The Practitioner's role information is displayed in a grid with the Role Name as well as the Period Start and Period End of the Role. 
 
-### Add New Practitioner Role
+### <u> Add New Practitioner Role </u> 
 
 To create a new Practitioner Role, click on the 3 dots on the Roles sub grid. This will open up the New Practitioner Role Main Form.
 <img src ="/static/img/addPractitionerRole.jpg" width="500"/>
