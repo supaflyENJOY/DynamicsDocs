@@ -89,6 +89,7 @@ The Calendar displays all the Encounter Services scheduled for this Practitioner
 > - Date 
 >   - When the 'All Day' toggle is off, 1 Date field displays.
 >   - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range.
+> - Reason 
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
 > - Time Zone
