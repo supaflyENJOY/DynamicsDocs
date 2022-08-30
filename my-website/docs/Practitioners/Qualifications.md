@@ -16,7 +16,8 @@ The sub grid displays the Qualification Name, Certification Date, Expiration Dat
 
  ### <u> Add New Practitioner Qualification </u>
  
- To create a new Practitioner Qualification, click on the 3 dots on the sub grid. This will open up the New Practitioner Qualification Quick Create Form.
+ To create a new Practitioner Qualification, click on the 'New Practitioner Qualification' button. This will open up the New Practitioner Qualification Quick Create Form.
+<img src ="/static/img/qualification.jpg" width="700"/>
 
 <br>
 
@@ -31,6 +32,7 @@ The sub grid displays the Qualification Name, Certification Date, Expiration Dat
 > - Expiration Date
 > - Qualification Number 
 >
+> <img src ="/static/img/pqQuickCreate.jpg" width="700"/>
 
 Upon clicking on an existing record in the sub grid, the record displays in pop out mode. The Practitioner field and the Qualification field are locked. 
 Upon clicking the 'New' button, the Practitioner Qualification Main Form opens. 
@@ -51,7 +53,7 @@ Upon clicking the 'New' button, the Practitioner Qualification Main Form opens.
 
 Practitioner Qualification Name - The Practitioner Qualification Name is populated as the Practitioner Name, the Qualification and the Expiration Date separated by a '-'. Before the expiration date, the word 'Exp' is added. See below. 
 
-<img src ="/static/img/PractitionerQualificationName.jpg" width="500"/>
+<img src ="/static/img/PractitionerQualificationName.jpg" width="300"/>
 <br>
 
 ### <b> Importance of correct qualification information </b>
@@ -62,6 +64,6 @@ It is important that the qualification and the dates are accurate. When scheduli
 >
 > The Insurance Plan Benefit (related to the Encounter Service) has a list of the qualifications a Practitioner must have to receieve payment for rendering the service. See below. 
 >
-> <img src ="/static/img/PractitionerQualification.jpg" width="900"/>
+> <img src ="/static/img/PractitionerQualification.jpg" width="1100" height="700"/>
 >
 > Upon saving an Encounter Service, if the Authorization Service field was not populated, it is auto populated based on the Care Team Assignment. Every Authorization Service has a lookup to an Insurance Plan Benefit. The Insurance Plan Benefit has an Insurance Plan, a Procedure Code of a Service and all other requirements related to the Service provided.

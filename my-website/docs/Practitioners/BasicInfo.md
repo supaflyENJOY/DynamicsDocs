@@ -101,3 +101,4 @@ By clicking on the '+' sign, new emails can be created and sent out, new tasks c
   - Duration - default is set at '30 minutes'.
   - Priority - default is set as 'normal'.
 - Notes
+<img src ="/static/img/Timeline.jpg" width="500"/>
