@@ -10,11 +10,15 @@ The Calendar tab displays a calendar with the Practitioners schedule.
 
 # Calendar
 
-The Calendar displays all the Encounter Services scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, the User can select which day they would like to view. When on the Week view, the User can select which week they would like to view. When on the Month view, the User can select which Month they would like to view.
+The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, the User can select which day they would like to view. When on the Week view, the User can select which week they would like to view. When on the Month view, the User can select which Month they would like to view.
+
+When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. By clicking on 'more details' on the popout, the User will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
 
  ### <u> Set Practitioner Availability </u>
  
  To add Practitioner availability to their schedule, click 'Set Practitioner Availability'. This will open up the Practitioner Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Practitioner Availability'.)
+
+Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time a Practitioner does not work, displays as unavailable in the tool. This helps a Scheduler schedule a sessions between a Patient and a Practitioner. 
 
 <br>
 
@@ -93,6 +97,3 @@ The Calendar displays all the Encounter Services scheduled for this Practitioner
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
 > - Time Zone
->
-
-What does working hrs and everything effect the calendar? 

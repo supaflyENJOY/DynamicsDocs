@@ -12,6 +12,16 @@ The Practitioner Main Form is divided into different tabs and sections. Every Ta
 
 # Profile Info 
 
+## Header
+The header contains the Contact Type and the Owner. 
+
+- Contact Type 
+  - Upon changing the Contact Type, the form will change. 
+  - Contact Type options - Patient, Practitioner, Related Person. 
+- Owner
+
+<br>
+
 ## General Information 
 
 The first step in creating a Practitioner is populating the 'General Information' section. This contains some general information about the Practitioner. 
@@ -28,6 +38,7 @@ The fields in the 'General Information' are:
 - Gender
 - Marital Status
 - NPI Number
+- Tax Id - Generally, a Company will bill all Claims under 1 provider. If they need to bill a Claim under a different provider, the Tax Id should be populated on that Practitioner. 
 
 <br>
 
