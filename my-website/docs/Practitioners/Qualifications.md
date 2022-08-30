@@ -66,6 +66,6 @@ It is important that the qualification and the dates are accurate. When scheduli
 >
 > The Insurance Plan Benefit (related to the Encounter Service) has a list of the qualifications a Practitioner must have to receieve payment for rendering the service. See below. 
 >
-> <img src ="/static/img/PractitionerQualification.jpg" width="1300" height="400"/>
+> <img src ="/static/img/PractitionerQualification.jpg" width="1400" height="500"/>
 >
 > Upon saving an Encounter Service, if the Authorization Service field was not populated, it is auto populated based on the Care Team Assignment. Every Authorization Service has a lookup to an Insurance Plan Benefit. The Insurance Plan Benefit has an Insurance Plan, a Procedure Code of a Service and all other requirements related to the Service provided.
