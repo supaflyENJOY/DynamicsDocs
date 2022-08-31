@@ -45,42 +45,41 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
 >   - By default the toggle is off and you can enter a date. <br>
 > <img src ="/static/img/allDay.jpg" width="450" height="400"/> <br>
->   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is working all day. 
->
-> <img src ="/static/img/allDayOn.jpg" width="400" height="400"/> 
->
+>   - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is working all day.<br>
+> <img src ="/static/img/allDayOn.jpg" width="400" height="400"/>  <br>
 > - Capacity - This is a toggle. 
 >   - By default the toggle is off.
->   - Upon switching the toggle to on, the capacity field displays next to the time/date range. The User can set a capacity limit if a Practitioner can only work with a limited amount of Patients. 
+>   - Upon switching the toggle to on, the capacity field displays next to the time/date range. Then you can set a capacity limit if a Practitioner can only work with a limited amount of Patients. 
 > - Date 
 >   - When the 'All Day' toggle is off, 1 Date field displays.
->   - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range.
-> - Repeat - Here the User can set when the working hours should repeat. The options are: Never, Every day, Every week or Custom. 
+>   - When the 'All Day' toggle is on, 2 Date fields display for you to set a date range.
+> - Repeat - Here you can set when the working hours should repeat. The options are: Never, Every day, Every week or Custom. 
 >   - Never
->   - Every day - Upon selecting 'Every day', the User can select which days these work hours should repeat. 
->   - Every week -  Upon selecting 'Every week', the User can select which day(s) each week these work hours should repeat.
+>   - Every day - Upon selecting 'Every day', you can select which days these work hours should repeat. 
+>   - Every week -  Upon selecting 'Every week', you can select which day(s) each week these work hours should repeat.
 >   - Custom 
->      - Upon selecting 'Custom', the User can select day(s) and set a time for every day that these work hours should repeat.
->      - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear. 
->
-> <img src ="/static/img/customWorkHours.jpg" width="400" height="550"/> 
->
+>      - Upon selecting 'Custom', you can select day(s) and set a time for every day that these work hours should repeat.
+>      - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.<br>
+> <img src ="/static/img/customWorkHours.jpg" width="400" height="550"/> <br>
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
->   - Upon clicking on the 3 dots next to the time, the User can add a break to the work hours.
+>   - Upon clicking on the 3 dots next to the time, you can add a break to the work hours.
 >     - <i> Add Break </i>
->       - Upon clicking 'Add break', the system will add a break to the work hours. The User can edit the time range for the break by editing the start and end time of the work hours.
+>       - Upon clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours.
 >       - More then 1 break can be added. <br>
-> <img src ="/static/img/breakHours.jpg" width="500" height="550"/> <br>
+> <img src ="/static/img/breakHours.jpg" width="450" height="550"/> <br>
 >     - <i> Add Split </i>
->       - When the Capacity toggle is on, the User can add a 'split' to their day.<br>
+>       - When the Capacity toggle is on, you can add a 'split' to their day.<br>
 > <img src ="/static/img/addSplit.jpg" width="500"/> <br>
->       - Upon clicking 'Add split', the system will split the work hours into two. The User can edit the time range by editing the start and end time of the work hours.
+>       - Upon clicking 'Add split', the system will split the work hours into two. You can edit the time range by editing the start and end time of the work hours.
 >       - More then 1 split can be added.
->       - The end time of the 1st split will be the start time of the 2nd split.<br>
-> <img src ="/static/img/split&Break.jpg" width="500"/> 
+>       - The end time of the 1st split will be the start time of the 2nd split. <br>
+> <img src ="/static/img/split&Break.jpg" width="500"/> <br>
 > - Time Zone
 >
+><br>
+><br>
+><br>
 >
 > ### <p style="text-align: center;"><i> Non-working </i>
 > 
@@ -89,16 +88,19 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > To add the hours when a Practitioners does not works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Non-working', a form will open on the side of the screen. 
 > 
 > - All Day - This is a toggle which represents if the Practitioner is not working all day or if they are not working a few hours a day. 
->   - By default the toggle is off and the User can enter a date.
->   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is not working all day.
+>   - By default the toggle is off and you can enter a date.
+>   - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is not working all day.
 > - Date 
 >   - When the 'All Day' toggle is off, 1 Date field displays.
 >   - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range. 
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
 > - Time Zone<br>
-> <img src ="/static/img/nonWorkingHours.jpg" width="500"/> 
+> <img src ="/static/img/nonWorkingHours.jpg" width="500"/> <br>
 >
+><br>
+><br>
+><br>
 >
 > ### <p style="text-align: center;"><i> Time off </i>
 > 
@@ -107,8 +109,8 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > To add the hours when a Practitioners is taking off to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Time off', a form will open on the side of the screen. 
 > 
 > - All Day - This is a toggle which represents if the Practitioner is not working all day or if they are not working a few hours a day. 
->   - By default the toggle is off and the User can enter a date.
->   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is not working all day. 
+>   - By default the toggle is off and you can enter a date.
+>   - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is not working all day. 
 > - Date 
 >   - When the 'All Day' toggle is off, 1 Date field displays.
 >   - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range.
@@ -116,4 +118,4 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
 > - Time Zone<br>
-> <img src ="/static/img/timeOff.jpg" width="500"/>
+> <img src ="/static/img/timeOff.jpg" width="500"/><br>
