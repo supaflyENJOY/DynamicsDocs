@@ -12,11 +12,11 @@ The Calendar tab displays a calendar with the Practitioners schedule.
 
 The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, the User can select which day they would like to view. When on the Week view, the User can select which week they would like to view. When on the Month view, the User can select which Month they would like to view.
 
-<img src ="/static/img/calendar.jpg" width="1300" height="400"/>
+<img src ="/static/img/calendar.jpg" width="1100" height="700"/>
 
 When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. 
 
-<img src ="/static/img/calendarPopout.jpg" width="500"/>
+<img src ="/static/img/calendarPopout.jpg" width="500" height="500"/>
 
 By clicking on 'more details' on the popout, the User will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
 
@@ -24,7 +24,7 @@ By clicking on 'more details' on the popout, the User will be navigated to the E
  
  To add Practitioner availability to their schedule, click 'Set Practitioner Availability'. This will open up the Practitioner Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Practitioner Availability'.)
 
- <img src ="/static/img/practitionerAvailability.jpg" width="1300" height="400"/>
+ <img src ="/static/img/practitionerAvailability.jpg" width="1300" height="600"/>
 
 Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time a Practitioner does not work, displays as unavailable in the tool. This helps a Scheduler schedule a sessions between a Patient and a Practitioner. 
 
@@ -40,7 +40,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > 
 > To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
 >
-><img src ="/static/img/workhours.jpg" width="500"/>
+><img src ="/static/img/workinghours.jpg" width="500"/>
 >
 > Upon clicking 'Working hours', a form will open on the side of the screen. 
 > 
@@ -67,7 +67,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >      - Upon selecting 'Custom', the User can select day(s) and set a time for every day that these work hours should repeat.
 >      - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear. 
 >
-> <img src ="/static/img/workinghours.jpg" width="500"/> 
+> <img src ="/static/img/customWorkHours.jpg" width="500"/> 
 >
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
