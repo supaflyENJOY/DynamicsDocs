@@ -47,7 +47,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
 >   - By default the toggle is off and the User can enter a date.
 >
-> <img src ="/static/img/allDay.jpg" width="300"/> 
+> <img src ="/static/img/allDay.jpg" width="300" height="500"/> 
 >
 >   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is working all day. 
 >
