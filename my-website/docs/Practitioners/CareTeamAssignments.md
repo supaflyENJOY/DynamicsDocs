@@ -10,11 +10,13 @@ The Care Team Assignments tab has 1 sub grid. This sub grid lists all the Care T
 
 # Care Team Assignments
 
-The sub grid displays the Patient Name, Authorization Service, Amount of Hours, Frequency, Period Start Date and Period End Date. There are 2 different views available. The default view is 'Current Assignments'. This view is filtered to display Care Team Assignment records related to this Practitioner where the Period End Date is equal to Today or is in the future. The other view is 'All Assignments'. This view displays all Care Team Assignments related to this Practitioner. 
+The sub grid displays the Patient Name, Authorization Service, Amount of Hours, Frequency, Period Start Date and Period End Date. There are 2 different views available. The default view is 'Current Assignments'. This view is filtered to display Care Team Assignment records related to this Practitioner where the Period End Date is equal to Today or is in the future. The other view is 'All Assignments'. This view displays all Care Team Assignments related to this Practitioner.
+
+<img src ="/static/img/careTeamAssignmentsSubgrid.jpg" width="900"/>
 
  ### <u> Add New Care Team Assignments </u>
  
- To create a new Care Team Assignments, click on the 3 dots on the sub grid. This will open up the New Care Team Assignments Quick Create Form.
+ To create a new Care Team Assignments, click on the 'Add New Care Team Assignments' button on the sub grid. This will open up the New Care Team Assignments Quick Create Form.
 
 <br>
 
@@ -58,7 +60,8 @@ The sub grid displays the Patient Name, Authorization Service, Amount of Hours, 
 >   - This field is filtered to display Practitioner Roles related to the Practitioner. 
 >   - If a Practitioner Role is found with a Start Date (Practitioner Role) before the Period Start Date (Care Team Assignment) and the End Date (Practitioner Role) is null or after the Period End Date (Care Team Assignment), this field is auto-populated with the Practitioner Role record related to the Practitioner.
 >
+><img src ="/static/img/careTeamAssignmentQC.jpg" width="500"/> <img src ="/static/img/careTeamAssignmentQCPopulated.jpg" width="500"/> 
 
 <br>
 
-Care Team Assignment Name - The Care Team Assignment Name is populated as the Patient Name, the Practitioner Name, Service, Period Start Date and the Period End Date separated by a '-'. The Service is pulled from the related Insurance Plan Benefit. Example: 'Laverne Mraz - John Doe - Direct Care - 5/17/2022 - 11/17/2022'
+Care Team Assignment Name - The Care Team Assignment Name is populated as the Patient Name, the Practitioner Name, Service, Period Start Date and the Period End Date separated by a '-'. The Service is pulled from the related Insurance Plan Benefit. Example: 'Laverne Mraz - John Doe - Direct Care - 5/17/2022 - 11/17/2022'.

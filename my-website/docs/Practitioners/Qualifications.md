@@ -16,7 +16,7 @@ The sub grid displays the Qualification Name, Certification Date, Expiration Dat
 
  ### <u> Add New Practitioner Qualification </u>
  
- To create a new Practitioner Qualification, click on the 'New Practitioner Qualification' button. This will open up the New Practitioner Qualification Quick Create Form.
+ To create a new Practitioner Qualification, click on the 'Add New Practitioner Qualification' button. This will open up the New Practitioner Qualification Quick Create Form.
 
 <img src ="/static/img/qualification.jpg" width="900"/>
 
