@@ -12,7 +12,7 @@ The Calendar tab displays a calendar with the Practitioners schedule.
 
 The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, the User can select which day they would like to view. When on the Week view, the User can select which week they would like to view. When on the Month view, the User can select which Month they would like to view.
 
-<img src ="/static/img/calendar.jpg" width="1100" height="600"/>
+<img src ="/static/img/calendar.jpg" width="1200" height="600"/>
 
 When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. 
 
