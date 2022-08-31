@@ -47,11 +47,11 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
 >   - By default the toggle is off and the User can enter a date.
 >
-> <img src ="/static/img/allDay.jpg" width="400" height="500"/> 
+> <img src ="/static/img/allDay.jpg" width="600" height="500"/> 
 >
 >   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is working all day. 
 >
-> <img src ="/static/img/allDayOn.jpg" width="400" height="500"/> 
+> <img src ="/static/img/allDayOn.jpg" width="500" height="500"/> 
 >
 > - Capacity - This is a toggle. 
 >   - By default the toggle is off.
@@ -67,7 +67,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >      - Upon selecting 'Custom', the User can select day(s) and set a time for every day that these work hours should repeat.
 >      - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear. 
 >
-> <img src ="/static/img/customWorkHours.jpg" width="500"/> 
+> <img src ="/static/img/customWorkHours.jpg" width="500" height="550"/> 
 >
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
@@ -75,11 +75,10 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >     - <i> Add Break </i>
 >       - Upon clicking 'Add break', the system will add a break to the work hours. The User can edit the time range for the break by editing the start and end time of the work hours.
 >       - More then 1 break can be added. <br>
-> <img src ="/static/img/breakHours.jpg" width="500"/>
->
+> <img src ="/static/img/breakHours.jpg" width="500" height="550"/> <br>
 >     - <i> Add Split </i>
 >       - When the Capacity toggle is on, the User can add a 'split' to their day.<br>
-> <img src ="/static/img/addSplit.jpg" width="500"/> 
+> <img src ="/static/img/addSplit.jpg" width="500"/> <br>
 >       - Upon clicking 'Add split', the system will split the work hours into two. The User can edit the time range by editing the start and end time of the work hours.
 >       - More then 1 split can be added.
 >       - The end time of the 1st split will be the start time of the 2nd split.<br>
