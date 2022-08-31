@@ -40,7 +40,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > 
 > To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
 >
-><img src ="/static/img/workinghours.jpg" width="500"/>
+><img src ="/static/img/workinghours.jpg" width="200"/>
 >
 > Upon clicking 'Working hours', a form will open on the side of the screen. 
 > 
