@@ -47,11 +47,11 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
 >   - By default the toggle is off and the User can enter a date.
 >
-> <img src ="/static/img/allDay.jpg" width="600" height="500"/> 
+> <img src ="/static/img/allDay.jpg" width="450" height="400"/> 
 >
 >   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is working all day. 
 >
-> <img src ="/static/img/allDayOn.jpg" width="500" height="500"/> 
+> <img src ="/static/img/allDayOn.jpg" width="400" height="400"/> 
 >
 > - Capacity - This is a toggle. 
 >   - By default the toggle is off.
@@ -67,7 +67,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >      - Upon selecting 'Custom', the User can select day(s) and set a time for every day that these work hours should repeat.
 >      - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear. 
 >
-> <img src ="/static/img/customWorkHours.jpg" width="500" height="550"/> 
+> <img src ="/static/img/customWorkHours.jpg" width="400" height="550"/> 
 >
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
