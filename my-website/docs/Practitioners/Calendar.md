@@ -16,7 +16,7 @@ The Calendar displays all the Sessions scheduled for this Practitioner. There ar
 
 When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. 
 
-<img src ="/static/img/calendarPopout.jpg" width="500" height="300"/>
+<img src ="/static/img/calendarPopout.jpg" width="400" height="200"/>
 
 By clicking on 'more details' on the popout, the User will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
 
@@ -47,7 +47,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
 >   - By default the toggle is off and the User can enter a date.
 >
-> <img src ="/static/img/allDay.jpg" width="500"/> 
+> <img src ="/static/img/allDay.jpg" width="300"/> 
 >
 >   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is working all day. 
 >
