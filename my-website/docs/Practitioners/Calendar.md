@@ -10,7 +10,7 @@ The Calendar tab displays a calendar with the Practitioners schedule.
 
 # Calendar
 
-The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, the User can select which day they would like to view. When on the Week view, the User can select which week they would like to view. When on the Month view, the User can select which Month they would like to view.
+The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, you can select which day you would like to view. When on the Week view, you can select which week you would like to view. When on the Month view, you can select which Month you would like to view.
 
 <img src ="/static/img/calendar.jpg" width="1200" height="600"/>
 
@@ -18,15 +18,15 @@ When looking at the calendar, the Session displays the Service that will be prov
 
 <img src ="/static/img/calendarPopout.jpg" width="400" height="200"/>
 
-By clicking on 'more details' on the popout, the User will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
+By clicking on 'more details' on the popout, you will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
 
  ### <u> Set Practitioner Availability </u>
  
- To add Practitioner availability to their schedule, click 'Set Practitioner Availability'. This will open up the Practitioner Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Practitioner Availability'.)
+ To add Practitioner availability to the schedule, click 'Set Practitioner Availability'. This will open up the Practitioner Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Practitioner Availability'.)
 
  <img src ="/static/img/practitionerAvailability.jpg" width="1300" height="600"/>
 
-Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time a Practitioner does not work, displays as unavailable in the tool. This helps a Scheduler schedule a sessions between a Patient and a Practitioner. 
+Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Practitioner 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
 
 <br>
 
@@ -38,17 +38,13 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 > 
 > Working Hours are the general hours when a Practitioner works. I.e. 9am - 5pm with a lunch break from 12am - 1pm. Some Practitioners can have different working hours every day or week, while others have the same work hours every day. 
 > 
-> To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
->
-><img src ="/static/img/workinghours.jpg" width="200"/>
->
+> To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. <br>
+><img src ="/static/img/workinghours.jpg" width="200"/> <br>
 > Upon clicking 'Working hours', a form will open on the side of the screen. 
 > 
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
->   - By default the toggle is off and the User can enter a date.
->
-> <img src ="/static/img/allDay.jpg" width="450" height="400"/> 
->
+>   - By default the toggle is off and you can enter a date. <br>
+> <img src ="/static/img/allDay.jpg" width="450" height="400"/> <br>
 >   - Upon switching the toggle to on, the User can set a date range for all the days the Practitioner is working all day. 
 >
 > <img src ="/static/img/allDayOn.jpg" width="400" height="400"/> 

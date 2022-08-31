@@ -4,7 +4,7 @@ title: Basic Info
 ---
 # Overview
 
-The Practitioner Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help a User navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. See below. 
+The Practitioner Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help you navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. See below. 
 
 <img src ="/static/img/requiredFields.jpg" width="500"/>
 
@@ -31,15 +31,15 @@ The fields in the 'General Information' are:
 - <span style="color:red"> * </style>Last Name
 - Known As
 - Date Of Birth
-  - <span style="color:navy"> Validation: </style>A User cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
+  - <span style="color:navy"> Validation: </style>You cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
   - Error Message: 
-      - If a User populates the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future."<br>
+      - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future."<br>
  <img src ="/static/img/DOBError.jpg" width="500"/> <br>
-      - If a User populates the DOB field with a DOB 120 years before todays date, the following error message will display "Birth Date cannot be more than 120 years in the past."
+      - If you populate the DOB field with a DOB 120 years before todays date, the following error message will display "Birth Date cannot be more than 120 years in the past."
 - Gender
 - Marital Status
 - NPI Number
-- Tax Id - Generally, a Company will bill all Claims under 1 provider. If they need to bill a Claim under a different provider, the Tax Id should be populated on that Practitioner. 
+- Tax Id - If your company bills some Claims under this provider, the Tax Id should be populated. 
 
 <br>
 
@@ -69,7 +69,7 @@ The 'Contact Information' section contains all the ways to contact the Practitio
 
 ## Provider Preferences 
 
-The 'Provider Preferences' section should be populated when a Practitioner has specific preferences regarding what Patient they would like to work with. I.e. If a Practitioner speaks english and would like to work with a Patient who speaks english, the Intake Rep would populate the 'Preferred Languages' field with 'english'. When a Scheduler matches the Practitioner to a Patient, they would match this Practitioner with a Patient who speaks english.  
+The 'Provider Preferences' section should be populated when a Practitioner has specific preferences regarding what Patient they would like to work with. I.e. If a Practitioner speaks english and would like to work with a Patient who speaks english, you would populate the 'Preferred Languages' field with 'english'. When a Scheduler matches the Practitioner to a Patient, they would match this Practitioner with a Patient who speaks english.  
 
 - Preferred Languages - This field is a multi select option set. Every organization can manage this option set according to their needs. 
 - Patient Gender Preference
@@ -82,7 +82,7 @@ The 'Roles' section displays all the roles the Practitioner has. I.e. BCBA, Supe
 
 ### <u> Add New Practitioner Role </u> 
 
-To create a new Practitioner Role, click on the 3 dots on the Roles sub grid. Then click the 'New Practitioner role' button. This will open up the New Practitioner Role Main Form.
+To create a new Practitioner Role, click on the 3 dots on the Roles sub grid. Then click the 'New Practitioner Role' button. This will open up the New Practitioner Role Main Form.
 <img src ="/static/img/addPractitionerRole.jpg" width="500"/>
 
 To read more about Practitioner Role, [click here.](PractitionerRoles.md)
