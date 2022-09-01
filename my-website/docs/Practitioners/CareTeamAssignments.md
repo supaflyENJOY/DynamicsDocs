@@ -12,7 +12,7 @@ The Care Team Assignments tab has 1 sub grid. This sub grid lists all the Care T
 
 The sub grid displays the Patient Name, Authorization Service, Amount of Hours, Frequency, Period Start Date and Period End Date. There are 2 different views available. The default view is 'Current Assignments'. This view is filtered to display Care Team Assignment records related to this Practitioner where the Period End Date is equal to Today or is in the future. The other view is 'All Assignments'. This view displays all Care Team Assignments related to this Practitioner.
 
-<img src ="/static/img/careTeamAssignmentsSubgrid.jpg" width="900"/>
+<img src ="/static/img/careTeamAssignmentSubgrid.jpg" width="900"/>
 
  ### <u> Add New Care Team Assignments </u>
  
