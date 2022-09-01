@@ -29,6 +29,8 @@ module.exports = {
     'Practitioners/PractitionerRoles',    
     'Practitioners/Qualifications',
     'Practitioners/CareTeamAssignments',
+    'Practitioners/Encounters',
+    'Practitioners/Calendar',
 
   ],
   'Scheduling':[
