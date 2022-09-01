@@ -15,7 +15,8 @@ The Practitioner Role form must be saved to add Practitioner Roles in the Practi
 ## Practitioner Role Information
 
 - Practitioner 
-  - If this form is opened via the Practitioner Role sub grid (on the Practitioner Main Form), this field is populated with the 'Practitioner' and is locked. 
+  - If this form is opened via the Practitioner Role sub grid (on the Practitioner Main Form), this field is populated with the 'Practitioner' and is locked. <br>
+  <img src ="/static/img/practitionerRolePrepopulated.jpg" width="500"/> <br>
   - This field is filtered to display Practitioners. 
 - Period Start
 - Period End
@@ -28,7 +29,7 @@ The 'Practitioner Roles' section displays the Role (Code) and the Practitioner R
 
  ### <u> Add New Practitioner Role Code </u>
  
- To create a new Practitioner Role Code, click on the 3 dots on the sub grid. This will open up the New Practitioner Role Code Main Form.
+ To create a new Practitioner Role Code, click on the 3 dots on the sub grid. Then click on the 'New Practitioner Role Code' button. This will open up the New Practitioner Role Code Main Form.
 
 <br>
 
@@ -38,25 +39,9 @@ The 'Practitioner Roles' section displays the Role (Code) and the Practitioner R
 > The 'General' section contains the Code for a Role and a Practitioner Role.
 >
 > - Code 
->   - The lookup field displayed is filtered to display Codeable Concept records where the 'system' field on the Codeable Concept is "http://hl7.org/fhir/ValueSet/practitioner-role". This is to ensure only relevant records display. 
+>   - The lookup field displayed is filtered to ensure only relevant records display. 
 > - Practitioner Role - If this form is opened via the Practitioner Roles sub grid (on the Practitioner Role Main Form), this field is populated with the 'Practitioner Role'.
 >
-> <br>
->
-> <b> NOTE: </b>  
->
-> The Autism Care Solution has 2 Codeable Concept records include in the package for Practitioner Role Code.
-> 
->     1. BCBA
->         - Name: BCBA
->         - Code: BCBA
->         - Text: BCBA
->         - System: http://hl7.org/fhir/ValueSet/practitioner-role
->     2. Behavior Technician
->         - Name: Behavior Technician
->         - Code: Behavior Technician
->         - Text: Behavior Technician
->         - System: http://hl7.org/fhir/ValueSet/practitioner-role
 
 <br>
 

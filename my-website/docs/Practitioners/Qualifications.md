@@ -16,7 +16,7 @@ The sub grid displays the Qualification Name, Certification Date, Expiration Dat
 
  ### <u> Add New Practitioner Qualification </u>
  
- To create a new Practitioner Qualification, click on the 'Add New Practitioner Qualification' button. This will open up the New Practitioner Qualification Quick Create Form.
+ To create a new Practitioner Qualification, click on the 'New Practitioner Qualification' button. This will open up the New Practitioner Qualification Quick Create Form.
 
 <img src ="/static/img/qualification.jpg" width="900"/>
 
@@ -60,7 +60,7 @@ Practitioner Qualification Name - The Practitioner Qualification Name is populat
 
 ### <b> Importance of correct qualification information </b>
 
-It is important that the qualification and the dates are accurate. When scheduling an Encounter Service with a Practitioner, the system checks that the Practitioner has the required qualification for the service being provided.
+It is important that the qualification and the dates are accurate. When scheduling a Session with a Practitioner, the system checks that the Practitioner has the required qualification for the service being provided.
  
 > <b>How do you know what the required qualifications are for the service? </b>
 >
