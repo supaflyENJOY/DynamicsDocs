@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Dynamics Documentation',
   tagline: 'Your digital care companion',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.chorus.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
