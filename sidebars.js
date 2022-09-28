@@ -19,10 +19,10 @@ module.exports = {
     'ClinicalSetup/Coverage',
   ],
   'Encounters':[
-  
+    'Encounters/RecurringEncounters',
   ],
   'Patients':[
-    
+    'Patients/BasicInfo',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
@@ -34,7 +34,7 @@ module.exports = {
 
   ],
   'Scheduling':[
-    
+    'Scheduling/ScheduleAssistance',
   ],
   },
 };
