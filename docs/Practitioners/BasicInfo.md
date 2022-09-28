@@ -27,8 +27,8 @@ The header contains the Contact Type and the Owner.
 The first step in creating a Practitioner is populating the 'General Information' section. This contains some general information about the Practitioner. 
 
 The fields in the 'General Information' are:
-- <span style="color:red"> * </style>First Name
-- <span style="color:red"> * </style>Last Name
+- <span style="color:red"> * </span style>First Name
+- <span style="color:red"> * </span style>Last Name
 - Known As
 - Date Of Birth
   - <span style="color:navy"> Validation: </style>You cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
