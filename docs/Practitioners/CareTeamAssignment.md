@@ -1,6 +1,6 @@
 ---
-id: CareTeamAssignments
-title: Care Team Assignments
+id: CareTeamAssignment
+title: Care Team Assignment
 ---
 # Overview
 
