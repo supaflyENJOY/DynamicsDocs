@@ -27,14 +27,14 @@ The header contains the Contact Type and the Owner.
 The first step in creating a Practitioner is populating the 'General Information' section. This contains some general information about the Practitioner. 
 
 The fields in the 'General Information' are:
-- <span style="color:red"> * </span style>First Name
-- <span style="color:red"> * </span style>Last Name
+- * First Name
+- * Last Name
 - Known As
 - Date Of Birth
-  - <span style="color:navy"> Validation: </style>You cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
+  - Validation: You cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
   - Error Message: 
-      - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future."<br>
- <img src ="/static/img/DOBError.jpg" width="500"/> <br>
+      - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future."<br> </br>
+ <img src ="/static/img/DOBError.jpg" width="500"/> <br> </br>
       - If you populate the DOB field with a DOB 120 years before todays date, the following error message will display "Birth Date cannot be more than 120 years in the past."
 - Gender
 - Marital Status

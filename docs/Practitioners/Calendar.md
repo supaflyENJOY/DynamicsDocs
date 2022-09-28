@@ -38,19 +38,19 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >
 > The Practitioner Availability tab displays the Practitioner Availability calendar. This calendar displays the hours the Practitioner works, the hours they do not work and any time off. The Practitioner Availability calendar has the same 3 views as the Scheduling calendar. 
 >
-> ### <p style="text-align: center;"> <i> Working Hours </i>
+> ### <p style="text-align: center;"> <i> Working Hours </i> </p>
 > 
 > Working Hours are the general hours when a Practitioner works. I.e. 9am - 5pm with a lunch break from 12am - 1pm. Some Practitioners can have different working hours every day or week, while others have the same work hours every day. 
 > 
-> To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. <br>
-><img src ="/static/img/workinghours.jpg" width="200"/> <br>
+> To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. <br> </br>
+><img src ="/static/img/workinghours.jpg" width="200"/> <br> </br>
 > Upon clicking 'Working hours', a form will open on the side of the screen. 
 > 
 > - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
->   - By default the toggle is off and you can enter a date. <br>
-> <img src ="/static/img/allDay.jpg" width="425" height="400"/> <br>
->   - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is working all day.<br>
-> <img src ="/static/img/allDayOn.jpg" width="400" height="400"/>  <br>
+>   - By default the toggle is off and you can enter a date. <br> </br>
+> <img src ="/static/img/allDay.jpg" width="425" height="400"/> <br> </br>
+>   - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is working all day.<br> </br>
+> <img src ="/static/img/allDayOn.jpg" width="400" height="400"/>  <br> </br>
 > - Capacity - This is a toggle. 
 >   - By default the toggle is off.
 >   - Upon switching the toggle to on, the capacity field displays next to the time/date range. Then you can set a capacity limit if a Practitioner can only work with a limited amount of Patients. 
