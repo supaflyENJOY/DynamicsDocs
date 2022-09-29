@@ -10,7 +10,7 @@ const config = {
   tagline: 'At Chorus we help people help people, by creating operational efficiency, enabling the ultimate patient and practitioner (employee) experiance, resulting in highest clinical and revenue outcomes. ',
   url: 'https://www.chorus.cloud/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/choruslogo.png',
 
