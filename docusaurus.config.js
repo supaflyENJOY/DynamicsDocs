@@ -1,10 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+//const lightCodeTheme = require('prism-react-renderer/themes/github');
+//const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
+///** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Chorus Software Solutions',
   tagline: 'At Chorus we help people help people, by creating operational efficiency, enabling the ultimate patient and practitioner (employee) experiance, resulting in highest clinical and revenue outcomes. ',
@@ -29,11 +29,12 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      '@docusaurus/preset-classic',
+     // /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          homePageId: "Overview/Welcome",
+          sidebarPath: require.resolve('/sidebars.js'),
           // Please change this to your repo.
         },
       //  blog: {
@@ -124,10 +125,10 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+     // prism: {
+     //   theme: lightCodeTheme,
+     //   darkTheme: darkCodeTheme,
+    //  },
     }),
 };
 

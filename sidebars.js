@@ -1,5 +1,10 @@
 module.exports = {
   sidebars:{
+    'Getting Started': [
+      'Overview/Welcome',
+      'Overview/IntakeRepLinks', 
+      'Overview/SchedulerLinks',
+    ],
     'Overview': [
       'Overview/IntakeRepLinks', 
       'Overview/SchedulerLinks',
