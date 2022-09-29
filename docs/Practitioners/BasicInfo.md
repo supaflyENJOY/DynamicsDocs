@@ -8,7 +8,7 @@ The Practitioner Main Form is divided into different tabs and sections. Every Ta
 
 <img src ="/static/img/requiredFields.jpg" width="500"/>
 
- <br> </br>
+ <br />
 
 # Profile Info 
 
@@ -20,7 +20,7 @@ The header contains the Contact Type and the Owner.
   - Contact Type options - Patient, Practitioner, Related Person. 
 - Owner
 
- <br> </br>
+ <br />
 
 ## General Information 
 
@@ -33,15 +33,15 @@ The fields in the 'General Information' are:
 - Date Of Birth
   - Validation: You cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
   - Error Message: 
-      - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future." <br> </br>
- <img src ="/static/img/DOBError.jpg" width="500"/> <br> </br>
+      - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future." <br />
+ <img src ="/static/img/DOBError.jpg" width="500"/> <br />
       - If you populate the DOB field with a DOB 120 years before todays date, the following error message will display "Birth Date cannot be more than 120 years in the past."
 - Gender
 - Marital Status
 - NPI Number
 - Tax Id - If your company bills some Claims under this provider, the Tax Id should be populated. 
 
- <br> </br>
+ <br />
 
 ## Address Information 
 
@@ -53,7 +53,7 @@ Another section which should be populated to properly setup a Practitioner in th
 - State
 - Zip Code
 
- <br> </br>
+ <br />
 
 ## Contact Information 
 
@@ -65,7 +65,7 @@ The 'Contact Information' section contains all the ways to contact the Practitio
 - Email Address
 - Preferred Contact Method
 
- <br> </br>
+ <br />
 
 ## Provider Preferences 
 
@@ -74,7 +74,7 @@ The 'Provider Preferences' section should be populated when a Practitioner has s
 - Preferred Languages - This field is a multi select option set. Every organization can manage this option set according to their needs. 
 - Patient Gender Preference
 
- <br> </br>
+ <br />
 
 ## Roles
 
@@ -87,7 +87,7 @@ To create a new Practitioner Role, click on the 3 dots on the Roles sub grid. Th
 
 To read more about Practitioner Role, [click here.](PractitionerRoles.md)
 
- <br> </br>
+ <br />
 
 ## Timeline
 

@@ -6,7 +6,7 @@ title: Care Team Assignment
 
 The Care Team Assignments tab has 1 sub grid. This sub grid lists all the Care Team Assignments the Practitioner has.   
 
- <br> </br>
+ <br />
 
 # Care Team Assignments
 
@@ -18,7 +18,7 @@ The sub grid displays the Patient Name, Authorization Service, Amount of Hours, 
  
  To create a new Care Team Assignments, click on the 'Add New Care Team Assignments' button on the sub grid. This will open up the New Care Team Assignments Quick Create Form.
 
- <br> </br>
+ <br />
 
 > ### Quick Create: Care Team Assignments
 > Care Team Assignment Information
@@ -62,6 +62,6 @@ The sub grid displays the Patient Name, Authorization Service, Amount of Hours, 
 >
 ><img src ="/static/img/careTeamAssignmentQC.jpg" width="500"/> <img src ="/static/img/careTeamAssignmentQCPopulated.jpg" width="500"/> 
 
- <br> </br>
+ <br />
 
 Care Team Assignment Name - The Care Team Assignment Name is populated as the Patient Name, the Practitioner Name, Service, Period Start Date and the Period End Date separated by a '-'. The Service is pulled from the related Insurance Plan Benefit. Example: 'Laverne Mraz - John Doe - Direct Care - 5/17/2022 - 11/17/2022'.

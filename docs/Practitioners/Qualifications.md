@@ -6,7 +6,7 @@ title: Qualifications
 
 The Qualifcations tab has 1 sub grid. This sub grid lists all the certifications the Practitioner has.   
 
- <br> </br>
+ <br />
 
 # Qualifications
 
@@ -20,7 +20,7 @@ The sub grid displays the Qualification Name, Certification Date, Expiration Dat
 
 <img src ="/static/img/qualification.jpg" width="900"/>
 
- <br> </br>
+ <br />
 
 > ### Quick Create: Practitioner Qualification
 >
@@ -50,13 +50,13 @@ Upon clicking the 'New' button, the Practitioner Qualification Main Form opens.
 > - Qualification Number 
 >
 
- <br> </br>
+ <br />
 
 Practitioner Qualification Name - The Practitioner Qualification Name is populated as the Practitioner Name, the Qualification and the Expiration Date separated by a '-'. Before the expiration date, the word 'Exp' is added. See below. 
 
 
 <img src ="/static/img/PractitionerQualificationName.jpg" width="300"/>
- <br> </br>
+ <br />
 
 ### <b> Importance of correct qualification information </b>
 
