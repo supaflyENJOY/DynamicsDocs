@@ -47,7 +47,7 @@ There is a separate form for a Patient, Practitioner and Related Person.
 >## Profile Info 
 >
 >### Header 
-> <sub>NOTE: Only displayed on the Main Form
+> ***NOTE: Only displayed on the Main Form
 >
 >The header contains the Contact Type, Status Reason and the Owner. 
 >
@@ -72,7 +72,7 @@ There is a separate form for a Patient, Practitioner and Related Person.
 > <br> </br>
 > 
 > ## Address Information 
-> <sub>NOTE: Only displayed on the Main Form
+> ***NOTE: Only displayed on the Main Form
 > 
 > Another section which should be populated to properly setup a Related Person in the system is the 'Address Information' section.
 > 
