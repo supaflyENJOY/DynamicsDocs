@@ -50,11 +50,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      docs: {
-        sidebar: {
+      sidebar: {
           hideable: false,
           autoCollapseCategories: false,
         },
+
         navbar: {
         title: 'Chorus',
         logo: {
