@@ -66,7 +66,7 @@ const config = {
             //to: 'docs',
             //label: 'Documentation',
             //position: 'left',
-            type: 'default',
+            type: 'doc',
             docId: 'Overview/Welcome',
             position: 'left',
             label: 'Documentation',
