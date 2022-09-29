@@ -58,8 +58,7 @@ const config = {
         },
         items: [
           {
-            type: 'default',
-            docId: 'Overview/Welcome',
+            to: 'Overview/Welcome',
             position: 'left',
             label: 'Documentation',
           },
