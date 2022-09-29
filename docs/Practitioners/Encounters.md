@@ -6,7 +6,7 @@ title: Encounters
 
 The Encounters tab has 2 sub grid. 1 sub grid lists all the recurring encounters related to this Practitioner and the other sub grid lists all the single or occurring encounters related to this Practitioner.
 
-<br>
+<br> </br>
 
 # Encounters 
 
