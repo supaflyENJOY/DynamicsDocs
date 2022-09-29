@@ -50,7 +50,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      navbar: {
+      docs: {
+        sidebar: {
+          hideable: false,
+          autoCollapseCategories: false,
+        },
+        navbar: {
         title: 'Chorus',
         logo: {
           alt: 'Chorus Logo',
@@ -58,7 +63,11 @@ const config = {
         },
         items: [
           {
-            to: 'Overview/Welcome',
+            //to: 'docs',
+            //label: 'Documentation',
+            //position: 'left',
+            type: 'default',
+            docId: 'Overview/Welcome',
             position: 'left',
             label: 'Documentation',
           },
