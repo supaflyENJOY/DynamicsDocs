@@ -34,7 +34,7 @@ const config = {
       ({
         docs: {
           homePageId: "Overview/Welcome",
-          sidebarPath: require.resolve('/sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
         },
       //  blog: {
