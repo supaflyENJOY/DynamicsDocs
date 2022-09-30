@@ -22,6 +22,7 @@ module.exports = {
     'ClinicalSetup/Authorizations',
     'ClinicalSetup/CareTeamAssignment',
     'ClinicalSetup/Coverage',
+    'ClinicalSetup/Contacts',
   ],
   'Encounters':[
     'Encounters/RecurringEncounters',
