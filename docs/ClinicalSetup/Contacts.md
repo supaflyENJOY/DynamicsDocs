@@ -27,8 +27,8 @@ Examples of helpful functionality:
 <br />
 
 There is a separate form for a Patient, Practitioner and Related Person.
- - To read more about the Patient, [click here.](../Patients)
- - To read more about the Practitioner, [click here.](../Practitioners)
+ - To read more about the Patient, [click here.](/docs/Patients)
+ - To read more about the Practitioner, [click here.](/docs/Practitioners)
 
 <br />
 <br />

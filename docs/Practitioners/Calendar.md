@@ -62,8 +62,8 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >   - Every day - Upon selecting 'Every day', you can select which days these work hours should repeat. 
 >   - Every week -  Upon selecting 'Every week', you can select which day(s) each week these work hours should repeat.
 >   - Custom 
->      - Upon selecting 'Custom', you can select day(s) and set a time for every day that these work hours should repeat.
->      - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.<br />
+>     - Upon selecting 'Custom', you can select day(s) and set a time for every day that these work hours should repeat.
+>     - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.<br />
 > <img src ="/static/img/customWorkHours.jpg" width="375" height="550"/> <br />
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
