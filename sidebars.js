@@ -26,6 +26,7 @@ module.exports = {
   ],
   'Encounters':[
     'Encounters/RecurringEncounters',
+    'Encounters/SingleEncounters',
   ],
   'Patients':[
     'Patients/BasicInfo',

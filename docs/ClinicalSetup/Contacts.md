@@ -1,6 +1,6 @@
 ---
-id: Practitioner
-title: Practitioner
+id: Contacts
+title: Contacts
 ---
 # Overview
 
