@@ -38,8 +38,8 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >
 > The Practitioner Availability tab displays the Practitioner Availability calendar. This calendar displays the hours the Practitioner works, the hours they do not work and any time off. The Practitioner Availability calendar has the same 3 views as the Scheduling calendar. 
 >
-> ### <p style="text-align: center;"> <i> Working Hours </i> </p>
-> 
+> ### <p style={{ textAlign: 'center' }}> <i> Working Hours </i> </p>
+>  
 > Working Hours are the general hours when a Practitioner works. I.e. 9am - 5pm with a lunch break from 12am - 1pm. Some Practitioners can have different working hours every day or week, while others have the same work hours every day. 
 > 
 > To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. <br />
@@ -85,7 +85,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 ><br />
 ><br />
 >
-> ### <p style="text-align: center;"><i> Non-working </i> </p>
+> ### <p style={{ textAlign: 'center' }}><i> Non-working </i> </p>
 > 
 > Non-working hours are the hours when a Practitioner does not work. I.e. 2pm - 4pm. This can be used to schedule an appoinment or time when they will not work with Patients. 
 > 
@@ -106,7 +106,7 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 ><br />
 ><br />
 >
-> ### <p style="text-align: center;"><i> Time off </i> </p>
+> ### <p style={{ textAlign: 'center' }}><i> Time off </i> </p>
 > 
 > Time-off hours are the hours when a Practitioner is taking off. This can be used to schedule vacation. 
 > 
