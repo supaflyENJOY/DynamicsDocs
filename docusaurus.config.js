@@ -56,16 +56,13 @@ const config = {
         },
 
         navbar: {
-        title: 'Chorus',
+        //title: 'Chorus',
         logo: {
           alt: 'Chorus Logo',
           src: 'img/choruslogo.png',
         },
         items: [
           {
-            //to: 'docs',
-            //label: 'Documentation',
-            //position: 'left',
             type: 'doc',
             docId: 'Overview/Welcome',
             position: 'left',
@@ -122,7 +119,7 @@ const config = {
           //  ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chorus Software Solutions LLC.`,
       },
      // prism: {
      //   theme: lightCodeTheme,

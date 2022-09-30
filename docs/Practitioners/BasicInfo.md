@@ -69,7 +69,7 @@ The 'Contact Information' section contains all the ways to contact the Practitio
 
 ## Provider Preferences 
 
-The 'Provider Preferences' section should be populated when a Practitioner has specific preferences regarding what Patient they would like to work with. I.e. If a Practitioner speaks english and would like to work with a Patient who speaks english, you would populate the 'Preferred Languages' field with 'english'. When a Scheduler matches the Practitioner to a Patient, they would match this Practitioner with a Patient who speaks english.  
+The 'Provider Preferences' section should be populated when a Practitioner has specific preferences regarding what Patient they would like to work with. I.e. If a Practitioner speaks english and would like to work with a Patient who speaks English, you would populate the 'Preferred Languages' field with 'English'. When a Scheduler matches the Practitioner to a Patient, they would match this Practitioner with a Patient who speaks English.  
 
 - Preferred Languages - This field is a multi select option set. Every organization can manage this option set according to their needs. 
 - Patient Gender Preference
