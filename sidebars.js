@@ -1,5 +1,10 @@
 module.exports = {
   sidebars:{
+    'Getting Started': [
+      'Overview/Welcome',
+      'Overview/IntakeRepLinks', 
+      'Overview/SchedulerLinks',
+    ],
     'Overview': [
       'Overview/IntakeRepLinks', 
       'Overview/SchedulerLinks',
@@ -17,24 +22,26 @@ module.exports = {
     'ClinicalSetup/Authorizations',
     'ClinicalSetup/CareTeamAssignment',
     'ClinicalSetup/Coverage',
+    'ClinicalSetup/Contacts',
   ],
   'Encounters':[
-  
+    'Encounters/RecurringEncounters',
+    'Encounters/SingleEncounters',
   ],
   'Patients':[
-    
+    'Patients/BasicInfo',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
-    'Practitioners/PractitionerRoles',    
+    'Practitioners/PractitionerRole',    
     'Practitioners/Qualifications',
-    'Practitioners/CareTeamAssignments',
+    'Practitioners/CareTeamAssignment',
     'Practitioners/Encounters',
     'Practitioners/Calendar',
 
   ],
   'Scheduling':[
-    
+    'Scheduling/ScheduleAssistance',
   ],
   },
 };

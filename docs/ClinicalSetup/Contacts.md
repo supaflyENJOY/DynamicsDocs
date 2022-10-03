@@ -1,6 +1,6 @@
 ---
-id: Practitioner
-title: Practitioner
+id: Contacts
+title: Contacts
 ---
 # Overview
 
@@ -11,7 +11,7 @@ Examples of helpful functionality:
 2. If the Practitioner's Working-hours are properly entered, the Scheduler can have an easy time scheduling a Session between a Patient and Practitioner.
 3. If the Patient's 'Preferred Languages' is populated, the Scheduler can schedule a Session between the Patient a Practitioner who speaks the desired language. 
 
-<br>
+<br />
 
 ## How do you create a new Contact?
 1. <u>Sitemap:</u> Upon clicking on the 'Contacts' tab on the sitemap, the User will be navigated to the Contact Main Grid.  The main ribbon on the Contact Main Grid has 2 buttons. 
@@ -24,15 +24,15 @@ Examples of helpful functionality:
 
 3. <u>Related Contact Sub grid:</u> Upon opening a Patient record from the Contact Main Grid, the Patient Main Form will be displayed. 1 section on the Patient Main Form is the Related COntacts. Upon selecting the 3 dots, the User can 'Add New Related Contact'. This will open the 'New Connection Main Form'. Upon clicking into the 'Related Contact' field the User has the option to create a new contact which would open teh Related Contact Quick Create. 
 
-<br>
+<br />
 
 There is a separate form for a Patient, Practitioner and Related Person.
- - To read more about the Patient, [click here.](../Patients)
- - To read more about the Practitioner, [click here.](../Practitioners)
+ - To read more about the Patient, [click here.](/docs/Patients)
+ - To read more about the Practitioner, [click here.](/docs/Practitioners)
 
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />
 
  # Related Person Main Form/Quick Create
 > 
@@ -42,12 +42,12 @@ There is a separate form for a Patient, Practitioner and Related Person.
 >
 > A Related Person is contact related to a Patient i.e. a mother or father. Usually this will be the person the Company is in contact with about a Patient.
 >
-><br>
+><br />
 >
 >## Profile Info 
 >
 >### Header 
-> <sub>NOTE: Only displayed on the Main Form
+> ***NOTE: Only displayed on the Main Form
 >
 >The header contains the Contact Type, Status Reason and the Owner. 
 >
@@ -56,7 +56,7 @@ There is a separate form for a Patient, Practitioner and Related Person.
 >  - Contact Type options - Patient, Practitioner, Related Person.
 >- Owner 
 >
-><br>
+><br />
 >
 >## General Information 
 >
@@ -64,15 +64,15 @@ There is a separate form for a Patient, Practitioner and Related Person.
 >
 >The fields in the 'General Information' are:
 > - Title - Only displayed on the Main Form
-> - <span style="color:red"> * </style>First Name
-> - <span style="color:red"> * </style>Last Name
+> - * First Name
+> - * Last Name
 > - Gender
 > - Marital Status
 > 
-> <br>
+> <br />
 > 
 > ## Address Information 
-> <sub>NOTE: Only displayed on the Main Form
+> ***NOTE: Only displayed on the Main Form
 > 
 > Another section which should be populated to properly setup a Related Person in the system is the 'Address Information' section.
 > 
@@ -82,7 +82,7 @@ There is a separate form for a Patient, Practitioner and Related Person.
 > - State
 > - Zip Code
 > 
-> <br>
+> <br />
 > 
 > ## Contact Information 
 > 
@@ -94,10 +94,10 @@ There is a separate form for a Patient, Practitioner and Related Person.
 > - Email Address
 > - Preferred Contact Method
 > 
-> <br>
+> <br />
 > 
 >## Timeline
-> <sub>NOTE: Only displayed on the Main Form
+> ***NOTE: Only displayed on the Main Form 
 >
 >The 'Timeline' section displays activities related to this Related Person for easy follow-up and tracking. 
 By clicking on the '+' sign, new activities and notes can be added to the Timeline. 
