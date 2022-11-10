@@ -4,9 +4,7 @@ title: Basic Info
 ---
 # Overview
 
-The Patient Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help you navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. See below. 
-
-<img src ="/static/img/requiredFields.jpg" width="500"/>
+The Patient Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help you navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. 
 
  <br />
 
@@ -33,8 +31,7 @@ The fields in the 'General Information' are:
 - Date Of Birth
   - Validation: You cannot save a Practitioner if the DOB is in the future or if the DOB is 120 years before todays date.
   - Error Message: 
-    - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future." <br />
- <img src ="/static/img/DOBError.jpg" width="500"/> <br />
+    - If you populate the DOB field with a DOB in the future, the following error message will display "Birth Date cannot be in the future." 
     - If you populate the DOB field with a DOB 120 years before todays date, the following error message will display "Birth Date cannot be more than 120 years in the past."
 - Gender 
 
@@ -44,15 +41,74 @@ The fields in the 'General Information' are:
 
 Another section which should be populated to properly setup a Patient in the system is the 'Patient Addresses' section.
 
-LOCATIONS
+### <u> Add New Location </u> 
 
+To create a new Location, click on the 3 dots on the Patient Addresses sub grid. Then click the 'New Location' button. This will open up the New Location Main Form.
+
+<br />
+
+> ### Location
+> 
+> ### Summary
+> ### Address Information 
+> The 'Address Information' section contains the basic information to differenciate locations.
+>
+> - Description - This required field can be populated to give the location a clear name. i.e. Steven's summer home 
+> - Location Type - Home, School, Office, Telecare, Other (Required field.)
+>  - Address Type - If the Location Type is 'Home' this field must be populated with 'Billing Address' 'Service Address' or both. A Patient can only have 1 address as their 'Billing Address'. 
+> - Patient - Once the record is saved, the Patient field locks. 
+>
+> <br />
+> 
+> ### Address Details 
+> The 'Address Details' section contains the address.
+> 
+> - Street Address
+> - Apt, Unit, Floor
+> - City
+> - State
+> - Zip Code
+> - Additional Directions 
+ <br />
  <br />
 
 ## Related Contacts 
 
-The 'Contact Information' section contains all the ways to contact the Practitioner as well as their preferred method of contact.
+The 'Related Contacts' sub grid displays all the different contacts on file for this Patient i.e. a mother or father. 
 
-CONNECTIONS
+### <u> Add New Related Contact </u> 
+
+To create a new Connection, click on the 3 dots on the Related Contacts sub grid. Then click the 'New Related COntact' button. This will open up the New Connection Main Form.
+
+<br />
+
+> ### <u> Connection </u>
+> 
+> ### Summary
+> ### Connect From 
+> The 'Connect From' section contains the Patient with whom this contact should be connected to.
+>
+> - Patient - This field is prepopulated and locked when navigating from the Patient Main Form. It is a required field. 
+>
+> <br />
+> 
+> ### Connect To 
+> The 'Connect To' section contains the information about the Contact the Patient should be connected to.
+> 
+> - Related Contact
+> - Related To Patient As - This explains the relationship between Contact and Patient. i.e. mother, father, babysitter etc. Many relationships will be in the system, but you can add more connection roles by clicking 'New COnnection Role'. See below for more information. 
+> - Patient's Primary Contact? - This can be 'yes' or 'no'. This way the agency will know who to be in contact with about the Patient. 
+>
+>
+> ### <u> Connection Role </u>
+>
+> ### General 
+> ### Description
+> - Name 
+> - Connection Role Category - This must be set to 'Contact Relationship'.
+> - Description
+ <br />
+ <br />
 
  <br />
 
@@ -79,4 +135,3 @@ By clicking on the '+' sign, all different activities can be performed. i.e. new
   - Duration - default is set at '30 minutes'.
   - Priority - default is set as 'normal'.
 - Notes
-<img src ="/static/img/Timeline.jpg" width="500"/>
