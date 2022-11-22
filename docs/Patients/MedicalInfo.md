@@ -8,9 +8,7 @@ The Medical Info tab contains 2 sub grids with the medical information you need 
 
  <br />
 
-# Medical Info
-
-## General Information 
+# Medical Info 
 
 The first step in creating a Patient is populating the 'General Information' section. This contains some general information about the Patient. 
 
@@ -40,7 +38,7 @@ To create a new Location, click on the 3 dots on the Patient Addresses sub grid.
 > ### Location
 > 
 > ### Summary
-> ### Address Information 
+> ### Address Information
 > The 'Address Information' section contains the basic information to differenciate locations.
 >
 > - Description - This required field can be populated to give the location a clear name. i.e. Steven's summer home 
