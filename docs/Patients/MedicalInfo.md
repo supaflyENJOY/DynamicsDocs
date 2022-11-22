@@ -1,24 +1,14 @@
 ---
-id: BasicInfo
-title: Basic Info
+id: MedicalInfo
+title: Medical Info
 ---
 # Overview
 
-The Patient Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help you navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. 
+The Medical Info tab contains 2 sub grids with the medical information you need to track about a Patient. 1 sub grid displays the different medical conditions the Patient has been diagnosised with. The other sub grid displays the episodes of care for the Patient. 
 
  <br />
 
-# Profile Info 
-
-## Header
-The header contains the Contact Type and the Owner. 
-
-- Contact Type 
-  - Upon changing the Contact Type, the form will change. 
-  - Contact Type options - Patient, Practitioner, Related Person. 
-- Owner
-
- <br />
+# Medical Info
 
 ## General Information 
 

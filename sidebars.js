@@ -30,6 +30,7 @@ module.exports = {
   ],
   'Patients':[
     'Patients/BasicInfo',
+    'Patients/MedicalInfo',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
