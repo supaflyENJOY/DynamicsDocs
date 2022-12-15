@@ -29,8 +29,12 @@ module.exports = {
     'Encounters/SingleEncounters',
   ],
   'Patients':[
-    'Patients/BasicInfo',
-    'Patients/MedicalInfo',
+    'Patients/PatientOverview',
+    'Patients/Location',
+    'Patients/Connection',
+    'Patients/ConnectionRole',
+    'Patients/Conditions',
+    'Patients/EpisodeOfCare',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
