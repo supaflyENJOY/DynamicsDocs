@@ -7,9 +7,11 @@ title: Connection
 # Connection 
 
 ## Connection Main Grid
+
 Currently, there is no main grid displaying connection records since no need was expressed. To view all connection records, utilize Advanced Find (which is OOB from Dynamics.)  
 
 ## Connection Main Form
+
 By selecting a record from the Related Contacts sub grid (on a Patient Contact Form), the Connection Main Form will open. The Connection Main Form has 1 tab to display all information needed. 
 
 - The Summary tab is made up of 2 sections.

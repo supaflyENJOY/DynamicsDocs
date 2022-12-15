@@ -6,6 +6,7 @@ title: Location
 # Location 
 
 ## Location Main Grid
+
 By clicking on 'Location' on the left navigation bar in the Setup Area, the Location Main Grid will open up. The Location Main Grid has 2 different views which display the Location records.
 - General Service Locations
     - The General Service Locations view displays Locations which are not related to a Patient record and the Location record is Active. The view displays the Description, Location Type, Street 1, Address City, Address State and Address Postal Code. This is helpful for Locations which can be related to more then 1 patient i.e. a therapy center. 
@@ -13,6 +14,7 @@ By clicking on 'Location' on the left navigation bar in the Setup Area, the Loca
     - The All Service Locations view displays all the Active Locations in the system. The view displays the Patient, Location Type, Street 1, Address City, Address State and Address Postal Code. 
 
 ## Location Main Form
+
 By selecting a record from the Location Main Grid or opening an address on the Patient record, the Location Main Form will open. The Location Main Form has 1 tab to display all information needed. 
 
 - The Summary tab is made up of 2 sections.

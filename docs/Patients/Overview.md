@@ -4,9 +4,11 @@ title: Overview
 ---
 
 # Patient
+
 In our system a Patient refers to the client or student who is served by an ABA Provider. Our PMS can keep track of anything needed for the Patient. The Intake Rep has simple and easy forms enabling them to enter the necessary information. 
 
 ## Contact Main Grid
+
 By clicking on 'Contacts' on the left navigation bar in the Clinical Area, the Contact Main Grid will open up. The Contact Main Grid has a few different views which display Contact records. There are 3 views related to Patients. 
 - Active Patients
     - The Active Patients view displays Patient Contact records that are Active. The view displays the First Name, Last Name, Known As, Date of Birth and Address. These are fields most companies find helpful to differentiate between Patients. 
@@ -17,6 +19,7 @@ By clicking on 'Contacts' on the left navigation bar in the Clinical Area, the C
 
 
 ## Contact Main Form
+
 By selecting a record from the Contact Main Grid, the Contact Main Form will open. The Contact Main Form for a Patient has a few tabs to display all information needed. 
 - There is a Profile Info tab with the general patient information including Name, DOB, Address, patient preferances etc. 
     - This tab is divided into a few sections:
@@ -26,7 +29,7 @@ By selecting a record from the Contact Main Grid, the Contact Main Form will ope
                 - If you populate the DOB field with a DOB 120 years before todays date, the following error message will display "Birth Date cannot be more than 120 years in the past."
         - Patient Addresses - This section displays all the addresses related to this Patient in a card form. The address can be a billing address or a service address. The Patient can only have 1 billing address which is used when billing the Patient. There is no limit to the amount of service addresses a patient can have. When scheduling an Encounter, the Location field is filtered to display addresses related to this Patient and general addresses i.e. a school where multiple Patients are serviced. To read more about addresses, [click here.](Location.md)
         - Related Contacts - This sub grid displays all contacts connected to the Patient. The first column, Patients Primary Contact, is used to sort the sub grid. The Patients primary contacts display first. The columns listed after are: Full Name, Role, Preferred Conact Method, Home Phone, Mobile Phone and Email. To read more about how to connect the Patient to other Contacts, click here. 
-        - Patient Preferences - This section does not have to be populated. The information listed here is based on what the Patient prefers. When using the Schedule Assistance tool to find a Practitioner to service a Patient, we populate the filters with the Patients preferences. Currently, the important preferences are: Preferred Language, Provider Gender Preference and Case Management Notes. 
+        - Patient Preferences - This section does not have to be populated. The information listed here is based on what the Patient prefers. When using the Schedule Assistance tool to find a Practitioner to service a Patient, we populate the filters with the Patients preferences. I.e. If a Patient speaks english and would like to work with a Practitioner who speaks English, you would populate the 'Preferred Languages' field with 'English'. When a Scheduler matches the Patient to a Practtiioner, they would match this Patient with a Practitioner who speaks English. Currently, the important preferences are: Preferred Language, Provider Gender Preference and Case Management Notes. The Preferred Languages field can be managed by an organizations needs. 
         - Timeline - This is the last section on this tab. It displays all communication related to the Patient. I.e. emails, calls, appointments, notes, etc.
         
 - The next tab is called Medical Info. This displays 2 sub grids side by side. 
@@ -34,10 +37,10 @@ By selecting a record from the Contact Main Grid, the Contact Main Form will ope
         - There are 2 views. Both views display the following columns: Condition Code, Onset and Clinical Status. 
             - Current Conditions - This view only displays the current conditions of a patient. Once the Historical As Of date is populated, the condition is no longer current. This view also excludes any condition where the Verification Status is entered in error.
             - All Conditions - This views displays all the conditions except where the Verification Status is entered in error.
-    - Episode of Care - The right sub grid displays the episodes of care. It displays the Status, Period Start Date and Period End Date. To read more about Episode of Care, [click here.](EpisodeOfCare.md)
+    - Episode of Care - The right sub grid displays the episodes of care. It displays the Status, Period Start Date and Period End Date. Any Patient with an Active EOC cannot be deactivated. To read more about Episode of Care, [click here.](EpisodeOfCare.md)
 
 - The next tab is the Coverage & Auth tab. This tab displays 2 sub grids as well, but 1 on top of the next. 
-    - The Coverages sub grid is on top. This displays the coverage records from the insurance company. We must have a coverage record to schedule Encounters. The columns displayed here are: Name, Beneficiary (Patient), Policy Start Date, Policay End Date and Plan. To read more about Coverages, click here. 
+    - The Coverages sub grid is on top. This displays the coverage records from the insurance company. We must have a coverage record to schedule Encounters. The columns displayed here are: Name, Beneficiary (Patient), Policy Start Date, Policay End Date and Plan. To read more about Coverages, [click here.](Coverages.md) 
     - The Authorizations sub grid displays the authorization receieved from insurance. The authorization includes the coverage record as well as other information needed before scheduling an Encounter. The columns displayed on the grid are: Plan (Coverage), Patient Name, Authorization Number, Period Start Date, Period End Date and Status Reason. To read more about Authorization, click here. 
 - The next tab is called Care Team. This has 2 sub grids 1 which lists the Providers working with the Patient and the other with Care Team Assignments. These sub grids are side by side. 
     - Care Team Participants - Practitioners who are working/have worked with this Patient. This sub grid displays in a card form so only the Practitioner name is displayed. To read more about the Care Team Participants, click here.

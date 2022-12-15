@@ -6,9 +6,11 @@ title: Conditions
 # Conditions 
 
 ## Conditions Main Grid
+
 Currently, there is no main grid displaying condition records since no need was expressed. To view all Condition records, utilize Advanced Find (which is OOB from Dynamics.)   
 
 ## Conditions Main Form
+
 By selecting a record from the Conditions sub grid (on a Patient Contact Form), the Conditions Main Form will open. The Conditions Main Form has 1 tab to display all information needed. 
 
 - The Summary tab has 1 section.
@@ -20,8 +22,8 @@ By selecting a record from the Conditions sub grid (on a Patient Contact Form), 
         - Onset - The date when the condition started. (Required)
         - Historical As Of - The date when the condition ended. 
 - Header: 
-    - Name -  The Condition Name is the Condition Code and the Contact Full Name. For example, F840 - Autistic disorder - John Smith. The name is set when a Condition is created or when the Condition Code field or Patient Name on the Patient record is updated. 
-    - Status Reason 
+    - Status Reason
+- Name -  The Condition Name is the Condition Code and the Contact Full Name. For example, F840 - Autistic disorder - John Smith. The name is set when a Condition is created or when the Condition Code field or Patient Name on the Patient record is updated.
 
 ## <u> Add New Condition </u> 
 

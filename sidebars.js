@@ -4,30 +4,26 @@ module.exports = {
       'Overview/Welcome',
       'Overview/IntakeRepLinks', 
       'Overview/SchedulerLinks',
-    ],
-    'Overview': [
-      'Overview/IntakeRepLinks', 
-      'Overview/SchedulerLinks',
-    ],
-    'Admin Setup': [
-    'AdminSetup/Account', 
-    'AdminSetup/BusinessUnit',
-    'AdminSetup/GoalBankLibrary',
-    'AdminSetup/HealthcareService',
-    'AdminSetup/InsurancePlan',
-    'AdminSetup/Location',
-    'AdminSetup/QualificationDefinition',
-  ],
-  'Clinical Setup':[
-    'ClinicalSetup/Authorizations',
-    'ClinicalSetup/CareTeamAssignment',
-    'ClinicalSetup/Coverage',
-    'ClinicalSetup/Contacts',
-  ],
-  'Encounters':[
-    'Encounters/RecurringEncounters',
-    'Encounters/SingleEncounters',
-  ],
+  //   ],
+  //   'Admin Setup': [
+  //   'AdminSetup/Account', 
+  //   'AdminSetup/BusinessUnit',
+  //   'AdminSetup/GoalBankLibrary',
+  //   'AdminSetup/HealthcareService',
+  //   'AdminSetup/InsurancePlan',
+  //   'AdminSetup/Location',
+  //   'AdminSetup/QualificationDefinition',
+  // ],
+  // 'Clinical Setup':[
+  //   'ClinicalSetup/Authorizations',
+  //   'ClinicalSetup/CareTeamAssignment',
+  //   'ClinicalSetup/Coverage',
+  //   'ClinicalSetup/Contacts',
+  // ],
+  // 'Encounters':[
+  //   'Encounters/RecurringEncounters',
+  //   'Encounters/SingleEncounters',
+   ],
   'Patients':[
     'Patients/PatientOverview',
     'Patients/Location',
@@ -35,6 +31,7 @@ module.exports = {
     'Patients/ConnectionRole',
     'Patients/Conditions',
     'Patients/EpisodeOfCare',
+    'Patients/Coverages',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
@@ -44,9 +41,9 @@ module.exports = {
     'Practitioners/Encounters',
     'Practitioners/Calendar',
 
-  ],
-  'Scheduling':[
-    'Scheduling/ScheduleAssistance',
-  ],
+   ],
+  // 'Scheduling':[
+  //   'Scheduling/ScheduleAssistance',
+  // ],
   },
 };

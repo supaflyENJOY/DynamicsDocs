@@ -4,12 +4,15 @@ title: Connection Role
 ---
 
 # Connection Role
+
 Most connection roles should be included in our solution. Upon implementation, additional connection roles may be added. Connection Roles explain the relationship between a contact and a patient. 
 
 ## Connection Role Main Grid
+
 Currently, there is no main grid displaying connection role records since no need was expressed. To view all connection role records, utilize Advanced Find (which is OOB from Dynamics.)  
 
 ## Connection Role Main Form
+
 When creating a [Connection](Connection.md) record, 1 field is 'Related To Patient As'. This lists out all the possible relationships the contact may have to the Patient. By clicking on 1 of the options or choosing to create a new one, the Connection Role Main Form will open. The Connection Role Main Form has 1 tab to display all information needed. 
 
 - The General tab has 1 section.
