@@ -34,6 +34,8 @@ module.exports = {
     'Patients/Coverages',
     'Patients/Authorization',
     'Patients/AuthorizationServices',
+    'Patients/CareTeamParticipants',
+    'Patients/CareTeamAssignments',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
