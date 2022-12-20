@@ -5,6 +5,11 @@ title: Care Team Assignments
 
 # Care Team Assignments 
 
+Care Team Assignments are used by Care Coordinators for the following:
+- Scheduling, viewing and editing sessions between Practitioners and Patients.
+- Tracking assignments between Practitioner and Patient.
+- Recording amount of hours and frequency assigned.
+
 ## Care Team Assignments Main Grid
 
 By clicking on 'Care Team Assignments' on the left navigation bar in the Clinical Area, the Care Team Assignments Main Grid will open up. The Care Team Assignments Main Grid has 3 different views.
@@ -23,16 +28,16 @@ By opening a Care Team Assignments record on the Patient Contact Form, the Care 
 - The Summary tab has a few sections.
     - Care Team Assignment Information
         - Patient - Locked on existing record. (Required.)
-        - Episode of Care - (Required.)
-        - Authorization Service - (Required.)
-        - Period Start Date - (Required.)
-        - Period End Date - (Required.)
+        - Episode of Care - Only displays Episodes of care related to the patient. (Required.)
+        - Authorization Service - Only displays Active Authorization Services related to the Patient. (Required.)
+        - Period Start Date - Auto-populated with Authorization Service Start Date. To help prevent error, we have a validation on this field. The Period Start Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service. (Required.)
+        - Period End Date - Auto-populated with Authorization Service End Date. To help prevent error, we have a validation on this field. The Period End Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.(Required.)
     - Assigned Practitioner
         - Practitioner - Locked on existing record. (Required.)
-        - Practitioner Role
+        - Practitioner Role - (Required.)
     - Assignment Hours
         - Amount of Hours - (Required.)
-        - Frequency - (Required.)
+        - Frequency - Hours Per Day, Hours Per Week, Hours Per Month, Hours Per Assignment Period. (Required.)
 - The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1 for single encounters. To read more about Encounters, click here. 
     - Recurring Encounters - This view displays encounters that are recurring for a period of time. It displays the following columns: Practitioners, Patients, Related Persons, Start Date/Time, Duration, End Date/Time, Repeat, End, Location, Service and Status Reason. The view is sorted by the Start Date in ascending order. 
     - Single Encounters/ Encounter Occurrences - This displays encounters that only happen once. There are 2 views which display the following columns: Practitioners, Patients, Related Persons, Start Date/Time, Duration, End Date/Time, Location, Service and Status Reason. 
@@ -45,27 +50,35 @@ By opening a Care Team Assignments record on the Patient Contact Form, the Care 
 
 ## <u> Add New Care Team Assignments </u> 
 
-To create a new Care Team Assignments, click on the 'Add New Care Team Assignments' button on the Care Team Assignmentss sub grid (on a Patient Contact Form) to open the Care Team Assignmentss Main Form.
+1. Clicking the 'New' button on the Care Team Assignments Main Grid will open the Care Team Assignment Main Form.
+2. Clicking on the 'Add New Care Plan Activity' button on the Care Team Assignments sub grid (on a Patient Contact Form) will to open the Care Team Assignment Quick Create.
 
-When navigating from a Patient Contact record, the following fields are pre-populated:
-- Patient - Populated with the Patient navigating from.
-- Care Team 
-    - Populated with the most recent Patients's Care Team. 
-    - Field is locked until the Patient field is populated.  
 
-## <u> Edit Care Team Assignmentss </u> 
+### Care Team Assignment Quick Create
 
-To edit a Care Team Assignments, click on a record from the Care Team Assignmentss sub grid (on a Patient Contact Form) to open the Care Team Assignmentss Main Form. 
+- Care Team Assignment Information
+        - Patient - Populated with the Patient navigating from. Field is locked. (Required.)
+        - Episode of Care - Pre-populated with current Episode of Care. (Only displays Episodes of Care related to the Patient.) (Required.)
+        - Authorization Service - (Required.)
+        - Period Start Date - (Required.)
+        - Period End Date - (Required.)
+    - Assigned Practitioner
+        - Practitioner - Locked on existing record. (Required.)
+        - Practitioner Role - (Required.)
+    - Assignment Hours
+        - Amount of Hours - (Required.)
+        - Frequency - (Required.)
 
-## <U> Auto-created Care Team Assignmentss </u>
+## <u> Edit Care Team Assignments </u> 
 
-A Care Team Assignments gives the Practitioner access to the NOTE App for the Patient they work with, therefore we must have a Care Team Assignments record active in Autism Care for every Patient the Practitioner that wishes access.
+To edit a Care Team Assignments, click on a record from the Care Team Assignments sub grid (on a Patient Contact Form) to open the Care Team Assignmentss Main Form. 
 
-1. Upon creating an Authorization, if the Practitioner is not a Care Team Assignments for the Patient, a Care Team Assignments record is created for the Practitioner.
-2. Upon creating an Authorization, if a Care Team Assignments record exists related to the Patient for the Practitioner, the Care Team Assignments Period Start & End should be updated:
-    - If the Period Start Date from the Authorization is before the existing Care Team Assignments 'Period Start', the Period Start is updated to the Start Date from the Authorization.
-    - If the Period End Date from the Authorization is after the existing Care Team Assignments 'Period End', the Period End is updated to the End Date from the Authorization.
-3. Upon creating/updating an Encounter Service, if the Practitioner is not a Care Team Assignments for the Patient, a Care Team Assignments record is created for the Practitioner.
-4. Upon creating/updating an Encounter Service, if a Care Team Assignments record exists related to the Patient for the Practitioner, the Period Start & End is updated:
-     - If the Period Start Date from the Authorization is before the existing Care Team Assignments 'Period Start' the Period Start is updated to the Start Date from the Authorization.
-     - If the Period End Date from the Auth is after the existing Care Team Assignments 'Period End', the Period End is updated to the End Date from the Authorization.
+Once their are related Encounter Service created against the Care Team Assignment, following fields are locked:
+- Authorization Service
+- Period Start Date
+- Amount of Hours
+- Frequency
+
+A Message is displayed on the top of the form stating:
+
+"Fields are locked to prevent the related Encounter Service from becoming invalid. If needed, update the end date on this record, and create a new Care Team Assignment with the updated information."

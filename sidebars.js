@@ -36,14 +36,16 @@ module.exports = {
     'Patients/AuthorizationServices',
     'Patients/CareTeamParticipants',
     'Patients/CareTeamAssignments',
+    'Patients/PatientEncounters',
+    'Patients/PatientCalendar',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
     'Practitioners/PractitionerRole',    
     'Practitioners/Qualifications',
     'Practitioners/CareTeamAssignment',
-    'Practitioners/Encounters',
-    'Practitioners/Calendar',
+    'Practitioners/PractitionerEncounters',
+    'Practitioners/PractitionerCalendar',
 
    ],
   // 'Scheduling':[

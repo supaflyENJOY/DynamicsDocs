@@ -49,7 +49,7 @@ By selecting a record from the Contact Main Grid, the Contact Main Form will ope
             - Current Care Team Assignments - This displays Care Team Assignments where the Period End Date is in the future and the status is active. The columns are Practitioner, Authorization Service, Amount of Hours, Frequency, Period Start Date and Period End Date.
             - All Care Team Assignments - This displays Care Team Assignments where the status is active. The columns are Practitioner, Authorization Service, Amount of Hours, Frequency, Period Start Date, Period End Date and Status Reason.
 
-- The next tab, the Encounters tab, lists the scheduled encounters for the patient divided into 2 grids. 1 for recurring enounters and 1 for single encounters. To read more about Encounters, click here. 
+- The next tab, the Encounters tab, lists the scheduled encounters for the patient divided into 2 grids. 1 for recurring enounters and 1 for single encounters. To read more about Encounters, [click here.](Encounters.md)
     - Recurring Encounters - This displays encounters that are recurring for a period of time. There are 2 views which display the following columns: Practitioners, Start Date/Time, Duration, End Date/Time, Repeat, Location, Service and Status Reason. 
         - All Recurring Encounters - This view displays Recurring Encounters. An Encounter is 'recurring' if the Schedule Type is 'Recurring Encounter'. 
         - Current Recurring Encounters - This view displays Recurring Encounters with related Encounter Occurences with the Status of Active. 
@@ -57,7 +57,7 @@ By selecting a record from the Contact Main Grid, the Contact Main Form will ope
         - All Enounters - This displays all Encounters where the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
         - Upcoming Encounters - This displays all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
 
-- The last tab is the Calendar tab. This displays the Patients calendar with the Encounter Services scheduled for them. 
+- The last tab is the Calendar tab. This displays the Patients calendar with the Encounter Services scheduled for them. To read more about Calendars, [click here.](Calendar.md)
 
 --Patient availability--
 

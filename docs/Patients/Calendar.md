@@ -1,52 +1,41 @@
 ---
-id: PractitionerCalendar
+id: PatientCalendar
 title: Calendar
 ---
 # Overview
 
-The Calendar tab displays a calendar with the Practitioners schedule.   
-
-<br />
+The Calendar tab displays a calendar with the Patients schedule.   
 
 # Calendar
 
-The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, you can select which day you would like to view. When on the Week view, you can select which week you would like to view. When on the Month view, you can select which Month you would like to view.
-
-<img src ="/static/img/dayWeekMonth.jpg" width="500" height="200"/>
+The Calendar displays all the Sessions scheduled for this Patient. There are 3 views - Day, Week or Month. When on the Day view, you can select which day you would like to view. When on the Week view, you can select which week you would like to view. When on the Month view, you can select which Month you would like to view.
 
 When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. 
 
 By clicking on 'more details' on the popout, you will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
 
-<img src ="/static/img/calendarPopout.jpg" width="400" height="200"/>
-
- ### <u> Set Practitioner Availability </u>
+ ## <u> Set Patient Availability </u>
  
- To add Practitioner availability to the schedule, click 'Set Practitioner Availability'. 
+ To add Patient availability to the schedule, click 'Set Patient Availability'. 
  
- <img src ="/static/img/setAvailability.jpg" width="1300" height="200"/>
+ This will open up the Patient Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Patient Availability'.)
+
+Patient Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Patient 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
+
+# Patient Availability
+
+The Patient Availability tab displays the Patient Availability calendar. This calendar displays the hours the Practitioner works, the hours they do not work and any time off. The Practitioner Availability calendar has the same 3 views as the Scheduling calendar. 
+
+
+## Working Hours
+  
+Working Hours are the general hours when a Patient works. I.e. 9am - 5pm with a lunch break from 12am - 1pm. Some Patient can have different working hours every day or week, while others have the same work hours every day. 
  
- This will open up the Practitioner Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Practitioner Availability'.)
+To add the hours when a Patient works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
 
- <img src ="/static/img/practitionerAvailability.jpg" width="1300" height="600"/>
+Upon clicking 'Working hours', a form will open on the side of the screen. 
 
-Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Practitioner 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
-
-<br />
-
-> ### Practitioner Availability
->
-> The Practitioner Availability tab displays the Practitioner Availability calendar. This calendar displays the hours the Practitioner works, the hours they do not work and any time off. The Practitioner Availability calendar has the same 3 views as the Scheduling calendar. 
->
-> ### <p style={{ textAlign: 'center' }}> <i> Working Hours </i> </p>
->  
-> Working Hours are the general hours when a Practitioner works. I.e. 9am - 5pm with a lunch break from 12am - 1pm. Some Practitioners can have different working hours every day or week, while others have the same work hours every day. 
-> 
-> To add the hours when a Practitioners works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. <br />
-><img src ="/static/img/workinghours.jpg" width="200"/> <br />
-> Upon clicking 'Working hours', a form will open on the side of the screen. 
-> 
-> - All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
+All Day - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
 >   - By default the toggle is off and you can enter a date. <br />
 > <img src ="/static/img/allDay.jpg" width="425" height="400"/> <br />
 >   - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is working all day.<br />

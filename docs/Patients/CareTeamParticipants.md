@@ -51,3 +51,4 @@ A Care Team Participant gives the Practitioner access to the NOTE App for the Pa
 4. Upon creating/updating an Encounter Service, if a Care Team Participant record exists related to the Patient for the Practitioner, the Period Start & End is updated:
      - If the Period Start Date from the Authorization is before the existing Care Team Participant 'Period Start' the Period Start is updated to the Start Date from the Authorization.
      - If the Period End Date from the Auth is after the existing Care Team Participant 'Period End', the Period End is updated to the End Date from the Authorization.
+5. Upon creating/updating a Care Team Assignment, if the Practitioner is not a Care Team Participant for the Patient, a Care Team Participant record is created for the Practitioner.

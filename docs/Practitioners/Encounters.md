@@ -1,5 +1,5 @@
 ---
-id: Encounters
+id: PractitionerEncounters
 title: Encounters
 ---
 # Overview
@@ -11,8 +11,6 @@ The Encounters tab has 2 sub grid. 1 sub grid lists all the recurring encounters
 # Encounters 
 
 The sub grids display the Patients, Start Date/Time, Duration, End Date/Time, Repeat, Location, Service and Status Reason.
-
-<img src ="/static/img/encountersSubgrid.jpg"/>
 
  ### <u> Add New Encounter </u>
  
