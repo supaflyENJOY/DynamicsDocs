@@ -39,7 +39,7 @@ When navigating from a Patient Contact record, the following fields are pre-popu
 
 To edit a Care Team Participant, click on a record from the Care Team Participants sub grid (on a Patient Contact Form) to open the Care Team Participants Main Form. 
 
-## <U> Auto-created Care Team Participants </u>
+## <u> Auto-created Care Team Participants </u>
 
 A Care Team Participant gives the Practitioner access to the NOTE App for the Patient they work with, therefore we must have a Care Team Participant record active in Autism Care for every Patient the Practitioner that wishes access.
 
