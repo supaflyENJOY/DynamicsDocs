@@ -14,7 +14,7 @@ When looking at the calendar, the Session displays the Service that will be prov
 
 By clicking on 'more details' on the popout, you will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
 
- ## <u> Set Patient Availability </u>
+## Set Patient Availability
  
  To add Patient availability to the schedule, click 'Set Patient Availability'. 
  
@@ -22,16 +22,16 @@ By clicking on 'more details' on the popout, you will be navigated to the Encoun
 
 Patient Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Patient 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
 
-# Patient Availability
+## Patient Availability
 
 The Patient Availability tab displays the Patient Availability calendar. This calendar displays the hours the Patient works/can be serviced, the hours they do not work/cannot be serviced and any time off. The Patient Availability calendar has the same 3 views as the Scheduling calendar. 
 
 
-## <p style={{ textAlign: 'center' }}><i> Working Hours </i> </p>
+> ### Working Hours
   
 Working Hours are the general hours when a Patient can be serviced. I.e. 9am - 5pm with a lunch break from 12am - 1pm. Some Patient can have different working hours every day or week, while others have the same work hours every day. 
 
-### Add Working Hours
+#### Add Working Hours
 
 To add the hours when a Patient works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
 
@@ -59,18 +59,19 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
     - Upon clicking on the 3 dots next to the time, you can add a break or a split to the work hours. Read more below.
 - Time Zone
 
-### Add Break to Working Hours
+#### Add Break to Working Hours
 
 Beside the field used to populate the time range, 3 dots display. Upon clicking on the 3 dots next to the time, you can add a break to the work hours. By clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours. More then 1 break can be added.
 
-### Add Split to Working Hours
+#### Add Split to Working Hours
+
 When the Capacity toggle is on, you can add a 'split' to the Patients day. Beside the field used to populate the time range, 3 dots display. By clicking on the 3 dots next to the time, you can add a spliy to the work hours. Upon clicking 'Add split', the system will split the work hours into two. You can edit the time range by editing the start and end time of the work hours. More then 1 split can be added. The end time of the 1st split will be the start time of the 2nd split. 
 
-## <p style={{ textAlign: 'center' }}><i> Non-working </i> </p>
+> ### Non-working
 
 Non-working hours are the hours when a Practitioner does not work. I.e. 2pm - 4pm. This can be used to schedule an appoinment or time when they will not work with Patients. 
 
-### Add Non-working
+#### Add Non-working
 
 To add the hours when a Patient does not works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Non-working', a form will open on the side of the screen. 
 
@@ -85,11 +86,11 @@ To add the hours when a Patient does not works to the calendar, click 'new'. Thi
 - Time Zone
 
 
-## <p style={{ textAlign: 'center' }}><i> Time off </i> </p>
+> ### Time off 
 
  Time-off hours are the hours when a Practitioner is taking off. This can be used to schedule vacation. 
 
-### Add Time off
+#### Add Time off
 
 To add the hours when a Patient is taking off to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Time off', a form will open on the side of the screen. 
 
