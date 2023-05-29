@@ -6,7 +6,7 @@ title: Calendar
 
 The Calendar tab displays a calendar with the Practitioners schedule.   
 
-<br />
+//<br />
 
 # Calendar
 
@@ -20,7 +20,7 @@ By clicking on 'more details' on the popout, you will be navigated to the Encoun
 
 <img src ="/static/img/calendarPopout.jpg" width="400" height="200"/>
 
- ### <u> Set Practitioner Availability </u>
+ ### Set Practitioner Availability
  
  To add Practitioner availability to the schedule, click 'Set Practitioner Availability'. 
  
@@ -32,7 +32,7 @@ By clicking on 'more details' on the popout, you will be navigated to the Encoun
 
 Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Practitioner 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
 
-<br />
+//<br />
 
 > ### Practitioner Availability
 >

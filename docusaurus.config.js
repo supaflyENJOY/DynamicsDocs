@@ -8,7 +8,7 @@
 const config = {
   title: 'Chorus Software Solutions',
   tagline: 'At Chorus we help people help people, by creating operational efficiency, enabling the ultimate patient and practitioner (employee) experiance, resulting in highest clinical and revenue outcomes. ',
-  url: 'https://www.chorus.cloud/',
+  url: 'https://docs.chorus.cloud',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -64,9 +64,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Overview/Welcome.md',
+            docId: 'Overview/Welcome',
+           // to: 'docs/Patients/Authorization',
+           // activeBasePath: 'docs',
             position: 'left',
-            label: 'Documentation',
+            label: 'Chorus Documentation',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
          // {

@@ -2,8 +2,8 @@ module.exports = {
   sidebars:{
     'Getting Started': [
       'Overview/Welcome',
-      'Overview/IntakeRepLinks', 
-      'Overview/SchedulerLinks',
+      //'Overview/IntakeRepLinks', 
+      //'Overview/SchedulerLinks',
   //   ],
   //   'Admin Setup': [
   //   'AdminSetup/Account', 
@@ -48,8 +48,8 @@ module.exports = {
     'Practitioners/PractitionerCalendar',
 
    ],
-  // 'Scheduling':[
-  //   'Scheduling/ScheduleAssistance',
-  // ],
+ // 'Scheduling':[
+ //   'Scheduling/ScheduleAssistance',
+ // ],
   },
 };
