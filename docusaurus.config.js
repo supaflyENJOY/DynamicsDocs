@@ -7,7 +7,7 @@
 ///** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Chorus Software Solutions',
-  tagline: 'At Chorus we help people help people, by creating operational efficiency, enabling the ultimate patient and practitioner (employee) experiance, resulting in highest clinical and revenue outcomes. ',
+  tagline: 'At Chorus we help people help people, by creating operational efficiency, enabling the ultimate patient and practitioner (employee) experience, resulting in highest clinical and revenue outcomes. ',
   url: 'https://docs.chorus.cloud',
   baseUrl: '/',
   onBrokenLinks: 'warn',

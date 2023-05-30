@@ -20,29 +20,31 @@ The nested Authorization Service records display the following columns: Service 
 ## Authorization Main Form
 By selecting a record from the Authorization sub grid (on a Patient Contact Form) or from the Authorization Main Grid, the Authorization Main Form will open. The Authorization Main Form has 1 tab to display all information needed. 
 
-- The Summary tab has a few sections.
-    - Authorization Information
-        - Patient - On an existing record, this field is locked. 
-        - Authorization Number
-        - Period Start Date
-        - Period End Date
-        - Practitioner
-    - Claim Settings - This section displays fields related to billing Claims. Read more below. 
-        - Rendering Provider - This field determines who should be used as the Rendering Provider for billing. Every Payer has their rules about which provider should be on the Claim Line as the Rendering Provider. Therefore, we have 2 options for the Rendering Provider: Practitioner on Authorization or Practitioner on Encounter Service. 
-        - Account Rendering Provider - This field displays the Rendering Provider field from the Account Main Form, this way it is easy to see what the setting is on the Account. 
-        - Billing Provider - This field determines who should be used as the Billing Provider for billing. Every Company has their rules about which provider should be on the Claim Line as the Billing Provider. Therefore, we have 3 options for the Billing Provider: Practitioner on Authorization or Business Unit or Select New Practitioner. (Default populated with Business Unit.)
-            - Business Unit Billing Provider - If the Billing Provider field is set to 'Business Unit', this field displays the Billing Provider field from the Business Unit Main Form.
-            - Billing Provider on Claim - If the Billing Provider field is set to 'Select New Practitioner', this field displays the Billing Provider on Claim field. Any Practitioner can be selected as the Billing Provider. 
+The Summary tab has a few sections.
+- Authorization Information
+    - Patient - On an existing record, this field is locked. 
+    - Authorization Number
+    - Period Start Date
+    - Period End Date
+    - Practitioner
+- Claim Settings - This section displays fields related to billing Claims. Read more below. 
+    - Rendering Provider - This field determines who should be used as the Rendering Provider for billing. Every Payer has their rules about which provider should be on the Claim Line as the Rendering Provider. Therefore, we have 2 options for the Rendering Provider: Practitioner on Authorization or Practitioner on Encounter Service. 
+    - Account Rendering Provider - This field displays the Rendering Provider field from the Account Main Form, this way it is easy to see what the setting is on the Account. 
+    - Billing Provider - This field determines who should be used as the Billing Provider for billing. Every Company has their rules about which provider should be on the Claim Line as the Billing Provider. Therefore, we have 3 options for the Billing Provider: Practitioner on Authorization or Business Unit or Select New Practitioner. (Default populated with Business Unit.)
+        - Business Unit Billing Provider - If the Billing Provider field is set to 'Business Unit', this field displays the Billing Provider field from the Business Unit Main Form.
+        - Billing Provider on Claim - If the Billing Provider field is set to 'Select New Practitioner', this field displays the Billing Provider on Claim field. Any Practitioner can be selected as the Billing Provider. 
 
-    Every Claim has a *Rendering Provider*. Every Payer has their rules about which provider should be on the Claim Line as the Rendering Provider. Some Payers require that only a properly credentialed provider (the one that is on top of the case) should be entered as the Rendering Provider. Other Payers require that the provider that actually rendered the services during the Encounter be entered. Since the Rendering Provider is Payer based, the Account Main Form has a field to determine where to pull the Rendering Provider from. Because it is possible to have exceptions, there is a field on the Authorization and Authorization Service as well to override the Account or Authorization setting.
+Every Claim has a *Rendering Provider*. Every Payer has their rules about which provider should be on the Claim Line as the Rendering Provider. Some Payers require that only a properly credentialed provider (the one that is on top of the case) should be entered as the Rendering Provider. Other Payers require that the provider that actually rendered the services during the Encounter be entered. Since the Rendering Provider is Payer based, the Account Main Form has a field to determine where to pull the Rendering Provider from. Because it is possible to have exceptions, there is a field on the Authorization and Authorization Service as well to override the Account or Authorization setting.
 
-    Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.         
-    - Timeline
-    - Authorization Services - This sub grid displays all the Authorization Services on this Authorization. The columns displayed are: Service Code, Amount Authorized, Authorized As, Start Date and End Date. To read more about Authorization Services, click here. 
 
-- Header: 
-    - Status Reason 
-- Name -  The Authorization Name is "Auth" followed by the Patient Full Name then the Period Start Date and Period End Date. For example, Auth John Smith 01/02/2021-02/03/2021. The Name is set when the Authorization is created and when the Date fields or Patient field is updated.
+
+Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.         
+- Timeline
+- Authorization Services - This sub grid displays all the Authorization Services on this Authorization. The columns displayed are: Service Code, Amount Authorized, Authorized As, Start Date and End Date. To read more about Authorization Services, click here. 
+
+Header: 
+- Status Reason 
+Name -  The Authorization Name is "Auth" followed by the Patient Full Name then the Period Start Date and Period End Date. For example, Auth John Smith 01/02/2021-02/03/2021. The Name is set when the Authorization is created and when the Date fields or Patient field is updated.
 
 ## <u> Add New Authorization </u> 
 

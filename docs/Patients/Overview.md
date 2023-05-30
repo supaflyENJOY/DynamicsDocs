@@ -5,7 +5,7 @@ title: Overview
 
 # Patient
 
-In our system a Patient refers to the client or student who is served by an ABA Provider. Our PMS can keep track of anything needed for the Patient. The Intake Rep has simple and easy forms enabling them to enter the necessary information. 
+In our system a Patient refers to the learner or student who is served by an ABA Provider. Our PMS can keep track of anything needed for the Patient. The Intake Rep has simple and easy forms enabling them to enter the necessary information. 
 
 ## Contact Main Grid
 

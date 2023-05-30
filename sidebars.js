@@ -4,7 +4,7 @@ module.exports = {
       'Overview/Welcome',
       //'Overview/IntakeRepLinks', 
       //'Overview/SchedulerLinks',
-  //   ],
+     ],
   //   'Admin Setup': [
   //   'AdminSetup/Account', 
   //   'AdminSetup/BusinessUnit',
@@ -20,10 +20,6 @@ module.exports = {
   //   'ClinicalSetup/Coverage',
   //   'ClinicalSetup/Contacts',
   // ],
-  // 'Encounters':[
-  //   'Encounters/RecurringEncounters',
-  //   'Encounters/SingleEncounters',
-   ],
   'Patients':[
     'Patients/PatientOverview',
     'Patients/Location',
@@ -48,8 +44,10 @@ module.exports = {
     'Practitioners/PractitionerCalendar',
 
    ],
- // 'Scheduling':[
- //   'Scheduling/ScheduleAssistance',
- // ],
+ 'Scheduling':[
+   'Scheduling/ScheduleAssistance',
+    'Encounters/RecurringEncounters',
+    'Encounters/SingleEncounters',
+ ],
   },
 };

@@ -57,11 +57,11 @@ By opening a Care Team Assignments record on the Patient Contact Form, the Care 
 ### Care Team Assignment Quick Create
 
 - Care Team Assignment Information
-        - Patient - Populated with the Patient navigating from. Field is locked. (Required.)
-        - Episode of Care - Pre-populated with current Episode of Care. (Only displays Episodes of Care related to the Patient.) (Required.)
-        - Authorization Service - (Required.)
-        - Period Start Date - (Required.)
-        - Period End Date - (Required.)
+    - Patient - Populated with the Patient navigating from. Field is locked. (Required.)
+    - Episode of Care - Pre-populated with current Episode of Care. (Only displays Episodes of Care related to the Patient.) (Required.)
+    - Authorization Service - (Required.)
+    - Period Start Date - (Required.)
+    - Period End Date - (Required.)
     - Assigned Practitioner
         - Practitioner - Locked on existing record. (Required.)
         - Practitioner Role - (Required.)
