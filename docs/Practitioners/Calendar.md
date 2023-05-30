@@ -6,7 +6,7 @@ title: Calendar
 
 The Calendar tab displays a calendar with the Practitioners schedule.   
 
-//<br />
+<br />
 
 # Calendar
 
@@ -32,7 +32,7 @@ By clicking on 'more details' on the popout, you will be navigated to the Encoun
 
 Practitioner Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Practitioner 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
 
-//<br />
+<br />
 
 > ### Practitioner Availability
 >
@@ -62,15 +62,14 @@ Practitioner Availability is used for the [Schedule Assistance](../Scheduling/Sc
 >   - Every day - Upon selecting 'Every day', you can select which days these work hours should repeat. 
 >   - Every week -  Upon selecting 'Every week', you can select which day(s) each week these work hours should repeat.
 >   - Custom 
->     - Upon selecting 'Custom', you can select day(s) and set a time for every day that these work hours should repeat.
->     - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.<br />
+     - Upon selecting 'Custom', you can select day(s) and set a time for every day that these work hours should repeat.
+     - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.<br />
 > <img src ="/static/img/customWorkHours.jpg" width="375" height="550"/> <br />
 > - Time
 >   - If the 'All Day' toggle is off, the 'Time' field displays. 
->   - Upon clicking on the 3 dots next to the time, you can add a break to the work hours.
->     - <i> Add Break </i>
->       - Upon clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours.
->       - More then 1 break can be added. <br />
+>   - Upon clicking on the 3 dots next to the time, you can add a break to the work hours. <i> Add Break </i>:
+     - Upon clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours.
+     - More then 1 break can be added. <br />
 > <img src ="/static/img/breakHours.jpg" width="430" height="550"/> <br />
 >     - <i> Add Split </i>
 >       - When the Capacity toggle is on, you can add a 'split' to their day.<br />
