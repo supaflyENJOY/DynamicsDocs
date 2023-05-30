@@ -8,7 +8,7 @@
 const config = {
   title: 'Chorus Software Solutions',
   tagline: 'At Chorus we help people help people, by creating operational efficiency, enabling the ultimate patient and practitioner (employee) experience, resulting in highest clinical and revenue outcomes. ',
-  url: 'https://docs.chorus.cloud',
+  url: 'https://docs.chorus.cloud/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
