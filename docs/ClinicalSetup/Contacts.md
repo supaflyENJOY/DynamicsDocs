@@ -14,15 +14,15 @@ Examples of helpful functionality:
 <br />
 
 ## How do you create a new Contact?
-1. <u>Sitemap:</u> Upon clicking on the 'Contacts' tab on the sitemap, the User will be navigated to the Contact Main Grid.  The main ribbon on the Contact Main Grid has 2 buttons. 
+1. Sitemap: Upon clicking on the 'Contacts' tab on the sitemap, the User will be navigated to the Contact Main Grid.  The main ribbon on the Contact Main Grid has 2 buttons. 
     - New Patient - this button will open the form for a Patient. 
     - New Practitioner - this button will open the form for a Practitioner.
 
-2. <u>Main Form:</u> Upon opening a contact record from the Contact Main Grid, the Contact Main Form will be displayed. The main ribbon on the Contact Main Form has 2 buttons. 
+2. Main Form: Upon opening a contact record from the Contact Main Grid, the Contact Main Form will be displayed. The main ribbon on the Contact Main Form has 2 buttons. 
     - New Patient - this button will open the form for a Patient. 
     - New Practitioner - this button will open the form for a Practitioner.
 
-3. <u>Related Contact Sub grid:</u> Upon opening a Patient record from the Contact Main Grid, the Patient Main Form will be displayed. 1 section on the Patient Main Form is the Related COntacts. Upon selecting the 3 dots, the User can 'Add New Related Contact'. This will open the 'New Connection Main Form'. Upon clicking into the 'Related Contact' field the User has the option to create a new contact which would open teh Related Contact Quick Create. 
+3. Related Contact Sub grid: Upon opening a Patient record from the Contact Main Grid, the Patient Main Form will be displayed. 1 section on the Patient Main Form is the Related COntacts. Upon selecting the 3 dots, the User can 'Add New Related Contact'. This will open the 'New Connection Main Form'. Upon clicking into the 'Related Contact' field the User has the option to create a new contact which would open teh Related Contact Quick Create. 
 
 <br />
 

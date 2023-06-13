@@ -25,7 +25,7 @@ By opening a Care Team Participant record on the Patient Contact Form, the Care 
     - Owner
 - Name - The Name is set as the Practitioner then the Patient followed by the Period Start and Period End. I.e. Alex Medick - Theresa Streich - 5/30/2022 - 6/3/2022. 
 
-## <u> Add New Care Team Participant </u> 
+##  Add New Care Team Participant  
 
 To create a new Care Team Participant, click on the 'Add New Care Team Participant' button on the Care Team Participants sub grid (on a Patient Contact Form) to open the Care Team Participants Main Form.
 
@@ -35,11 +35,11 @@ When navigating from a Patient Contact record, the following fields are pre-popu
     - Populated with the most recent Patients's Care Team. 
     - Field is locked until the Patient field is populated.  
 
-## <u> Edit Care Team Participants </u> 
+##  Edit Care Team Participants  
 
 To edit a Care Team Participant, click on a record from the Care Team Participants sub grid (on a Patient Contact Form) to open the Care Team Participants Main Form. 
 
-## <u> Auto-created Care Team Participants </u>
+##  Auto-created Care Team Participants 
 
 A Care Team Participant gives the Practitioner access to the NOTE App for the Patient they work with, therefore we must have a Care Team Participant record active in Autism Care for every Patient the Practitioner that wishes access.
 

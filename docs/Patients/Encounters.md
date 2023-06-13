@@ -14,7 +14,7 @@ The recurring encounters sub grid display the Practitioners, Start Date/Time, Du
 
 The single encounter/ encounter ocurrences sub grid display the Practitioners, Schedule Type, Start Date/Time, Duration, End Date/Time, Location, Service and Status Reason.
 
- ## <u> Add New Encounter </u>
+ ##  Add New Encounter 
  
  To create a new Encounter, click on the New Recurring Encounter or New Single Encounter button on the sub grid. This will open up the New Encounter Main Form.
 

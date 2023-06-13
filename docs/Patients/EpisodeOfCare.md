@@ -22,7 +22,7 @@ By selecting a record from the Episode Of Care sub grid (on a Patient Contact Fo
     - Status Reason - The Status Reason cannot be edited. To change the Status Reason, create a new Episode Of Care History record from the Status Updates sub-grid on the form. Read more below. 
 - Name - The Name is set as the Patient Name followed by the Start Date and then the End Date. The Name field is set when any of those fields are updated.
 
-## <u> Add New Episode Of Care </u> 
+##  Add New Episode Of Care  
 
 To create a new Episode Of Care, click on the 'Add New Episode Of Care' button on the Episode Of Care sub grid (on a Patient Contact Form). This will open up the New Episode Of Care Quick Create.
 
@@ -30,7 +30,7 @@ To create a new Episode Of Care, click on the 'Add New Episode Of Care' button o
 
 *** The Status Reason can be populated with 1 of the following values: Active, Planned, Wait List, On-Hold, Cancelled or Finished. 
 
-## <u> Edit Episode Of Care </u> 
+##  Edit Episode Of Care  
 
 To edit an Episode Of Care, select an Episode Of Care record from the Episode Of Care sub grid (on a Patient Contact Form). This will open up the Episode Of Care Main Form.
 
@@ -60,7 +60,7 @@ By selecting a record from the Status Updates sub grid (on an Episode Of Care), 
         - Start Date - (Required.)
         - End Date
 
-## <u> Add New Episode Of Care History</u> 
+##  Add New Episode Of Care History 
 
 To create a new Episode Of Care History, click on the 'Add New Episode Of Care History' button on the Status Updates sub grid (on the Episode Of Care Main Form). This will open up the New Episode Of Care History Quick Create.
 
@@ -68,7 +68,7 @@ To create a new Episode Of Care History, click on the 'Add New Episode Of Care H
 
 *** Upon creating a new Episode Of Care History record, the End Date on the previous Episode Of Care History record is set as the day before this Episode Of Care History's Start Date. The previous Episode Of Care History is the record with the latest Start Date and no End Date. 
 
-## <u> Edit Episode Of Care History</u> 
+##  Edit Episode Of Care History 
 
 To edit an Episode Of Care History, select an Episode Of Care History record from the Status Updates sub grid (on the Episode Of Care Main Form). This will open up the Episode Of Care History Main Form.
 

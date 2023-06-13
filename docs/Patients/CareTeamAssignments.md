@@ -48,7 +48,7 @@ By opening a Care Team Assignments record on the Patient Contact Form, the Care 
     - Owner - (Required.)
 - Name - The Name field is set as the Patient then the Practitioner then the Healthcare Service followed by the Period Start Date and Period End Date. I.e. Avrohom Tzvi Schwartz - Yossi Weiss - Direct Treatment - 6/1/2021 - 11/30/2021. The Name is set when the Care Team Assignment is created or when the Practitioner field or either Date field are updated. 
 
-## <u> Add New Care Team Assignments </u> 
+##  Add New Care Team Assignments  
 
 1. Clicking the 'New' button on the Care Team Assignments Main Grid will open the Care Team Assignment Main Form.
 2. Clicking on the 'Add New Care Plan Activity' button on the Care Team Assignments sub grid (on a Patient Contact Form) will to open the Care Team Assignment Quick Create.
@@ -69,7 +69,7 @@ By opening a Care Team Assignments record on the Patient Contact Form, the Care 
         - Amount of Hours - (Required.)
         - Frequency - (Required.)
 
-## <u> Edit Care Team Assignments </u> 
+##  Edit Care Team Assignments  
 
 To edit a Care Team Assignments, click on a record from the Care Team Assignments sub grid (on a Patient Contact Form) to open the Care Team Assignmentss Main Form. 
 

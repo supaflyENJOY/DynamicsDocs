@@ -45,9 +45,11 @@ module.exports = {
 
    ],
  'Scheduling':[
-   'Scheduling/ScheduleAssistance',
-    'Encounters/RecurringEncounters',
-    'Encounters/SingleEncounters',
+  'Encounters/SingleEncounters',
+  'Encounters/RecurringEncounters',
+    'Encounters/EncounterValidations',
+    'Scheduling/ScheduleAssistance',
+    'Encounters/DeactivateEncounters',
  ],
   },
 };
