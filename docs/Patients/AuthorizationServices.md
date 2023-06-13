@@ -35,7 +35,7 @@ Header:
 
 Name -  The Authorization Service Name is the Insurance Plan Benefit Namefollowed by the Start Date and End Date. For example, "Parent Training - 97155 - 1/1/2020 - 6/1/2020". (The Insurance Plan Benefit Name is the Service Code (Healthcare service name) and the CPT code.) The Name is set when the Authorization Service is created and when the Service Code or either Date field are updated.
 
-## <u> Add New Service Authorization </u> 
+##  Add New Service Authorization  
 
 To create a new Authorization Service, click on the 'Add New Authorization Service' button on the Authorization Services sub grid (on an Authorization Form) to open the Authorization Service Quick Create.
 
@@ -54,6 +54,6 @@ To create a new Authorization Service, click on the 'Add New Authorization Servi
 - Claim Settings 
     - Rendering Provider 
 
-## <u> Edit Authorization </u> 
+##  Edit Authorization  
 
 To edit an Authorization Service record, select an Authorization Service record from the Authorization Services sub grid (on an Authorization Form). This will open up the Authorization Service Main Form.

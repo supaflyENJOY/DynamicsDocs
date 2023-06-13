@@ -1,66 +1,71 @@
 ---
 id: CareTeamAssignment
-title: Care Team Assignment
+title: Care Team Assignments
 ---
 # Overview
 
 The Care Team Assignments tab has 1 sub grid. This sub grid lists all the Care Team Assignments the Practitioner has.   
 
+:::note
+Practitioners who are assigned a care team assignment will be able to schedule and edit sessions for that Patient from the Note app. 
+
+Practitioners who are not assigned will only see sessions scheduled for them in Autism Care, and will only be able to edit the session in Note to the same/shorter duration as the session was originally sceduled in Autism Care.
+::: 
  <br />
 
 # Care Team Assignments
 
 The sub grid displays the Patient Name, Authorization Service, Amount of Hours, Frequency, Period Start Date and Period End Date. There are 2 different views available. The default view is 'Current Assignments'. This view is filtered to display Care Team Assignment records related to this Practitioner where the Period End Date is equal to Today or is in the future. The other view is 'All Assignments'. This view displays all Care Team Assignments related to this Practitioner.
 
-<img src ="/static/img/careTeamAssignmentSubgrid.jpg" width="900"/>
+<img src ="/img/careTeamAssignmentSubgrid.jpg" width="900"/>
 
- ### <u> Add New Care Team Assignments </u>
+ ### Add New Care Team Assignments 
  
  To create a new Care Team Assignments, click on the 'Add New Care Team Assignments' button on the sub grid. This will open up the New Care Team Assignments Quick Create Form.
 
  <br />
 
-> ### Quick Create: Care Team Assignments
-> Care Team Assignment Information
-> - * Patient
-> 
->   - The lookup field is filtered to display Patients.
->   - After populating the Patient field, the field is locked.  
-> - * Episode of Care
->
->   - This field is locked when the Patient field has no value.
->   - Upon populating the Patient field, this field is auto-populated with the Active Episode of Care record related to the Patient. 
->      - If more than one active Episode of Care record exists, the one most recently created is used.
->    - This field is filtered to display Episode of Care records related to this Patient.  
-> - * Authorization Service
->
->   - This field is locked when the Patient field has no value.
->   - This field is filtered to display active Authorization Services related to this patient. 
-> - * Period Start Date
->
->   - Upon populating the Authorization Service field, this field is populated with the Start Date from the Authorization Service. 
-> - * Period End Date
->
->   - Upon populating the Authorization Service field, this field is populated with the End Date from the Authorization Service. 
->  
-> Assignment Hours
-> - * Amount of Hours
-> - * Frequency 
->
->   - Option Set with the values: Hours Per Day, Hours Per Week, Hours Per Month, Hours Per Assignment Period
-> 
->Assigned Practitioner
-> - * Practitioner
->
->   - The lookup field is filtered to display Practitioner.
->   - Upon navigating from a Practitioner record, this field is hidden and is populated with the Practitioner.
->   - Once populated, this field is locked. 
-> - * Practitioner Role
->
->   - This field is filtered to display Practitioner Roles related to the Practitioner. 
->   - If a Practitioner Role is found with a Start Date (Practitioner Role) before the Period Start Date (Care Team Assignment) and the End Date (Practitioner Role) is null or after the Period End Date (Care Team Assignment), this field is auto-populated with the Practitioner Role record related to the Practitioner.
->
-><img src ="/static/img/careTeamAssignmentQC.jpg" width="500"/> <img src ="/static/img/careTeamAssignmentQCPopulated.jpg" width="500"/> 
+ ### Quick Create: Care Team Assignments
+ Care Team Assignment Information
+ - * Patient
+ 
+   - The lookup field is filtered to display Patients.
+   - After populating the Patient field, the field is locked.  
+ - * Episode of Care
+
+   - This field is locked when the Patient field has no value.
+   - Upon populating the Patient field, this field is auto-populated with the Active Episode of Care record related to the Patient. 
+      - If more than one active Episode of Care record exists, the one most recently created is used.
+    - This field is filtered to display Episode of Care records related to this Patient.  
+ - * Authorization Service
+
+   - This field is locked when the Patient field has no value.
+   - This field is filtered to display active Authorization Services related to this patient. 
+ - * Period Start Date
+
+   - Upon populating the Authorization Service field, this field is populated with the Start Date from the Authorization Service. 
+ - * Period End Date
+
+   - Upon populating the Authorization Service field, this field is populated with the End Date from the Authorization Service. 
+  
+ Assignment Hours
+ - * Amount of Hours
+ - * Frequency 
+
+   - Option Set with the values: Hours Per Day, Hours Per Week, Hours Per Month, Hours Per Assignment Period
+ 
+Assigned Practitioner
+ - * Practitioner
+
+   - The lookup field is filtered to display Practitioner.
+   - Upon navigating from a Practitioner record, this field is hidden and is populated with the Practitioner.
+   - Once populated, this field is locked. 
+ - * Practitioner Role
+
+   - This field is filtered to display Practitioner Roles related to the Practitioner. 
+   - If a Practitioner Role is found with a Start Date (Practitioner Role) before the Period Start Date (Care Team Assignment) and the End Date (Practitioner Role) is null or after the Period End Date (Care Team Assignment), this field is auto-populated with the Practitioner Role record related to the Practitioner.
+
+<img src ="/img/careTeamAssignmentQC.jpg" width="500"/> <img src ="/img/careTeamAssignmentQCPopulated.jpg" width="500"/> 
 
  <br />
 

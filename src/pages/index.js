@@ -46,7 +46,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 //import styles from './styles.module.css';``
-import styles from './index.module.css'
+import styles from './index.module.css';
+import Admonition from '@theme/Admonition';
 //import ReactPlayer from 'react-player';
 
 const features = [

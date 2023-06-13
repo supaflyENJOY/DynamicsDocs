@@ -46,7 +46,7 @@ Header:
 - Status Reason 
 Name -  The Authorization Name is "Auth" followed by the Patient Full Name then the Period Start Date and Period End Date. For example, Auth John Smith 01/02/2021-02/03/2021. The Name is set when the Authorization is created and when the Date fields or Patient field is updated.
 
-## <u> Add New Authorization </u> 
+##  Add New Authorization  
 
 To create a new Authorization, click on the 'Add New Authorization' button on the Authorization sub grid (on a Patient Contact Form) or clicking the 'New' button on the Authorization Main Grid will open the Authorization Main Form.
 
@@ -64,7 +64,7 @@ When opening a new Authorization Main Form from the Main Grid,
     - This field is hidden when the Patient field does not have a value.
     - Upon populating the 'Patient' field, this field is populated with the Active Coverage record with the latest End Date (or no End Date) for this Patient. 
 
-## <u> Edit Authorization </u> 
+##  Edit Authorization  
 
 To edit an Authorization record, select an Authorization record from the Authorization sub grid (on a Patient Contact Form) or from the Authorization Main Grid. This will open up the Authorization Main Form.
 

@@ -32,7 +32,7 @@ By selecting a record from the Coverages sub grid (on a Patient Contact Form) or
     - Status Reason - Active, Cancelled or Draft. 
 - Name -  The Coverage Name is the Payer and the Member Id. For example, United Healthcare 911-87726-04. The name is set when a Coverage record is created or when the Plan or Member ID are updated.
 
-## <u> Add New Coverage </u> 
+##  Add New Coverage  
 
 To create a new Coverage, click on the 'Add New Coverage' button on the Coverages sub grid (on a Patient Contact Form). This will open up the New Coverage Quick Create. Or clicking the 'New' button on the Coverages Main Grid will open the Coverages Main Form.
 
@@ -49,6 +49,6 @@ To create a new Coverage, click on the 'Add New Coverage' button on the Coverage
 
 *** The Member and Policy Holder field is prepopulated with the Patient navigating from. 
 
-## <u> Edit Coverages </u> 
+##  Edit Coverages  
 
 To edit a Coverage record, select a Coverage record from the Coverages sub grid (on a Patient Contact Form) or from the Coverages Main Grid. This will open up the Coverage Main Form.

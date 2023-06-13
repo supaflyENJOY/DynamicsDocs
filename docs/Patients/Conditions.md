@@ -25,13 +25,13 @@ By selecting a record from the Conditions sub grid (on a Patient Contact Form), 
     - Status Reason
 - Name -  The Condition Name is the Condition Code and the Contact Full Name. For example, F840 - Autistic disorder - John Smith. The name is set when a Condition is created or when the Condition Code field or Patient Name on the Patient record is updated.
 
-## <u> Add New Condition </u> 
+##  Add New Condition  
 
 To create a new Condition, click on the 'Add New Condition' button on the Conditions sub grid (on a Patient Contact Form). This will open up the New Condition Quick Create.
 
 *** The Patient field is prepopulated with the Patient navigating from. 
 
-## <u> Edit Conditions </u> 
+##  Edit Conditions  
 
 To edit a Conditions, select a Condition record from the Conditions sub grid (on a Patient Contact Form). This will open up the Condition Main Form.
 

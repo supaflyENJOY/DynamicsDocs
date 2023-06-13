@@ -21,12 +21,12 @@ When creating a [Connection](Connection.md) record, 1 field is 'Related To Patie
         - Connection Role Category - This categories the type of connection.
         - Description
 
-## <u> Add New Connection Role </u> 
+##  Add New Connection Role  
 
 A new connection role record can be created from a [Connection](Connection.md) record. Upon clicking into the 'Related To Patient As' field, select the option 'New Connection Role Record' to open the Connection Role Main Form.
 
 In order to ensure the Connection Role displays in the 'Related To Patient As' field on the Connection Main Form, the 'Connection Role Category' must be set as 'Contact Relationship'. 
 
-## <u> Edit Connection </u> 
+##  Edit Connection  
 
 A connection role record can be edited by opening the connection role record. Upon populating the 'Related To Patient As' field and clicking the connection role, the Connection Role Main Form will be opened.
