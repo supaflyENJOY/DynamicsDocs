@@ -14,10 +14,10 @@ On recurring encounters, if one or move child encounter occurrences are invalid 
 
 <img src ="/img/RelatedEncounterValidationFailures.png" width="700"/>
 
-2.  Select the Encounter Validation Failure
+3.  Select the Encounter Validation Failure
 
 <img src ="/img/SelectEncounterValidationFailures.png" width="700"/>
 
-3.  Select the Encounter Service that hasn't passed validation
+4.  Select the Encounter Service that hasn't passed validation
 
 <img src ="/img/FailedEncounterService.png" width="700"/>

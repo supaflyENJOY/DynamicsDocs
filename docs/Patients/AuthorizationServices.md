@@ -5,10 +5,6 @@ title: Authorization Service
 
 # Authorization Services 
 
-## Authorization Services Main Grid
-
-Currently, there is no main grid displaying Authorization Service records since no need was expressed. To view all Authorization Service records, utilize Advanced Find (which is OOB from Dynamics.)
-
 ## Authorization Service Main Form
 By selecting a record from the Authorization Services sub grid (on an Authorization Form) or from the expanded Authorization Main Grid, the Authorization Service Main Form will open. The Authorization Service Main Form has 1 tab to display all information needed. 
 
@@ -35,11 +31,9 @@ Header:
 
 Name -  The Authorization Service Name is the Insurance Plan Benefit Namefollowed by the Start Date and End Date. For example, "Parent Training - 97155 - 1/1/2020 - 6/1/2020". (The Insurance Plan Benefit Name is the Service Code (Healthcare service name) and the CPT code.) The Name is set when the Authorization Service is created and when the Service Code or either Date field are updated.
 
-##  Add New Service Authorization  
+##  Create an Authorization Service
 
 To create a new Authorization Service, click on the 'Add New Authorization Service' button on the Authorization Services sub grid (on an Authorization Form) to open the Authorization Service Quick Create.
-
-### Authorization Service Quick Create
 
 - Authorization Information: 
     - Authorization Name 
@@ -53,7 +47,3 @@ To create a new Authorization Service, click on the 'Add New Authorization Servi
     - Amount Authorized
 - Claim Settings 
     - Rendering Provider 
-
-##  Edit Authorization  
-
-To edit an Authorization Service record, select an Authorization Service record from the Authorization Services sub grid (on an Authorization Form). This will open up the Authorization Service Main Form.

@@ -5,18 +5,6 @@ title: Authorization
 
 # Authorizations 
 
-## Authorizations Main Grid
-
-By clicking on 'Authorizations' on the left navigation bar in the Clinical Area, the Authorizations Main Grid will open up. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views.
-- Active Authorizations (default)
-    - The Active Authorizations view displays all the Active Authorization records in the system. The view displays the Plan, Patient Name, Authorization Number, Period Start Date, Period End Date, Status Reason. The view is sorted by the Period Start Date with the newer dates displaying first. 
-- All Authorizations
-    - The All Authorizations view displays all the Authorization records in the system. The view displays the Plan, Patient Name, Authorization Number, Period Start Date, Period End Date, Status Reason. The view is sorted by the Period Start Date with the newer dates displaying first.
-- Expiring Authorizations 
-    - The Expiring Authorizations view displays all the Active Authorization records in the system where the Period End Date is in the next 30 days. The view displays the Name, Patient Name, Episode of care, Coverage, Authorization Number, Period Start Date, Period End Date, Practitioner. The view is sorted by the Period End Date with the older dates displaying first.
-
-The nested Authorization Service records display the following columns: Service Code, Amount Authorized, Authorized As, Start Date and End Date. The records are sorted by the Start Date with the newer dates displaying first.
-
 ## Authorization Main Form
 By selecting a record from the Authorization sub grid (on a Patient Contact Form) or from the Authorization Main Grid, the Authorization Main Form will open. The Authorization Main Form has 1 tab to display all information needed. 
 
@@ -46,7 +34,7 @@ Header:
 - Status Reason 
 Name -  The Authorization Name is "Auth" followed by the Patient Full Name then the Period Start Date and Period End Date. For example, Auth John Smith 01/02/2021-02/03/2021. The Name is set when the Authorization is created and when the Date fields or Patient field is updated.
 
-##  Add New Authorization  
+##  Create an Authorization  
 
 To create a new Authorization, click on the 'Add New Authorization' button on the Authorization sub grid (on a Patient Contact Form) or clicking the 'New' button on the Authorization Main Grid will open the Authorization Main Form.
 
@@ -64,8 +52,17 @@ When opening a new Authorization Main Form from the Main Grid,
     - This field is hidden when the Patient field does not have a value.
     - Upon populating the 'Patient' field, this field is populated with the Active Coverage record with the latest End Date (or no End Date) for this Patient. 
 
-##  Edit Authorization  
-
-To edit an Authorization record, select an Authorization record from the Authorization sub grid (on a Patient Contact Form) or from the Authorization Main Grid. This will open up the Authorization Main Form.
-
 *** The Episode of Care and Coverage fields only display active records. 
+
+
+## Searching Authorizations
+
+By clicking on 'Authorizations' on the left navigation bar in the Clinical Area, the Authorizations Main Grid will open up. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views.
+- Active Authorizations (default)
+    - The Active Authorizations view displays all the Active Authorization records in the system. The view displays the Plan, Patient Name, Authorization Number, Period Start Date, Period End Date, Status Reason. The view is sorted by the Period Start Date with the newer dates displaying first. 
+- All Authorizations
+    - The All Authorizations view displays all the Authorization records in the system. The view displays the Plan, Patient Name, Authorization Number, Period Start Date, Period End Date, Status Reason. The view is sorted by the Period Start Date with the newer dates displaying first.
+- Expiring Authorizations 
+    - The Expiring Authorizations view displays all the Active Authorization records in the system where the Period End Date is in the next 30 days. The view displays the Name, Patient Name, Episode of care, Coverage, Authorization Number, Period Start Date, Period End Date, Practitioner. The view is sorted by the Period End Date with the older dates displaying first.
+
+The nested Authorization Service records display the following columns: Service Code, Amount Authorized, Authorized As, Start Date and End Date. The records are sorted by the Start Date with the newer dates displaying first.
