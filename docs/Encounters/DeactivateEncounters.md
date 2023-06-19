@@ -1,8 +1,6 @@
 ---
 id: DeactivateEncounters
 title: Deactivating Encounters 
-created at: Tue Mar 14 2023 19:27:50 GMT+0000 (Coordinated Universal Time)
-updated at: Thu Mar 16 2023 16:15:02 GMT+0000 (Coordinated Universal Time)
 ---
 
 # Deactivating Encounters

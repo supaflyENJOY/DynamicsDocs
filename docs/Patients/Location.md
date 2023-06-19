@@ -1,9 +1,7 @@
----
-id: Location
-title: Location
----
+//no longer in use, see location.md under admin set up
 
 # Location 
+Locations are for tracking any location relevant to your practice, such as offices, schools, patient billing addresses, and more. 
 
 ## Location Main Grid
 
