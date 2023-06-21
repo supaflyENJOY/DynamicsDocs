@@ -1,6 +1,6 @@
 ---
 id: Coverages
-title: Coverages
+title: Coverage
 ---
 
 # Coverages 
@@ -12,7 +12,7 @@ Create a new Coverage, by clicking on the 'Add New Coverage' button on the Cover
 
 **Coverage Information**
 - *Status Reason* - Select ‘Active’ when creating a patient’s active coverage record. 
-- *Member* (Patient) – auto-populated as the patient whose profile you’re on when adding this record.
+- *Member* (Patient) – pre-populated as the patient whose profile you’re on when adding this record.
 - *Member ID* - Enter the Member ID as it appears on the patient’s insurance card. The member ID is transferred to the claim. It also enables you to run eligibility checks from within the Autism Care app and receive accurate responses.
 - *Relationship* - Select the option that best describes the relationship of the member/patient to the policy holder. 
 - *Policy Holder* - Select the contact record of the person that is the policy holder. If the relationship is ‘Self’; the ‘Policy Holder’ should be the patient him/herself, otherwise select one of the patient’s [related contacts](Connection.md).
@@ -21,7 +21,7 @@ Create a new Coverage, by clicking on the 'Add New Coverage' button on the Cover
 - *Plan* - Select the plan the patient is covered under. The plans option-set is based on the plans that you have set up in the system.
 - *Payer* - Upon creating or updating the Plan field on the Coverage record, the Payer field is updated with the value of the Issuer field on the Plan selected. 
 
-## Searching Coverages
+## Search Coverages
 
 By clicking on 'Coverages' on the left navigation bar in the Clinical Area, the Coverages Main Grid will open up. The Coverages Main Grid has 3 different views, all sorted by the Policy End Date with the older dates displaying first.
 
