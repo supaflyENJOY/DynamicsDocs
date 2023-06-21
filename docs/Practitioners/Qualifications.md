@@ -37,4 +37,4 @@ It is important that the qualification and the dates are accurate. When scheduli
 
 <img src ="/img/PractitionerQualification.jpg" width="1300" height="400"/>
 
-[Read more about Insurance Plan Benefits](InsurancePlan.md).
+[Read more about Insurance Plan Benefits](../AdminSetup/InsurancePlan.md).

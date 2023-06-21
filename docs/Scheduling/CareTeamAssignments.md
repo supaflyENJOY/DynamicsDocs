@@ -33,7 +33,7 @@ To create a new Care Team Assignments:
 - *Frequency* - select the frequency that the amount of hours above can be scheduled at (Hours Per Day, Hours Per Week, Hours Per Month, Hours Per Assignment Period).
 
 **Related Encounters** 
-The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1 for single encounters. [Read more about Encounters](Encounters.md).
+The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1 for single encounters. [Read more about Encounters](SingleEncounters).
 
 Name - The Name field is set as the Patient then the Practitioner then the Healthcare Service followed by the Period Start Date and Period End Date. E.g. Alice Smith - John Doe - Direct Treatment - 6/1/2021 - 11/30/2021. The Name is set when the Care Team Assignment is created or when the Practitioner field or either Date field are updated. 
 

@@ -102,11 +102,11 @@ Bulk edits can be made on any view.
 Views can also be viewed visually as Charts.
 
 1. Click "Show Chart" on the ribbon above a Main Grid.
- <img src ="/img/showchart.png " width="350" height="400"/>
+ <img src ="/img/showchart.png " width="750"/>
 
 1. Switch between views to see other charts for this entity.
- <img src ="/img/chartview.png " width="350" height="400"/>
+ <img src ="/img/chartview.png " width="750"/>
 
 # Dashboards
 
-You can create a reusable dashbaord in Dynamics to easily monitor aggregates that are important to your organization. 
+You can create a reusable dashboard in Dynamics to easily monitor aggregates that are important to your organization. 

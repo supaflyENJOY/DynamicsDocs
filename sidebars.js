@@ -22,7 +22,7 @@ module.exports = {
   // ],
   'Patients':[
     'Patients/PatientOverview',
-    'Patients/Location',
+   // 'Patients/Location',
     'Patients/Connection',
     'Patients/Conditions',
     'Patients/EpisodeOfCare',
@@ -44,12 +44,12 @@ module.exports = {
 
    ],
  'Scheduling':[
-  'Encounters/CareTeamAssignments',
+  'Scheduling/CareTeamAssignments',
   'Scheduling/ScheduleAssistance',
-  'Encounters/SingleEncounters',
-  'Encounters/RecurringEncounters',
-  'Encounters/EncounterValidations',
-  'Encounters/DeactivateEncounters',
+  'Scheduling/SingleEncounters',
+  'Scheduling/RecurringEncounters',
+  'Scheduling/EncounterValidations',
+  'Scheduling/DeactivateEncounters',
  ],
 //  'Billing':[
 //   'Billing/ChargeItems',
