@@ -38,9 +38,9 @@ There is a separate form for a Patient, Practitioner and Related Person.
 > 
 > ## Overview
 > 
-> The Related Person Main Form has 1 tab with a few sections. The Tab & Section Name reflects the information on that form/section to help a User navigate through creating a Related Person. Some fields are required to save the Related Person in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field.
+> The Related Person Main Form has 1 tab with a few sections. The Tab & Section Name reflects the information on that form/section to help a User navigate through creating a Related Person. Some fields are required to save the Related Person in the system (e.g. First Name), while other fields can be added to the system later on. Any time a field is required a red star will display next to the field.
 >
-> A Related Person is contact related to a Patient i.e. a mother or father. Usually this will be the person the Company is in contact with about a Patient.
+> A Related Person is contact related to a Patient (e.g. a mother or father). Usually this will be the person the Company is in contact with about a Patient.
 >
 ><br />
 >

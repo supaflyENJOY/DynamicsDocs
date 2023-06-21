@@ -1,4 +1,4 @@
 ---
 id: RecurringEncounters
-title: Recurring Encounters
+title: Recurring Encounter
 ---
