@@ -1,6 +1,6 @@
 ---
 id: Conditions
-title: Conditions
+title: Condition
 ---
 
 # Conditions 
@@ -11,7 +11,7 @@ A Condition record stores a patient's diagnosis information. The condition will 
 To create a new Condition, click on the 'Add New Condition' button on the Conditions sub grid (on a Patient Contact Form). This will open up the New Condition Quick Create Form.
 
 **Condition Information**
-- *Patient* - auto-populated as the patient whose profile you’re on when adding this record.
+- *Patient* - pre-populated as the patient whose profile you’re on when adding this record.
 - *Condition Code* - select the condition code that matches the patient’s diagnosis. 
 - *Clinical Status* - select the status of the patient’s condition - whether it is Active, Recurrence, Inactive, Remission, or Resolved.  
 - *Severity* - select the severity of this condition in the patient – mild, moderate or severe.

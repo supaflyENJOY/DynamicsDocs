@@ -4,7 +4,7 @@ title: Connection
 ---
 
 # Connection 
-A connection record specifies the relationship between 2 other records (i.e. a Related Contact to a Patient Contact).
+A connection record specifies the relationship between 2 other records (e.g. a Related Contact to a Patient Contact).
 
 ## Create a Connection
 
@@ -19,7 +19,7 @@ A new connection record can be created from a Patient Contact record. The Profil
     - General Information – Enter the name, gender, and marital status of the contact person.
     - Contact Information – enter phone numbers, email address, and preferred contact method.
     Once the record is saved it is automatically selected as the ‘Related Contact’ on the connection record.
-- *Related To Patient As* - This field is populated with the relationship between contact and patient i.e. mother, father, babysitter etc. This field only displays connection roles that are a 'contact relationship'. See [connection roles](#2). 
+- *Related To Patient As* - This field is populated with the relationship between contact and patient (e.g. mother, father, babysitter etc.). This field only displays connection roles that are a 'contact relationship'. See [connection roles](#2). 
 - Patient's Primary Contact? - This field has 2 options: Patient's Primary Contact or Other Related Contact. This helps a company know who to be in touch with about the Patient. 
 
 ## Connection Role {#2}

@@ -1,6 +1,6 @@
 ---
 id: DeactivateEncounters
-title: Deactivating Encounters 
+title: Deactivate Encounter
 ---
 
 # Deactivating Encounters
@@ -30,11 +30,7 @@ You can deactivate encounters, related encounter services, and related encounter
 
 Recurring encounters are parents to a set of related encounters that were generated based on the recurrence pattern selected.
 
-:::info 
-The recurring parent cannot be deactivated.
-:::
-
-You can deactivate the related Encounter Occurrences to deactivate all the sessions generated from this recurring encounter.
+The recurring parent cannot be deactivated. You can deactivate the related Encounter Occurrences to deactivate all the sessions generated from this recurring encounter.
 
 ### Recurrence pattern set by end date:
 
@@ -46,7 +42,7 @@ You can deactivate the related Encounter Occurrences to deactivate all the sessi
 
 <img src ="/img/ConfirmUpdate.png" width="500" height="200"/>
 
-### Recurrence pattern set by number of occurrences:
+### Recurrence pattern set by number of occurrences
 
 1.  Navigate to the encounter occurrences tab on the recurring encounter
 

@@ -2,9 +2,8 @@ module.exports = {
   sidebars:{
     'Getting Started': [
       'Overview/Welcome',
-
-      //'Overview/IntakeRepLinks', 
-      //'Overview/SchedulerLinks',
+      'Overview/Dynamics365',
+      'Overview/ViewsDashboards'
      ],
     'Admin Setup': [
     'AdminSetup/Account', 
@@ -25,32 +24,43 @@ module.exports = {
     'Patients/PatientOverview',
     'Patients/Location',
     'Patients/Connection',
-   // 'Patients/ConnectionRole',
     'Patients/Conditions',
     'Patients/EpisodeOfCare',
     'Patients/Coverages',
     'Patients/Authorization',
     'Patients/AuthorizationServices',
     'Patients/CareTeamParticipants',
-    'Patients/CareTeamAssignments',
-    'Patients/PatientEncounters',
+    //'Patients/CareTeamAssignments',
+    //'Patients/PatientEncounters',
     'Patients/PatientCalendar',
   ],
   'Practitioners':[
     'Practitioners/BasicInfo',
     'Practitioners/PractitionerRole',    
     'Practitioners/Qualifications',
-    'Practitioners/CareTeamAssignment',
-    'Practitioners/PractitionerEncounters',
+    //'Practitioners/CareTeamAssignment',
+   // 'Practitioners/PractitionerEncounters',
     'Practitioners/PractitionerCalendar',
 
    ],
  'Scheduling':[
+  'Encounters/CareTeamAssignments',
+  'Scheduling/ScheduleAssistance',
   'Encounters/SingleEncounters',
   'Encounters/RecurringEncounters',
-    'Encounters/EncounterValidations',
-    'Scheduling/ScheduleAssistance',
-    'Encounters/DeactivateEncounters',
+  'Encounters/EncounterValidations',
+  'Encounters/DeactivateEncounters',
  ],
+//  'Billing':[
+//   'Billing/ChargeItems',
+//  ],
+//  'Payroll':[
+//   'Payroll/PayrollItems',
+//  ],
+//  'CRM':[
+//   'CRM/Lead',
+//   'CRM/Opportunity',
+//  ],
+
   },
 };

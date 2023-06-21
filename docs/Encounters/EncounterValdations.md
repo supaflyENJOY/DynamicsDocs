@@ -1,6 +1,6 @@
 ---
 id: EncounterValidations
-title: Encounter Validations
+title: Encounter Validation
 ---
 
 # Encounter Validation

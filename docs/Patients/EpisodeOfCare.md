@@ -17,7 +17,7 @@ A patient’s episode of care is automatically created when an opportunity recor
 To create a new Episode Of Care, click on the 'Add New Episode Of Care' button on the Episode Of Care sub grid (on a Patient Contact Form). This will open up the New Episode Of Care Quick Create.
 
 **Episode Of Care Information**
-- *Patient*- The Patient field is auto-populated with the Patient you are navigating from, and cannot be edited.
+- *Patient*- The Patient field is pre-populated with the Patient you are navigating from, and cannot be edited.
 - *Period Start Date* - The Period Start Date cannot be after the Period End Date. 
 - *Period End Date*
 
@@ -38,6 +38,6 @@ To update the status of an episode of care, click on the 'Add New Episode Of Car
 **Status Update Information**
 - *Status* – select the status that the Episode of Care is being updated to. Options are Planned, Waitlist, Active, or On hold.
 - *Start Date* – set the date that this status began or is set to begin.
-- *End Date* – can either be set manually, otherwise it is auto-populated based on the start date of a new status.
+- *End Date* – can either be set manually, otherwise it is pre-populated based on the start date of a new status.
 *** Upon creating a new Episode Of Care History record, the End Date on the previous Episode Of Care History record is set as the day before this Episode Of Care History's Start Date. The previous Episode Of Care History is the record with the latest Start Date and no End Date. 
 

@@ -7,7 +7,7 @@ Locations are for tracking any location relevant to your practice, such as offic
 
 Select 'Location' on the left navigation bar in the Setup Area to open the Location Main Grid. The Location Main Grid has 2 different views which display the Location records.
 - General Service Locations
-    - The General Service Locations view displays Locations which are not related to a Patient record and the Location record is Active. The view displays the Description, Location Type, Street 1, Address City, Address State and Address Postal Code. This is helpful for Locations which can be related to more then 1 patient i.e. a therapy center. 
+    - The General Service Locations view displays Locations which are not related to a Patient record and the Location record is Active. The view displays the Description, Location Type, Street 1, Address City, Address State and Address Postal Code. This is helpful for Locations which can be related to more then 1 patient (e.g., a therapy center). 
 - All Service Locations
     - The All Service Locations view displays all the Active Locations in the system. The view displays the Patient, Location Type, Street 1, Address City, Address State and Address Postal Code. 
 
@@ -17,10 +17,10 @@ Select a record from the Location Main Grid or an address on the Patient record 
 
 - The Summary tab is made up of 2 sections.
     - Address Information - The 'Address Information' section contains the basic information to differenciate locations. This section has the following fields. 
-        - Description - This field can be populated to give the location a clear name. i.e. Steven's summer home. 
+        - Description - This field can be populated to give the location a clear name. (e.g. "Steven's summer home"). 
         - Location Type - Home, School, Office, Telecare, Other (Required field.)
             - Address Type - If the Location Type is 'Home' this field must be populated with 'Billing Address', 'Service Address' or both. A Patient can only have 1 address as their 'Billing Address'.
-        - Patient - Once the record is saved, the Patient field locks. If this Location is a general location, i.e. a school, where numerous patients are serviced, this field would be left empty. 
+        - Patient - Once the record is saved, the Patient field locks. If this Location is a general location, (e.g., a school) where numerous patients are serviced, this field would be left empty. 
     - Address Details - The 'Address Details' section contains the address. The fields in this section are: Street Address (Required), Apt, Unit, Floor, City (Required), State (Required), Zip Code (Required), Additional Directions.  
 
 ## Add New Location

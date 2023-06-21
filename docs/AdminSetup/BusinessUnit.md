@@ -8,7 +8,8 @@ Business units are organizational units within your organization. For example, a
 - *Name* – organization name
 - *Users* – the users within the organization, this enables assigning tasks, tracking who created a record, etc.
 - *Time zone* – time zone of the business unit. 
-:::note
+
+:::info Note
 Scheduling may be affected if Time zone is not configured properly. Additionally, certain records will not be able to be saved/created if this is not filled in, since they rely on the time zone of the business unit to set the time zone on that record. For example, a contact inherits the time zone of the business unit it belongs to. If the time zone on the business unit is not set, a contact record cannot be created/saved.
 :::
 

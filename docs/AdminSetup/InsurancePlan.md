@@ -14,7 +14,7 @@ The following fields should be set on an Insurance Plan Benefit:
 - *Insurance Plan* – Select the Insurance Plan that this Insurance Plan Benefit belongs to.
 - *Service* – Select the [Healthcare Service](HealthcareService.md) that best fits this Insurance Plan Benefit. 
 :::note
-The Service here will control the behavior of te session in the Note app, for each encounter scheduled against this Insurance Plan Benefit. [Read more about Healthcare Service Types](HealthcareService.md).
+The Service here will control the behavior of the session in the Note app, for each encounter scheduled against this Insurance Plan Benefit. [Read more about Healthcare Service Types](HealthcareService.md).
 :::
 - *Procedure Code* – Select the procedure code that this service should be billed with. See Product Codes(#Product Codes).
 - *Requires Assignment* – Set as ‘Yes’ if you want to restrict scheduling encounters against this service code without an assignment, otherwise set as ‘No’.
@@ -40,4 +40,3 @@ These are the qualification requirements for each service. Once they are set up 
 
 Each required qualification should be added individually. If a required qualification can be interchanged with another qualification, they can be added as one required qualification and the system will validate that the practitioner has either one of the qualifications selected. 
 
-## Ghost Payers
