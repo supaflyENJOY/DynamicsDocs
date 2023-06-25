@@ -14,10 +14,10 @@ A patient’s episode of care is automatically created when an opportunity recor
 
 ## Create an Episode of Care
 
-To create a new Episode Of Care, click on the 'Add New Episode Of Care' button on the Episode Of Care sub grid (on a Patient Contact Form). This will open up the New Episode Of Care Quick Create.
+To create a new Episode Of Care, click on the 'Add New Episode Of Care' button on the Episode Of Care subgrid (on a Patient Contact Form). This will open up the New Episode Of Care Quick Create.
 
 **Episode Of Care Information**
-- *Patient*- The Patient field is pre-populated with the Patient you are navigating from, and cannot be edited.
+- *Patient*- The Patient field is prepopulated with the Patient you are navigating from, and cannot be edited.
 - *Period Start Date* - The Period Start Date cannot be after the Period End Date. 
 - *Period End Date*
 
@@ -33,11 +33,11 @@ Episode Of Care Validation ensures the data integrity of Encounters.
 
 The Episode Of Care History exists to update the Status Reason of the Episode Of Care and keep track of when the status was updated.
 
-To update the status of an episode of care, click on the 'Add New Episode Of Care History' button on the Status Updates sub grid (on the Episode Of Care Main Form). This will open up the New Episode Of Care History Quick Create. The system will automatically end the previous status history and populate the end date as one day before the new status began.
+To update the status of an episode of care, click on the 'Add New Episode Of Care History' button on the Status Updates subgrid (on the Episode Of Care Main Form). This will open up the New Episode Of Care History Quick Create. The system will automatically end the previous status history and populate the end date as one day before the new status began.
 
 **Status Update Information**
 - *Status* – select the status that the Episode of Care is being updated to. Options are Planned, Waitlist, Active, or On hold.
 - *Start Date* – set the date that this status began or is set to begin.
-- *End Date* – can either be set manually, otherwise it is pre-populated based on the start date of a new status.
+- *End Date* – can either be set manually, otherwise it is prepopulated based on the start date of a new status.
 *** Upon creating a new Episode Of Care History record, the End Date on the previous Episode Of Care History record is set as the day before this Episode Of Care History's Start Date. The previous Episode Of Care History is the record with the latest Start Date and no End Date. 
 

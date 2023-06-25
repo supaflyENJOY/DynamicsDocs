@@ -7,7 +7,7 @@ module.exports = {
      ],
     'Admin Setup': [
     'AdminSetup/Account', 
-    'AdminSetup/BusinessUnit',
+   'AdminSetup/BusinessUnit',
  //   'AdminSetup/GoalBankLibrary',
     'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',
@@ -44,23 +44,24 @@ module.exports = {
 
    ],
  'Scheduling':[
-  'Scheduling/CareTeamAssignments',
-  'Scheduling/ScheduleAssistance',
   'Scheduling/SingleEncounters',
   'Scheduling/RecurringEncounters',
+  'Scheduling/ScheduleAssistance',
+  'Scheduling/CareTeamAssignments',
   'Scheduling/EncounterValidations',
   'Scheduling/DeactivateEncounters',
+  'Scheduling/Utilization',
  ],
-//  'Billing':[
-//   'Billing/ChargeItems',
-//  ],
-//  'Payroll':[
-//   'Payroll/PayrollItems',
-//  ],
-//  'CRM':[
-//   'CRM/Lead',
-//   'CRM/Opportunity',
-//  ],
-
+ 'Billing':[
+  'Billing/ClaimSettings',
+  'Billing/ChargeItems',
+ ],
+ 'Payroll':[
+  'Payroll/PayrollItems',
+ ],
+ 'CRM':[
+  'CRM/Lead',
+  'CRM/Opportunity',
+ ],
   },
 };

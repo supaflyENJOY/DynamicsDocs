@@ -8,16 +8,16 @@ Authorizations are the force behind the entire scheduling and billing workflow. 
 
 ##  Create an Authorization  
 
-To create a new Authorization, click on the 'Add New Authorization' button on the Authorization sub grid (on a Patient Contact Form) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
+To create a new Authorization, click on the 'Add New Authorization' button on the Authorization subgrid (on a Patient Contact Form) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
 
 **Authorization Information**
-- *Patient* - pre-populated as the patient whose profile you are navigating from when entering the authorization.
-- *Episode of Care* - pre-populated with the Active Episode of Care record for this Patient. 
+- *Patient* - prepopulated as the patient whose profile you are navigating from when entering the authorization.
+- *Episode of Care* - prepopulated with the Active Episode of Care record for this Patient. 
 - *Coverage* - Populated with the Active Coverage record with the latest End Date (or no End Date) for this Patient.
     - If a patient has more than one active coverage, ensure that the selected coverage is the one the authorization is covered as, otherwise select the correct coverage.
 - *Authorization Number* - enter the authorization number. This will be included on the claims created against this authorization.
 - *Period Start Date* - enter the start date that the authorization is valid from.
-- *Period End Date* - enter the end date that the authorization is valid until. The End Date is pre-populated to 6 months after the Start Date. 
+- *Period End Date* - enter the end date that the authorization is valid until. The End Date is prepopulated to 6 months after the Start Date. 
 - *Practitioner* - select the practitioner on the authorization.
 
 Once the authorization is saved, authorization services can be added.
@@ -38,7 +38,7 @@ Every Claim has a *Billing Provider*. This is the Practitioner with the correct 
 
 **Timeline**
 
-**Authorization Services** - This sub grid displays all the Authorization Services on this Authorization. [Read more about Authorization Services](AuthorizationServices.md). 
+**Authorization Services** - This subgrid displays all the Authorization Services on this Authorization. [Read more about Authorization Services](AuthorizationServices.md). 
 
 Name -  The Authorization Name is "Auth" followed by the Patient Full Name then the Period Start Date and Period End Date. For example, Auth John Smith 01/02/2021-02/03/2021. The Name is set when the Authorization is created and when the Date fields or Patient field is updated.
 

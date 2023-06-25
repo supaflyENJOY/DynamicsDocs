@@ -26,7 +26,7 @@ Select a record from the Location Main Grid or an address on the Patient record 
 ## Add New Location
 
 A new address record can be created from a few places. 
-1. Clinical Area - When on a Patient Contact record, the Profile Info tab has a section called 'Patient Addresses'. Clicking on the 3 dots on the Patient Addresses sub grid, displays a few options. Upon clicking the 'Add New Location' button, the Location Main Form opens.
+1. Clinical Area - When on a Patient Contact record, the Profile Info tab has a section called 'Patient Addresses'. Clicking on the 3 dots on the Patient Addresses subgrid, displays a few options. Upon clicking the 'Add New Location' button, the Location Main Form opens.
 2. Setup Area - The setup area has a group called 'Services Setup' with Locations listed. Upon clicking 'Locations', the Location Main Form opens.
 
 ## Edit Location

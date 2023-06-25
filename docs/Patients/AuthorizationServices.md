@@ -8,14 +8,14 @@ Authorization Servies track the number of hours/units that were authorized per s
 
 ##  Create an Authorization Service
 
-To create a new Authorization Service, click on the 'Add New Authorization Service' button on the Authorization Services sub grid (on an Authorization Form) to open the Authorization Service Quick Create.
+To create a new Authorization Service, click on the 'Add New Authorization Service' button on the Authorization Services subgrid (on an Authorization Form) to open the Authorization Service Quick Create.
 
 **Authorization Information**
 - *Authorization Name*
-    - Pre-populated with the Authorization you are adding this service to.
+    - prepopulated with the Authorization you are adding this service to.
 - *Service Code* - select the Insurance Plan Benefit for the authorized service. All scheduling for this authorization service will be validated against the rules set up on the related insurance plan benefit. Select from Insurance Plan Benefits within the plan that the authorization is covered under.
-- *Start Date* - Pre-populated with the Authorization Period Start Date, and can be changed if necessary.
-- *End Date* - Pre-populated with the Authorization Period End Date, and can be changed if necessary.
+- *Start Date* - prepopulated with the Authorization Period Start Date, and can be changed if necessary.
+- *End Date* - prepopulated with the Authorization Period End Date, and can be changed if necessary.
 
 **Authorized Units**
 - *Authorized As* - choose how the hours/units were authorized – Hours per week, Hours per month, Units per week, Units per month, or Total units. 

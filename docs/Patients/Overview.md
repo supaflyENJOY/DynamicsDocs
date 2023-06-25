@@ -25,20 +25,20 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
         
 - The **Medical Info** tab is for information regarding the Patient's diagnosis and treatment. This tab is didvided into 2 subgrids:
-    - *Conditions* - The left sub grid displays the conditions diagnosised to the Patient. The conditions added here are included on the claims created for this patient.  [Read more about conditions](Conditions.md).
+    - *Conditions* - The left subgrid displays the conditions diagnosised to the Patient. The conditions added here are included on the claims created for this patient. [Read more about conditions](Conditions.md).
         - Current Conditions - This view only displays the current conditions of a patient. Once the Historical As Of date is populated, the condition is no longer current. 
         - All Conditions - This views displays all the conditions except where the Verification Status is entered in error.
-    - *Episode of Care* - The right sub grid displays the episodes of care. A Patient with an Active Episode of Care cannot be deactivated. [Read more about Episodes of Care](EpisodeOfCare.md).
+    - *Episode of Care* - The right subgrid displays the episodes of care. A Patient with an Active Episode of Care cannot be deactivated. [Read more about Episodes of Care](EpisodeOfCare.md).
 
 - The **Coverage & Auth** tab is for information regarding the Patient's insurance coverage and authorizations. This tab is divided into 2 sub grids:
     - *Coverages* - The top sugrid displays the coverage records from the insurance company. Coverage records are necessary in order to schedule Encounters. [Read more about Coverages](Coverages.md).
-    - *Authorizations* - The bottom sub grid displays the authorizations receieved from insurance. The authorization includes the coverage record as well as other information needed before scheduling an Encounter. [Read more about Authorizations](Authorization.md).
+    - *Authorizations* - The bottom subgrid displays the authorizations receieved from insurance. The authorization includes the coverage record as well as other information needed before scheduling an Encounter. [Read more about Authorizations](Authorization.md).
 - The **Care Team** tab is for tracking the practitioners who are servicing the Patient. This tab is divided into 2 sub grids:
-    - *Care Team Participants* - The left sub grid displays Care team Participants. Care Team Participants track Practitioners who are servicing/have serviced this Patient. [Read more about Care Team Participants](CareTeamParticipants.md).
-    - *Care Team Assignments* - The right sub grid displays the Care Team Assignments. Care Team Assignments track Practitioners who are assigned a utilization of hours for a certain authorization service with the Patient. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
+    - *Care Team Participants* - The left subgrid displays Care team Participants. Care Team Participants track Practitioners who are servicing/have serviced this Patient. [Read more about Care Team Participants](CareTeamParticipants.md).
+    - *Care Team Assignments* - The right subgrid displays the Care Team Assignments. Care Team Assignments track Practitioners who are assigned a utilization of hours for a certain authorization service with the Patient. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
 
 - The **Encounters** tab lists the scheduled encounters for the Patient. This tab is divided into 2 sub grids: [Read more about Encounters](../Scheduling/SingleEncounters).
-    - *Recurring Encounters* - The top sub grid displays encounters that are recurring for a period of time. 
+    - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. 
         - All Recurring Encounters - This view displays Recurring Encounters. An Encounter is 'recurring' if the Schedule Type is 'Recurring Encounter'. 
         - Current Recurring Encounters - This view displays Recurring Encounters with related Encounter Occurences with the Status of Active. 
     - *Single Encounters* - This displays individual encounters (encounter occurrences). There are 2 views which display the following columns: Practitioners, Schedule Type, Start Date/Time, Duration, End Date/Time, Location, Service and Status Reason. 

@@ -22,7 +22,7 @@ Examples of helpful functionality:
     - New Patient - this button will open the form for a Patient. 
     - New Practitioner - this button will open the form for a Practitioner.
 
-3. Related Contact Sub grid: Upon opening a Patient record from the Contact Main Grid, the Patient Main Form will be displayed. 1 section on the Patient Main Form is the Related COntacts. Upon selecting the 3 dots, the User can 'Add New Related Contact'. This will open the 'New Connection Main Form'. Upon clicking into the 'Related Contact' field the User has the option to create a new contact which would open teh Related Contact Quick Create. 
+3. Related Contact subgrid: Upon opening a Patient record from the Contact Main Grid, the Patient Main Form will be displayed. 1 section on the Patient Main Form is the Related COntacts. Upon selecting the 3 dots, the User can 'Add New Related Contact'. This will open the 'New Connection Main Form'. Upon clicking into the 'Related Contact' field the User has the option to create a new contact which would open teh Related Contact Quick Create. 
 
 <br />
 

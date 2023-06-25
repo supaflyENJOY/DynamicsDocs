@@ -8,11 +8,11 @@ Coverage is the reimbursement plan that a patient is subscribed to with an insur
 
 ##  Create a Coverage  
 
-Create a new Coverage, by clicking on the 'Add New Coverage' button on the Coverages sub grid (on a Patient Contact Form), or clicking the 'New' button on the Coverages Main Grid.
+Create a new Coverage, by clicking on the 'Add New Coverage' button on the Coverages subgrid (on a Patient Contact Form), or clicking the 'New' button on the Coverages Main Grid.
 
 **Coverage Information**
 - *Status Reason* - Select ‘Active’ when creating a patient’s active coverage record. 
-- *Member* (Patient) – pre-populated as the patient whose profile you’re on when adding this record.
+- *Member* (Patient) – prepopulated as the patient whose profile you’re on when adding this record.
 - *Member ID* - Enter the Member ID as it appears on the patient’s insurance card. The member ID is transferred to the claim. It also enables you to run eligibility checks from within the Autism Care app and receive accurate responses.
 - *Relationship* - Select the option that best describes the relationship of the member/patient to the policy holder. 
 - *Policy Holder* - Select the contact record of the person that is the policy holder. If the relationship is ‘Self’; the ‘Policy Holder’ should be the patient him/herself, otherwise select one of the patient’s [related contacts](Connection.md).

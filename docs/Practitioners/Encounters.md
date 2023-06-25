@@ -5,7 +5,7 @@ title: Encounters
 # Encounters 
 Encounters are the sessions between patients and practitioners and other related contacts (family training). 
 
-The Encounters tab has 2 sub grid. 1 sub grid lists all the recurring encounters related to this Practitioner and the other sub grid lists all the single or occurring encounters related to this Practitioner.
+The Encounters tab has 2 subgrid. 1 subgrid lists all the recurring encounters related to this Practitioner and the other subgrid lists all the single or occurring encounters related to this Practitioner.
 
 **Recurring Encounters** - encounters that are set to repeat on a recurring schedule, either daily, weekly, or monthly. Each recurring encounter consists of multiple encounter occurrences – which are the individual encounters.
 - The default view for the Recurring Encounters sub-grid is ‘Current Recurring Encounters’ and it displays all recurring encounters that still have encounter occurrences scheduled in the future. 
@@ -16,4 +16,4 @@ The Encounters tab has 2 sub grid. 1 sub grid lists all the recurring encounters
 - [Read more about Single Encounters](/docs/Scheduling/SingleEncounters). 
 
 ## Create an Encounter 
-To create a new Encounter, click on the New Recurring Encounter or New Single Encounter button on the sub grid. This will open up the New Encounter Main Form.
+To create a new Encounter, click on the New Recurring Encounter or New Single Encounter button on the subgrid. This will open up the New Encounter Main Form.
