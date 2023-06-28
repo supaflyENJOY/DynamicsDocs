@@ -10,3 +10,5 @@ Claim Settings are configured on multiple levels to ensure Claims are generated 
 Set up organization level [Claim Settings on Business Units](../AdminSetup/BusinessUnit.md/#claim-settings).
 
 Set up payer level [Claim Settings on Accounts](../AdminSetup/Account.md/#claim-settings).
+
+Set up authorization level [Claim Settings on Authorizations](../Patients/Authorization.md/#claim-settings).

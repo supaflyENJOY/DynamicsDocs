@@ -20,10 +20,13 @@ To create a new Authorization, click on the 'Add New Authorization' button on th
 - *Period End Date* - enter the end date that the authorization is valid until. The End Date is prepopulated to 6 months after the Start Date. 
 - *Practitioner* - select the practitioner on the authorization.
 
-Once the authorization is saved, authorization services can be added.
+Once the Authorization is saved, [Authorization Services](../Patients/AuthorizationServices.md) can be added. 
 
-**Claim Settings** - This section displays fields related to billing Claims.
-- *Rendering Provider* - This field determines who should be used as the Rendering Provider for billing. Every Payer has their rules about which provider should be on the Claim Line as the Rendering Provider. Some Payers require that only a properly credentialed provider (the one that is on top of the case) should be entered as the Rendering Provider. Other Payers require that the provider that actually rendered the services during the Encounter be entered. Since the Rendering Provider is Payer based, the Account Main Form has a field to determine where to pull the Rendering Provider from. Because it is possible to have exceptions, there is a field on the Authorization and Authorization Service as well to override the Account or Authorization setting. We have 2 options for the Rendering Provider: 
+## Claim Settings
+
+This section displays fields related to billing Claims.
+
+- *Rendering Provider* - This field determines who should be used as the Rendering Provider for billing. Some Payers require that only a properly credentialed provider (the one that is on top of the case) should be entered as the Rendering Provider. Other Payers require that the provider that actually rendered the services during the Encounter be entered. Since the Rendering Provider is Payer based, the Account Main Form has a field to determine where to pull the Rendering Provider from (see [Payer Claim Settings](../AdminSetup/Account.md/#claim-settings)). Because it is possible to have exceptions, there is a field on the Authorization and Authorization Service as well to override the Account or Authorization setting. We have 2 options for the Rendering Provider: 
     1. Practitioner on Authorization 
     2. Practitioner on Encounter Service
 - *Account Rendering Provider* - This field displays the Rendering Provider field from the Account Main Form, this way it is easy to see what the setting is on the Account. 
@@ -35,12 +38,6 @@ Once the authorization is saved, authorization services can be added.
 - *Billing Provider on Claim* - If the Billing Provider field is set to 'Select New Practitioner', this field displays the Billing Provider on Claim field. Any Practitioner can be selected as the Billing Provider. 
 
 Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.        
-
-**Timeline**
-
-**Authorization Services** - This subgrid displays all the Authorization Services on this Authorization. [Read more about Authorization Services](AuthorizationServices.md). 
-
-Name -  The Authorization Name is "Auth" followed by the Patient Full Name then the Period Start Date and Period End Date. For example, Auth John Smith 01/02/2021-02/03/2021. The Name is set when the Authorization is created and when the Date fields or Patient field is updated.
 
 ## Search Authorizations
 
