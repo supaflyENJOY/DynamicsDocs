@@ -19,10 +19,6 @@ Business units are organizational units within your organization. For example, a
 - *Primary Taxonomy Code* 
 - *Grace Period Days* 
 
-**Current Business Unit Fee Schedules**
-
-**Users**
-
 ## Claim Settings
 
 **Billing Provider Information**

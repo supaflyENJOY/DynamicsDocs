@@ -40,3 +40,6 @@ These are the qualification requirements for each service. Once they are set up 
 
 Each required qualification should be added individually. If a required qualification can be interchanged with another qualification, they can be added as one required qualification and the system will validate that the practitioner has either one of the qualifications selected. 
 
+## Insurance Plan Fee Schedules
+
+To create fee schedules specific to an insurance plan (which will override any [business unit fee schedules](../AdminSetup/FeeSchedules.md) for that service code), go to Related > Insurance Plan Fee Schedules on the Insurance Plan, and create a new Insurance Plan Fee Schedule.

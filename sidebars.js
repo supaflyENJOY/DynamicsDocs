@@ -5,9 +5,10 @@ module.exports = {
       'Overview/Dynamics365',
       'Overview/ViewsDashboards'
      ],
-    'Admin Setup': [
+    'Setup': [
     'AdminSetup/Account', 
    'AdminSetup/BusinessUnit',
+   'AdminSetup/FeeSchedules',
  //   'AdminSetup/GoalBankLibrary',
     'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',

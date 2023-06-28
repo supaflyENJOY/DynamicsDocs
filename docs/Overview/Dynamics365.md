@@ -18,5 +18,5 @@ The entity's **fields** display on the form. There are multiple types of fields:
     - These fields are blue and can be clicked on to open the related record (Ctrl + Click to open the record in a new tab).
 4. Optionset
 
-Records of one entity can be related to another record of another entity. Forms in Autism Care include tabs for easy access to related entities (e.g., the Care Team Assignment form has a tab for Related Encounters).
+Records of one entity can be related to another record of another entity. Forms in Autism Care include tabs for easy access to related entities (e.g., the Care Team Assignment form has a tab for Related Encounters). You can also access Related records by clicking "Related" on any form (e.g., the Related tab on the Fee Schedule Item form shows related Modifiers and Claim Items).
 
