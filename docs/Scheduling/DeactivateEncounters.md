@@ -1,6 +1,6 @@
 ---
 id: DeactivateEncounters
-title: Cancel Encounter
+title: Cancel Encounters
 ---
 # Cancel Encounters
 
@@ -26,7 +26,7 @@ You can deactivate encounters, related encounter services, and related encounter
 <img src ="/img/SelectToDeactivate.png" width="500" height="200"/>
 
 
-2.  Upon selecting encounters to be deactivated - click the deactivate button on the ribbon.
+2.  Upon selecting encounters to be deactivated - click 'Deactivate' on the ribbon.
 
 <img src ="/img/ca0f52fd-b9c0-47e5-87ed-9b5e2a8b1739_image.png" width="500" height="200"/>
 
@@ -35,7 +35,7 @@ You can deactivate encounters, related encounter services, and related encounter
 <img src ="/img/399c27bd-f552-4bb9-9433-5ec75c60271e_image.png" width="500" height="200"/>
 
 4.  All related records(Encounter, Encounter Services, Encounter Participant) will be deactivated
-A single encounter can also be deactivated from the main form by clicking "Deactivate" on the form's ribbon.
+A single encounter can also be deactivated from the main form by clicking 'Deactivate' on the form's ribbon.
 
 ### Deactivate Recurring Encounters
 

@@ -1,8 +1,8 @@
 ---
 id: BusinessUnit
-title: Business Unit
+title: Business Units
 ---
-# Business Unit
+# Business Units
 
 Business units are organizational units within your organization. For example, a company that has one Pacific location and one Atlantic location will set up 2 business units. Smaller organizations usually have one business unit for the entire organization.
 
@@ -16,8 +16,13 @@ Business units are organizational units within your organization. For example, a
     :::
 - *Rounding Rule* - determines whether a session that is exactly half of a unit (e.g. a 15 minute session, when a billable unit is 30 minutes) is rounded up to be considered a unit (which uses up an entire authorized unit out of the total authorized) or rounded down and not considered a billable unit (which means the practitioner is paid but insurance does not reimburse those minutes).
 - *Primary Biller* - a user of the system, included on the Claim for when Payers have questions regarding Claims. An email address and phone number can be configured on the user.
-- *Primary Taxonomy Code* 
-- *Grace Period Days* 
+- *Charge Period Frequency* - select whether [charge periods](../Billing/ChargePeriods.md) will be created weekly or monthly.
+- *Primary Taxonomy Code* - select the taxonomy code for this department of your organization.
+- *Grace Period Days* - enter the amount of days after a session takes place that a session can still be submitted.
+
+**Users**
+
+In the Users subgrid, you can view the members of your organizaton who have access to records in this business unit.
 
 ## Claim Settings
 
@@ -28,12 +33,4 @@ Business units are organizational units within your organization. For example, a
 
 **Billing Specifications**
 
-Fill in your organization's billing details properly to ensure Claims are submitted properly.
-
-- *NPI* 
-- *Tax ID* 
-- *Address Line 1*
-- *Address Line 2*
-- *City*
-- *State*
-- *Zip Code*
+Fill in your organization's billing details properly to ensure Claims are submitted properly. Billing details include NPI, Tax ID, and full address.

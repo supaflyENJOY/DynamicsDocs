@@ -1,8 +1,8 @@
 ---
 id: HealthcareService
-title: Healthcare Service
+title: Healthcare Services
 ---
-# Healthcare Service
+# Healthcare Services
 
 A healthcare service is a service you will be providing to your clients. This is where you’ll be setting up the friendly titles to use for various insurance service codes, so that everyone can refer to and understand service terms in the same way. 
 - *Name* – title for the service

@@ -1,14 +1,14 @@
 ---
 id: Authorization
-title: Authorization
+title: Authorizations
 ---
 
 # Authorizations 
 Authorizations are the force behind the entire scheduling and billing workflow. Each encounter is validated against an authorization, to ensure it is scheduled correctly and will be able to be billed. 
 
-##  Create an Authorization  
+## Create an Authorization  
 
-To create a new Authorization, click on the 'Add New Authorization' button on the Authorization subgrid (on a Patient Contact Form) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
+To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
 
 **Authorization Information**
 - *Patient* - prepopulated as the patient whose profile you are navigating from when entering the authorization.
@@ -33,7 +33,7 @@ This section displays fields related to billing Claims.
 - *Billing Provider* - This field determines who should be used as the Billing Provider for billing. Every Company has their rules about which provider should be on the Claim Line as the Billing Provider. Therefore, we have 3 options for the Billing Provider: (Default populated with Business Unit.)
     1. Practitioner on Authorization
     2. Business Unit
-    3. Select New Practitioner. 
+    3. Select New Practitioner
 - *Business Unit Billing Provider* - If the Billing Provider field is set to 'Business Unit', this field displays the Billing Provider field from the Business Unit Main Form.
 - *Billing Provider on Claim* - If the Billing Provider field is set to 'Select New Practitioner', this field displays the Billing Provider on Claim field. Any Practitioner can be selected as the Billing Provider. 
 

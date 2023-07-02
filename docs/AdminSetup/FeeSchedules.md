@@ -1,23 +1,23 @@
 ---
 id: FeeSchedules
-title: Fee Schedule
+title: Fee Schedules
 ---
 
 # Fee Schedules
 
 Fee schedules are price lists where you can track the Expected and Billing Rate per service in Fee Schedule Items.
 
- - *Name*
- - *Fee Schedule Number*
- - *Fee Schedule Type*
+- *Name*
+- *Fee Schedule Number*
+- *Fee Schedule Type* - choose whether this fee schedule is for Billing or Payroll.
 
- Fee schedules where Fee Schedule Type is "Billing" can be related to a [Business Unit](../AdminSetup/BusinessUnit.md) or to a specific [Insurance Plan](../AdminSetup/InsurancePlan.md).
+Fee schedules where Fee Schedule Type is 'Billing' can be related to a [Business Unit](../AdminSetup/BusinessUnit.md) or to a specific [Insurance Plan](../AdminSetup/InsurancePlan.md).
 
 ## Fee Schedule Items
- 
- - *Product/Service* - the service code being billed.
- - *Expected Amount* - the contracted rate.
- - *Billing Amount* - included on the claim as the price per unit of this service.
+
+- *Product/Service* - the service code being billed.
+- *Expected Amount* - the contracted rate.
+- *Billing Amount* - included on the claim as the price per unit of this service.
 
 Organizations can choose to bill with the contracted rate by keeping Expected and Billing Amounts the same, or leaving the Expected Amounts blank.
 
@@ -36,3 +36,10 @@ To create a modifier, go to Related > Modifiers on the Fee Schedule Item, and cr
 - *Expected Amount* - overrides the Expected Amount when this modifier is included on a claim
 
 Modifiers can be added to [encounter services](../Scheduling/SingleEncounters.md/#encounter-services) by schedulers, or to a claim it is submitted.
+
+## Payroll Fee Schedules
+
+Fee schedules where the Fee Schedule Type is Payroll are used to override a practitioner's contracted hourly rate with a specific rate per service or per patient.
+
+For example, to set a higher rate for group treatment (97154), create a fee schedule item with the higher rate as the 'Billing Amount', and populate that fee schedule on the [practitioner contract](../Payroll/Contracts.md).
+

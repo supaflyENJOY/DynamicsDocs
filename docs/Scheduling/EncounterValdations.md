@@ -1,9 +1,9 @@
 ---
 id: EncounterValidations
-title: Encounter Validation
+title: Encounter Validations
 ---
 
-# Encounter Validation
+# Encounter Validations
 
 When an Encounter Service is created, it is validated to ensure it passes a number of validation rules:
 
@@ -14,12 +14,15 @@ When an Encounter Service is created, it is validated to ensure it passes a numb
 4. The duration on the Encounter Service must be between the min/max units required from the Insurance Plan Benefit.
 5. The date of the Encounter Service must be within the Start and End date of the Authorization.
 
-- When an Encounter is Scheduled, the *Validation Status* on each of its Encounter Services is set to "Pending". 
-- While validation is running, the *Validation Status* on the Encounter Service is "Validating".
-- After validation is completed, the *Validation Status* either becomes "Passed" or "Failed".
+## Validation Statuses
+
+- When an Encounter is Scheduled, the *Validation Status* on each of its Encounter Services is set to 'Pending'. 
+- While validation is running, the *Validation Status* on the Encounter Service is 'Validating'.
+- After validation is completed, the *Validation Status* either becomes 'Passed' or 'Failed'.
 
 ## Invalid Single Encounters
-When an Encounter Service or Encounter Participant fails validation, in addition to the Validation Status being set to "failed", a red banner will be displayed at the top of the screen on the Encounter, the failed Encounter Service, and/or the failed Encounter Participant. The banner can be expanded to view the validation that failed.
+
+When an Encounter Service or Encounter Participant fails validation, in addition to the Validation Status being set to 'failed', a red banner will be displayed at the top of the screen on the Encounter, the failed Encounter Service, and/or the failed Encounter Participant. The banner can be expanded to view the validation that failed.
 
 ## Invalid Recurring Encounters
 

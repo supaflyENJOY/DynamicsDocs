@@ -1,6 +1,6 @@
 ---
 id: QualificationDefinition
-title: Qualification Definition
+title: Qualification Definitions
 ---
 
 ## Qualification Codes

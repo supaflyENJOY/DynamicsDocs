@@ -1,6 +1,6 @@
 ---
 id: Coverages
-title: Coverage
+title: Coverages
 ---
 
 # Coverages 
@@ -8,7 +8,7 @@ Coverage is the reimbursement plan that a patient is subscribed to with an insur
 
 ##  Create a Coverage  
 
-Create a new Coverage, by clicking on the 'Add New Coverage' button on the Coverages subgrid (on a Patient Contact Form), or clicking the 'New' button on the Coverages Main Grid.
+Create a new Coverage, by clicking 'New Coverage' on the Coverages subgrid (on a Patient Contact Form), or clicking the 'New' button on the Coverages Main Grid.
 
 **Coverage Information**
 - *Status Reason* - Select ‘Active’ when creating a patient’s active coverage record. 

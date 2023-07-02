@@ -1,6 +1,6 @@
 ---
 id: Connection
-title: Connection
+title: Connections
 ---
 
 # Connection 
@@ -8,7 +8,7 @@ A connection record specifies the relationship between 2 other records (e.g. a R
 
 ## Create a Connection
 
-A new connection record can be created from a Patient Contact record. The Profile Info tab has a section called 'Related Contacts'. Clicking on the 3 dots on the Related Contacts subgrid, displays a few options. Upon clicking the 'Add New Related Contact' button, the Connection Main Form opens.
+A new connection record can be created from a Patient Contact record. The Profile Info tab has a section called 'Related Contacts'. Clicking on the 3 dots on the Related Contacts subgrid, displays a few options. Upon clicking 'New Related Contact', the Connection Main Form opens.
 
 **Connect From**
 - *Patient*: Upon creating a Connection from the Related Contacts subgrid on a Patient Contact Form, this field is populated with the Patient navigating from and cannot be changed. 

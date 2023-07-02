@@ -1,6 +1,6 @@
 ---
 id: Conditions
-title: Condition
+title: Conditions
 ---
 
 # Conditions 
@@ -8,7 +8,7 @@ A Condition record stores a patient's diagnosis information. The condition will 
 
 ## Create a Condition
 
-To create a new Condition, click on the 'Add New Condition' button on the Conditions subgrid (on a Patient Contact Form). This will open up the New Condition Quick Create Form.
+To create a new Condition, click 'New Condition' on the Conditions subgrid (on a Patient Contact Form). This will open up the New Condition Quick Create Form.
 
 **Condition Information**
 - *Patient* - prepopulated as the patient whose profile you’re on when adding this record.

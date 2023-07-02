@@ -1,15 +1,15 @@
 ---
 id: Location
-title: Location
+title: Locations
 ---
 
-# Location 
+# Locations
 Locations are for tracking any addresses relevant to your organization, such as offices, schools, patient billing addresses, and more. 
 
 ## Create a Location
 
 A new Location record can be created from a few places. 
-1. Clinical Area - When on a [Patient](Patients/Overview.md) Contact record, the Profile Info tab has a section called 'Patient Addresses'. Clicking on the 3 dots on the Patient Addresses subgrid, displays a few options. Upon clicking the 'Add New Location' button, the Location Main Form opens.
+1. Clinical Area - When on a [Patient](Patients/Overview.md) Contact record, the Profile Info tab has a section called 'Patient Addresses'. Clicking on the 3 dots on the Patient Addresses subgrid, displays a few options. Upon clicking 'New Location', the Location Main Form opens.
 2. Setup Area - The setup area has a group called 'Services Setup' with Locations listed. Upon clicking 'Locations', the Location Main Form opens.
 
 - **Address Information** - The 'Address Information' section contains the basic information to differenciate locations. This section has the following fields. 

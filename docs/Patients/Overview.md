@@ -3,16 +3,17 @@ id: PatientOverview
 title: Overview
 ---
 
-# Patient
+# Patients
 
-A Patient refers to the client or learner who is served by an ABA Provider. The Patient profile is where all of a patient’s information is tracked, managed and viewed. Although some of these records or fields will really be populated for the first time during the intake process - through CRM – they will be further handled and updated here.
+A Patient refers to the client or learner who is serviced by an ABA Provider. The patient profile is where all of a patient’s information is tracked, managed and viewed.
 
 ## Create a Patient Contact
 
-There are 2 Contact Main Forms. The "Contact Type" fied in the header sets the form as either Patient, Practitioner, or Related Person.
+There are 2 Contact Main Forms. The 'Contact Type' fied in the header sets the form as either Patient, Practitioner, or Related Person.
 
-The Contact Main Form for a Patient is divided into multiple tabs for an organized view of the complete Patient record.
-- The **Profile Info** tab is for general Patient Information, usually collected upon intake. This tab is divided into a few sections:
+The Contact Main Form for a Patient is divided into multiple tabs for an organized view of the complete patient record.
+
+- The **Profile Info** tab is for general patient information, usually collected upon intake. This tab is divided into a few sections:
     - *General Information* - Enter the patient’s legal name in the First Name/Last Name fields, and the name they are called in the Known As field. Date of birth and gender are tracked here as well.
     - *Patient Addresses* - These are the locations this patient will be serviced at, and/or an address for mail communications. Addresses listed here should be specific to the patient whose profile it is added to; locations such as the organization’s office or a school would be added as a general service location in the Setup area. [Read more about addresses](AdminSetup/Location.md). 
     - *Related Contacts* - This is a list of any people that you are in contact with regarding the patient – parent/s, other guardian, school personnel, etc. The Patient's primary contacts display first. [Read more about how to connect the Patient to other Contacts](Connection.md).
@@ -23,29 +24,25 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
     - *Documents* - This section is for uploading and accessing Patient documents, such as assessment reports, diagnoses, or consent forms.
     - *Timeline* - This is a running timeline of any communications or interactions with or regarding the patient. Emails, phone calls, encounters, tasks, and notes related to this patient are all tracked here. You can also initiate emails, phone calls, and tasks directly from the timeline, and the details will be automatically populated. Click the ‘+’ button to add a communication log to the timeline.
 
-        
-- The **Medical Info** tab is for information regarding the Patient's diagnosis and treatment. This tab is didvided into 2 subgrids:
-    - *Conditions* - The left subgrid displays the conditions diagnosised to the Patient. The conditions added here are included on the claims created for this patient. [Read more about conditions](Conditions.md).
+- The **Medical Info** tab is for information regarding the patient's diagnosis and treatment. This tab is didvided into 2 subgrids:
+    - *Conditions* - The left subgrid displays the conditions diagnosised to the patient. The conditions added here are included on the claims created for this patient. [Read more about conditions](Conditions.md).
         - Current Conditions - This view only displays the current conditions of a patient. Once the Historical As Of date is populated, the condition is no longer current. 
         - All Conditions - This views displays all the conditions except where the Verification Status is entered in error.
-    - *Episode of Care* - The right subgrid displays the episodes of care. A Patient with an Active Episode of Care cannot be deactivated. [Read more about Episodes of Care](EpisodeOfCare.md).
+    - *Episode of Care* - The right subgrid displays the episodes of care. A patient with an active episode of care cannot be deactivated. [Read more about Episodes of Care](EpisodeOfCare.md).
 
-- The **Coverage & Auth** tab is for information regarding the Patient's insurance coverage and authorizations. This tab is divided into 2 sub grids:
+- The **Coverage & Auth** tab is for information regarding the patient's insurance coverage and authorizations. This tab is divided into 2 sub grids:
     - *Coverages* - The top sugrid displays the coverage records from the insurance company. Coverage records are necessary in order to schedule Encounters. [Read more about Coverages](Coverages.md).
     - *Authorizations* - The bottom subgrid displays the authorizations receieved from insurance. The authorization includes the coverage record as well as other information needed before scheduling an Encounter. [Read more about Authorizations](Authorization.md).
+
 - The **Care Team** tab is for tracking the practitioners who are servicing the Patient. This tab is divided into 2 sub grids:
-    - *Care Team Participants* - The left subgrid displays Care team Participants. Care Team Participants track Practitioners who are servicing/have serviced this Patient. [Read more about Care Team Participants](CareTeamParticipants.md).
-    - *Care Team Assignments* - The right subgrid displays the Care Team Assignments. Care Team Assignments track Practitioners who are assigned a utilization of hours for a certain authorization service with the Patient. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
+    - *Care Team Participants* - The left subgrid displays Care Team Participants. Care team participants track practitioners who are servicing/have serviced this patient. [Read more about Care Team Participants](CareTeamParticipants.md).
+    - *Care Team Assignments* - The right subgrid displays the Care Team Assignments. Care team assignments track practitioners who are assigned a utilization of hours for a certain authorization service with the patient. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
 
-- The **Encounters** tab lists the scheduled encounters for the Patient. This tab is divided into 2 sub grids: [Read more about Encounters](../Scheduling/SingleEncounters).
-    - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. 
-        - All Recurring Encounters - This view displays Recurring Encounters. An Encounter is 'recurring' if the Schedule Type is 'Recurring Encounter'. 
-        - Current Recurring Encounters - This view displays Recurring Encounters with related Encounter Occurences with the Status of Active. 
-    - *Single Encounters* - This displays individual encounters (encounter occurrences). There are 2 views which display the following columns: Practitioners, Schedule Type, Start Date/Time, Duration, End Date/Time, Location, Service and Status Reason. 
-        - All Enounters - This displays all Encounters where the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
-        - Upcoming Encounters - This displays all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
+- The **Encounters** tab lists the scheduled encounters for the patient. This tab is divided into 2 sub grids: 
+    - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. [Read more about Recurring Encounters](../Scheduling/RecurringEncounters.md).
+    - *Single Encounters* - The bottom subgrid displays individual encounters (encounter occurrences). [Read more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
 
-- The **Calendar** tab displays the Patient's calendar of Encounter Services scheduled for them. [Read more about Calendars](Calendar.md).
+- The **Calendar** tab displays the patient's calendar of encounter services scheduled for them. [Read more about the patient's Calendar](Calendar.md).
 
 ## Searching Contacts
 

@@ -1,6 +1,6 @@
 ---
 id: Qualifications
-title: Qualification
+title: Qualifications
 ---
 # Qualifications
 
@@ -8,7 +8,7 @@ The Qualifcations subgrid displays the Qualification Name, Certification Date, E
 
 ## Create a Practitioner Qualification 
 
-To create a new Practitioner Qualification, click on the 'New Practitioner Qualification' button. This will open up the New Practitioner Qualification Quick Create Form.
+To create a new Practitioner Qualification, click 'New Practitioner Qualification'. This will open up the New Practitioner Qualification Quick Create Form.
 Upon clicking on an existing record in the subgrid, the record displays in pop out mode. The Practitioner field and the Qualification field are locked. 
 Upon clicking the 'New' button, the Practitioner Qualification Main Form opens. 
 
@@ -23,9 +23,6 @@ Upon clicking the 'New' button, the Practitioner Qualification Main Form opens.
 
  <img src ="/img/pqQuickCreate.jpg" width="400"/>
 
-Practitioner Qualification Name - The Practitioner Qualification Name is populated as the Practitioner Name, the Qualification and the Expiration Date separated by a '-'. Before the expiration date, the word 'Exp' is added. 
-
-<img src ="/img/PractitionerQualificationName.jpg" width="300"/>
 
 ## Qualifications on Insurance Plan Benefits
 

@@ -1,14 +1,14 @@
 ---
 id: InsurancePlan
-title: Insurance Plan
+title: Insurance Plans
 ---
-# Insurance Plan
+# Insurance Plans
 Insurance Plans are the various options each insurance provider offers. Add one insurance plan for each of the different plans that you will be accepting for that payer. These same plans will be used to track your patients’ coverage records.
 - *Payer* – The payer of this payer.
 - *Name* – The plan name.
 Once the Insurance Plan record is saved, you can add Insurance Plan Benefits.
 
-## Insurance Plan Benefits{#InsurancePlanBenefits}
+## Insurance Plan Benefits
 For each insurance plan, add insurance plan benefits, which define the payer's requirements that need to be met to receieve the benefits of the insurance plan. Insurance plan benefits control how encounters can be scheduled, serviced, and billed. 
 The following fields should be set on an Insurance Plan Benefit:
 - *Insurance Plan* – Select the Insurance Plan that this Insurance Plan Benefit belongs to.

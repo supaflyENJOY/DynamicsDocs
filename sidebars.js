@@ -3,17 +3,17 @@ module.exports = {
     'Getting Started': [
       'Overview/Welcome',
       'Overview/Dynamics365',
-      'Overview/ViewsDashboards'
+      'Overview/ViewsCharts'
      ],
     'Setup': [
     'AdminSetup/Account', 
-   'AdminSetup/BusinessUnit',
-   'AdminSetup/FeeSchedules',
- //   'AdminSetup/GoalBankLibrary',
     'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',
+   'AdminSetup/BusinessUnit',
+   'AdminSetup/FeeSchedules',
     'AdminSetup/Location',
     'AdminSetup/QualificationDefinition',
+    'AdminSetup/GoalBankLibrary',
   ],
   // 'Clinical Setup':[
   //   'ClinicalSetup/Coverage',
@@ -42,7 +42,6 @@ module.exports = {
     //'Practitioners/CareTeamAssignment',
    // 'Practitioners/PractitionerEncounters',
     'Practitioners/PractitionerCalendar',
-
    ],
  'Scheduling':[
   'Scheduling/SingleEncounters',
@@ -54,15 +53,20 @@ module.exports = {
   'Scheduling/Utilization',
  ],
  'Billing':[
+  'Billing/BillingSetup',
+  'Billing/ChargePeriods',
   'Billing/ClaimSettings',
-  'Billing/ChargeItems',
+  'Billing/ClaimItems',
+  'Billing/Claims',
+  'Billing/Remits',
  ],
  'Payroll':[
+  'Payroll/Contracts',
   'Payroll/PayrollItems',
  ],
- 'CRM':[
-  'CRM/Lead',
-  'CRM/Opportunity',
- ],
+//  'CRM':[
+//   'CRM/Lead',
+//   'CRM/Opportunity',
+//  ],
   },
 };

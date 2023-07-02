@@ -1,4 +1,4 @@
 ---
 id: Opportunity
-title: Opportunity
+title: Opportunities
 ---

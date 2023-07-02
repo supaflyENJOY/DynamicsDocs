@@ -18,7 +18,7 @@ The subgrid displays the Patient Name, Authorization Service, Amount of Hours, F
 
 ## Create a Care Team Assignment
 
-To create a new Care Team Assignments, click on the 'Add New Care Team Assignments' button on the subgrid. This will open up the New Care Team Assignments Quick Create Form.
+To create a new Care Team Assignments, click 'New Care Team Assignments' on the subgrid. This will open up the New Care Team Assignments Quick Create Form.
 
 **Care Team Assignment Information**
 - *Patient* - This field is filtered to look up Patient records. After populating the Patient field, the field is locked.  
@@ -36,5 +36,3 @@ To create a new Care Team Assignments, click on the 'Add New Care Team Assignmen
 - *Practitioner* - This field is filtered to look up Practitioner records. Upon navigating from a Practitioner record, this field is hidden and is populated with the Practitioner. Once populated, this field is locked. 
 - *Practitioner Role* - This field is filtered to display [Practitioner Roles](PractitionerRoles.md) related to the Practitioner. 
   - If a Practitioner Role is found with a Start Date (Practitioner Role) before the Period Start Date (Care Team Assignment) and the End Date (Practitioner Role) is null or after the Period End Date (Care Team Assignment), this field is prepopulated with the Practitioner Role record related to the Practitioner.
-
-Care Team Assignment Name - The Care Team Assignment Name is populated as the Patient Name, the Practitioner Name, Service, Period Start Date and the Period End Date separated by a '-'. The Service is pulled from the related Insurance Plan Benefit. Example: 'Alice Smith - John Doe - Direct Care - 5/17/2022 - 11/17/2022'.

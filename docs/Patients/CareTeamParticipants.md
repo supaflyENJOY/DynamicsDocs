@@ -1,9 +1,9 @@
 ---
 id: CareTeamParticipants
-title: Care Team Participant
+title: Care Team Participants
 ---
 
-# Care Team Participant
+# Care Team Participants
 The Care Team Participants section displays a list of all practitioners that are currently servicing the patient. These practitioners have access to view (and for BCBA's to edit) the patient’s care plan, as well as conduct sessions – between the start and end date of the care team participant record. 
 
 ##  Auto-created Care Team Participants 
@@ -18,7 +18,7 @@ A care team participant record can be edited – for example, if the dates need 
 
 ## Create a Care Team Participant  
 
-To create a new Care Team Participant, click on the 'Add New Care Team Participant' button on the Care Team Participants subgrid (on a Patient Contact Form) to open the Care Team Participants Main Form.
+To create a new Care Team Participant, click  'New Care Team Participant' on the Care Team Participants subgrid (on a Patient Contact Form) to open the Care Team Participants Main Form.
 
 - *Patient* - prepopulated when navigating from a Patient Contact record.
 - *Care Team* - prepopulated when navigating from a Patient Contact record.
