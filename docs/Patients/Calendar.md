@@ -4,13 +4,13 @@ title: Calendar
 ---
 # Calendar
 
-The Calendar tab displays a calendar with the Patient's schedule.   
+The Calendar tab displays a calendar with the patient's schedule.   
 
-The Calendar displays all the Sessions scheduled for this Patient. There are 3 views - Day, Week or Month. When on the Day view, you can select which day you would like to view. When on the Week view, you can select which week you would like to view. When on the Month view, you can select which Month you would like to view.
+The calendar displays all the Sessions scheduled for this patient. You can view the calendar by day, week or month.
 
-When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. 
+When looking at the calendar, the Session displays the service that will be provided and the patient's name. Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
 
-By clicking on 'more details' on the popout, you will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
+By clicking on 'more details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'delete' on the popout, the session will be deleted.
 
 ## Set Patient Availability
 

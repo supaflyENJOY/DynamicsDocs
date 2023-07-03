@@ -1,4 +1,4 @@
 ---
 id: Lead
-title: Lead
+title: Leads
 ---

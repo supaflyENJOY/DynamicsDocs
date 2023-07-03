@@ -3,16 +3,17 @@ module.exports = {
     'Getting Started': [
       'Overview/Welcome',
       'Overview/Dynamics365',
-      'Overview/ViewsDashboards'
+      'Overview/ViewsCharts'
      ],
-    'Admin Setup': [
+    'Setup': [
     'AdminSetup/Account', 
-    'AdminSetup/BusinessUnit',
- //   'AdminSetup/GoalBankLibrary',
     'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',
+   'AdminSetup/BusinessUnit',
+   'AdminSetup/FeeSchedules',
     'AdminSetup/Location',
     'AdminSetup/QualificationDefinition',
+    'AdminSetup/GoalBankLibrary',
   ],
   // 'Clinical Setup':[
   //   'ClinicalSetup/Coverage',
@@ -41,26 +42,32 @@ module.exports = {
     //'Practitioners/CareTeamAssignment',
    // 'Practitioners/PractitionerEncounters',
     'Practitioners/PractitionerCalendar',
-
    ],
  'Scheduling':[
-  'Scheduling/CareTeamAssignments',
-  'Scheduling/ScheduleAssistance',
   'Scheduling/SingleEncounters',
   'Scheduling/RecurringEncounters',
+  'Scheduling/ScheduleAssistance',
+  'Scheduling/CareTeamAssignments',
   'Scheduling/EncounterValidations',
   'Scheduling/DeactivateEncounters',
+  'Scheduling/Utilization',
  ],
-//  'Billing':[
-//   'Billing/ChargeItems',
-//  ],
-//  'Payroll':[
-//   'Payroll/PayrollItems',
-//  ],
+ 'Billing':[
+  'Billing/BillingSetup',
+  'Billing/ChargePeriods',
+  'Billing/ClaimSettings',
+  'Billing/ClaimItems',
+  'Billing/Claims',
+  'Billing/Transactions',
+  'Billing/Remits',
+ ],
+ 'Payroll':[
+  'Payroll/Contracts',
+  'Payroll/PayrollItems',
+ ],
 //  'CRM':[
 //   'CRM/Lead',
 //   'CRM/Opportunity',
 //  ],
-
   },
 };

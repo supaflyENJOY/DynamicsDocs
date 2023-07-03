@@ -4,15 +4,15 @@ title: Calendar
 ---
 # Calendar
 
-The Calendar tab displays a calendar with the Practitioners schedule.   
+The Calendar tab displays a calendar with the practitioner's schedule.   
 
-The Calendar displays all the Sessions scheduled for this Practitioner. There are 3 views - Day, Week or Month. When on the Day view, you can select which day you would like to view. When on the Week view, you can select which week you would like to view. When on the Month view, you can select which Month you would like to view.
+The calendar displays all the sessions scheduled for this Practitioner. You can view the calendar by day, week or month.
 
 <img src ="/img/dayWeekMonth.jpg" width="500" height="200"/>
 
-When looking at the calendar, the Session displays the Service that will be provided and the Patient's Name. Upon clicking on the Session in the Calendar, a popout displays the exact time and duration of the session scheduled. 
+When looking at the calendar, the Ssssion displays the service that will be provided and the patient's name. Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
 
-By clicking on 'more details' on the popout, you will be navigated to the Encounter Service. By clicking on 'delete' on the popout, the Session will be deleted.
+By clicking on 'more details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'delete' on the popout, the session will be deleted.
 
 <img src ="/img/calendarPopout.jpg" width="400" height="200"/>
 
@@ -41,11 +41,10 @@ To add the hours when a Practitioners works to the calendar, click 'new'. This w
 Upon clicking 'Working hours', a form will open on the side of the screen. 
 - *All Day* - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
      - By default the toggle is off and you can enter a date.
-
-     <img src ="/img/allDay.jpg" width="350" height="400"/>
      - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is working all day.
 
-     <img src ="/img/allDayOn.jpg" width="400" height="400"/>  <br />
+     <img src ="/img/allDayOn.jpg" width="275"/> 
+
 - *Capacity* - This is a toggle. 
      - By default the toggle is off.
      - Upon switching the toggle to on, the capacity field displays next to the time/date range. Then you can set a capacity limit if a Practitioner can only work with a limited amount of Patients. 
@@ -60,7 +59,7 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
           - Upon selecting 'Custom', you can select day(s) and set a time for every day that these work hours should repeat.
           - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.
 
-          <img src ="/img/customWorkHours.jpg" width="375" height="550"/>
+          <img src ="/img/customWorkHours.jpg" width="300"/>
 - *Time*
      - If the 'All Day' toggle is off, the 'Time' field displays. 
      - Upon clicking on the 3 dots next to the time, you can add a break to the work hours. 
@@ -70,17 +69,18 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
 - Upon clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours.
      - More then 1 break can be added.
 
-<img src ="/img/breakHours.jpg" width="430" height="550"/>
+     <img src ="/img/breakHours.jpg" width="300"/>
 
 ### Add Split to Working Hours
 - When the Capacity toggle is on, you can add a 'split' to their day.
 
-<img src ="/img/addSplit.jpg" width="400"/> 
+     <img src ="/img/addSplit.jpg" width="300"/> 
 
 - Upon clicking 'Add split', the system will split the work hours into two. You can edit the time range by editing the start and end time of the work hours.
   - More then 1 split can be added.
   - The end time of the 1st split will be the start time of the 2nd split.
-<img src ="/img/split&Break.jpg" width="500"/> <br />
+
+     <img src ="/img/split&Break.jpg" width="300"/> <br />
 
 
 ### Add Non-working Hours
@@ -98,7 +98,7 @@ To add the hours when a Practitioners does not works to the calendar, click 'new
 - *Time* - If the 'All Day' toggle is off, the 'Time' field displays. 
 - *Time Zone*
 
-<img src ="/img/nonWorkingHours.jpg" width="500"/>
+     <img src ="/img/nonWorkingHours.jpg" width="300"/>
 
 ### Time off
  
@@ -113,11 +113,8 @@ To add the hours when a Practitioners is taking off to the calendar, click 'new'
      - When the 'All Day' toggle is off, 1 Date field displays.
      - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range.
 - *Reason*
-
-<img src ="/img/reason.jpg" width="500"/>
-
 - *Time*
      - If the 'All Day' toggle is off, the 'Time' field displays. 
 - *Time Zone*
 
-<img src ="/img/timeOff.jpg" width="500"/>
+     <img src ="/img/timeOff.jpg" width="250"/>

@@ -1,8 +1,8 @@
 ---
 id: InsurancePlan
-title: Insurance Plan
+title: Insurance Plans
 ---
-# Insurance Plan
+# Insurance Plans
 Insurance Plans are the various options each insurance provider offers. Add one insurance plan for each of the different plans that you will be accepting for that payer. These same plans will be used to track your patients’ coverage records.
 - *Payer* – The payer of this payer.
 - *Name* – The plan name.
@@ -25,9 +25,9 @@ The Service here will control the behavior of the session in the Note app, for e
 Once the Insurance Plan Benefit record is saved, the Required Qualifications can be added.
 
 ### Healthcare Units
-These records define the number of minutes in one unit of service. These records differentiate between a service that is billed in 15 minute increments, versus one that is billed in 1 hour increments.
+These records define the number of minutes in one unit of service. These records differentiate between a service that is billed in 15 minute increments, versus one that is billed in 1 hour increments, etc.
+
 Upon installation of the Autism Care app, 4 Healthcare Service records are included – 1 Minute, 15 minutes, 30 minutes and 1 Hour. 
-If any additional denominations are needed, please reach out to your customer success lead or support for assistance. 
 
 ### Product Codes
 This is the list of products – service codes – that you will be providing to your clients. These will be carried over to your claims when you bill insurance payers. (Most fields should have the same value, they will be referenced to from different records within the app.)
@@ -35,8 +35,11 @@ This is the list of products – service codes – that you will be providing to
 - Code - Service code
 - System - https://schemas.chorus.cloud/usclscodes/autismcare
 
-## Required Qualifications
+## Required Qualifications{#RequiredQualifications}
 These are the qualification requirements for each service. Once they are set up here, the system will validate that any time an encounter is scheduled for this service – the practitioner on the encounter has the required credentials and they are not expired. 
 
 Each required qualification should be added individually. If a required qualification can be interchanged with another qualification, they can be added as one required qualification and the system will validate that the practitioner has either one of the qualifications selected. 
 
+## Insurance Plan Fee Schedules
+
+To create fee schedules specific to an insurance plan (which will override any [business unit fee schedules](../AdminSetup/FeeSchedules.md) for that service code), go to Related > Insurance Plan Fee Schedules on the Insurance Plan, and create a new Insurance Plan Fee Schedule.
