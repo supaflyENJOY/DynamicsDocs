@@ -5,9 +5,11 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #4F87C4, #69469D);
+  height: calc(100vh - calc(2 * var(--ifm-navbar-height)));
 }
 
 @media screen and (max-width: 996px) {
@@ -18,6 +20,6 @@
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }

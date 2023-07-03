@@ -58,6 +58,7 @@ module.exports = {
   'Billing/ClaimSettings',
   'Billing/ClaimItems',
   'Billing/Claims',
+  'Billing/Transactions',
   'Billing/Remits',
  ],
  'Payroll':[

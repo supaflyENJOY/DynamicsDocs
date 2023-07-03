@@ -34,26 +34,25 @@ This setting can be adjusted in Advanced Settings.
 :::
 >1.	Click on the ‘Settings’ icon in the app, then Advanced Settings on the drop-down menu. 
 >
-> <img src ='/img/Settings-AdvancedSettings.png' width='400'/> 
+>    <img src ='/img/Settings-AdvancedSettings.png' width='400'/> 
 >
-> You will be redirected to a new tab, displaying business management settings. 
+>   You will be redirected to a new tab, displaying business management settings. 
 >
 >2.	Click on the drop-down button next to ‘Settings’ to display the settings sub-menu. Then click >>‘Administration’ in the ‘System’ group. 
 >
-><img src ='/img/AdvancedSettings-Administration.png' width='400'/> 
+>   <img src ='/img/AdvancedSettings-Administration.png' width='400'/> 
 >
->The system administration settings will appear on the screen. 
+>   The system administration settings will appear on the screen. 
 >
 >3.	Click ‘System Settings’. 
 >
-> <img src ='/img/Administration-SystemSettings.png' width='400'/> 
+>    <img src ='/img/Administration-SystemSettings.png' width='400'/> 
 >
 >4.	On the ‘System Settings’ dialog box that opens, navigate to the ‘Formats’ tab, and click on ‘Customize’.
 >
->
-><img src ='/img/System-SettingsFormats-Customize.png' width='400'/> 
+>   <img src ='/img/System-SettingsFormats-Customize.png' width='400'/> 
 >
 >5.	The ‘Customize Regional Options’ dialog box will appear. Navigate to the ‘Date’ tab where you can change the ‘First Day of the Week’ to align with your organizations first day of the week. 
 >
-><img src ='/img/CustomizeRegionalOptions.png' width='400'/> 
+>   <img src ='/img/CustomizeRegionalOptions.png' width='400'/> 
 

@@ -41,9 +41,6 @@ To add the hours when a Practitioners works to the calendar, click 'new'. This w
 Upon clicking 'Working hours', a form will open on the side of the screen. 
 - *All Day* - This is a toggle which represents if the Practitioner is working all day or if they are working a few hours a day. 
      - By default the toggle is off and you can enter a date.
-
-     <img src ="/img/allDay.jpg" width="275"/>
-
      - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is working all day.
 
      <img src ="/img/allDayOn.jpg" width="275"/> 
@@ -72,18 +69,18 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
 - Upon clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours.
      - More then 1 break can be added.
 
-<img src ="/img/breakHours.jpg" width="300"/>
+     <img src ="/img/breakHours.jpg" width="300"/>
 
 ### Add Split to Working Hours
 - When the Capacity toggle is on, you can add a 'split' to their day.
 
-<img src ="/img/addSplit.jpg" width="300"/> 
+     <img src ="/img/addSplit.jpg" width="300"/> 
 
 - Upon clicking 'Add split', the system will split the work hours into two. You can edit the time range by editing the start and end time of the work hours.
   - More then 1 split can be added.
   - The end time of the 1st split will be the start time of the 2nd split.
-  
-<img src ="/img/split&Break.jpg" width="300"/> <br />
+
+     <img src ="/img/split&Break.jpg" width="300"/> <br />
 
 
 ### Add Non-working Hours
@@ -101,7 +98,7 @@ To add the hours when a Practitioners does not works to the calendar, click 'new
 - *Time* - If the 'All Day' toggle is off, the 'Time' field displays. 
 - *Time Zone*
 
-<img src ="/img/nonWorkingHours.jpg" width="300"/>
+     <img src ="/img/nonWorkingHours.jpg" width="300"/>
 
 ### Time off
  
@@ -116,11 +113,8 @@ To add the hours when a Practitioners is taking off to the calendar, click 'new'
      - When the 'All Day' toggle is off, 1 Date field displays.
      - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range.
 - *Reason*
-
-<img src ="/img/reason.jpg" width="300"/>
-
 - *Time*
      - If the 'All Day' toggle is off, the 'Time' field displays. 
 - *Time Zone*
 
-<img src ="/img/timeOff.jpg" width="300"/>
+     <img src ="/img/timeOff.jpg" width="250"/>

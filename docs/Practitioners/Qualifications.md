@@ -21,8 +21,6 @@ Upon clicking the 'New' button, the Practitioner Qualification Main Form opens.
 - *Expiration Date*
 - *Qualification Number*
 
- <img src ="/img/pqQuickCreate.jpg" width="400"/>
-
 
 ## Qualifications on Insurance Plan Benefits
 
