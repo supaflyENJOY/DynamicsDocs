@@ -20,6 +20,7 @@ To create a new Episode Of Care, click 'New Episode Of Care' on the Episode Of C
 - *Patient*- The Patient field is prepopulated with the Patient you are navigating from, and cannot be edited.
 - *Period Start Date* - The Period Start Date cannot be after the Period End Date. 
 - *Period End Date*
+- *Referring Provider* - The Contact who referred the patient for services.
 
 ## Episode Of Care Validation
 

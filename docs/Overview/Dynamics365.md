@@ -3,7 +3,7 @@ id: Dynamics365
 title: Dynamics 365
 ---
 
-Our apps are built on Dynamics 365, which enables us to customize a secure and stable software around your orgnaization's needs, with full integration to the Microsoft Power Platform (Power Apps, Power BI, Microsoft Office, etc.).
+Our apps are built on Dynamics 365, which enables us to customize a secure and stable software around your organization's needs, with full integration to the Microsoft Power Platform (Power Apps, Power BI, Microsoft Office, etc.).
 
 Our system is built around the FHIR entities. An entity is a type of record. Example: The Contact Entity is a type of record that stores information related to people (patients, practitioners, etc.)
 

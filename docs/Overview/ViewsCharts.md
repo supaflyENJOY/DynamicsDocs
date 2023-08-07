@@ -11,11 +11,11 @@ There are also views of relevant records configured on individual forms througho
 
 ## Create a View
 
-To create a view that suits your needs, open an existing view. You can add to and edit the existing view until it displays the information you are ooking for.
+To create a view that suits your needs, open an existing view. You can add to and edit the existing view until it displays the information you are looking for.
 
-### Update Colums
+### Update Columns
  
-1.  Click the 'Edit Columns'n on the right hand side of the page
+1.  Click the 'Edit Columns' on the right-hand side of the page
 
  <img src ="/img/0f5ca226-ae9b-49b0-95b3-56a67b895713_image.png " width="350"/>
 

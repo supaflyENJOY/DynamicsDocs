@@ -22,7 +22,7 @@ Business units are organizational units within your organization. For example, a
 
 **Users**
 
-In the Users subgrid, you can view the members of your organizaton who have access to records in this business unit.
+In the Users subgrid, you can view the members of your organization who have access to records in this business unit.
 
 ## Claim Settings
 

@@ -10,11 +10,11 @@ A claim is a list of services which have been provided to a patient which is sen
 The Claim Form is divided into multiple tabs for an organized view of the complete claim.
 
 **Claim Details** 
-- *Claim Number*
+- *Claim Number* - a unique identifier for the claim.
+- *Claim Type* - the category of claim (e.g. professional, institutional, oral, pharmacy, vision).
+- *Place of Service* - the location on the encounter.
+- *Total Billed* - the sum of the amounts billed for each claim line in the claim.
 - *Diagnosis Codes*
-- *Claim Type*
-- *Place of Service*
-- *Total Billed* 
 
 The **Patient & Coverage Details** section of a claim display information from the [patient](../Patients/Overview.md) record and the patient's [coverage](../Patients/Coverages.md).
 - *Patient*
@@ -30,12 +30,16 @@ The **Patient & Coverage Details** section of a claim display information from t
 - *NPI* - NPI of the practitioner populated as the Rendering Provider.
 
 **Referring Provider Details**
-- *Referring Provider* -
+- *Referring Provider* - the referring provider on the [episode of care](../Patients/EpisodeOfCare.md)
 - *NPI* - NPI of the contact populated as the Referring Provider
 
-**Resubmission Details**
+The **Paid Amount Details** section displays on a claim when a payment was already posted to the claim.
+- *Total Paid - Claim Submissions* - the payment amount on the [payment](../RCM/Payment.md)
+- *Total Paid - All Submissions* - the sum of the payment amounts on any payments posted to any submissions of this claim.
+
+The **Submission Details** section displays on a claim when the claim has been modified and resubmitted.
 - *Claim Frequency Code*
-- *Original Reference Number* -
+- *Original Reference Number* 
 - *Delay Reason Code*
 
 The **Claim Lines** subgrid displays the claim items on the claim. [Read more about claim items](../Billing/ClaimItems.md).
