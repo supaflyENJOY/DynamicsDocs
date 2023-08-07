@@ -50,6 +50,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - When linking to a different entity’s documentation page, only link to each entity once on a page.
     - Before linking, consider whether you think the user would find more information about the entity you are linking helpful
 - When listing fields on a form, field names are in a bullet-point list and italicized.
-- Use "enter" rather than "populate (e.g. "enter the ptient's date of birth")
+- Use "enter" rather than "populate (e.g. "enter the patient's date of birth")
 - prepopulated is one word. so is subgrid. so is clearinghouse.
 - if it's not a full sentence, it doesn't need to start with a capital letter (*Payment Amount* - the total amount paid.) lowercase t
