@@ -6,10 +6,10 @@ module.exports = {
       'Overview/ViewsCharts'
      ],
     'Setup': [
+      'AdminSetup/BusinessUnit',
     'AdminSetup/Account', 
     'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',
-   'AdminSetup/BusinessUnit',
    'AdminSetup/FeeSchedules',
     'AdminSetup/Location',
     'AdminSetup/QualificationDefinition',
