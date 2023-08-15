@@ -18,7 +18,7 @@ The Patient Availability tab displays the Patient Availability calendar. This ca
 
 To add Patient availability to the schedule, click 'Set Patient Availability'. 
 
-This will open up the Patient Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Patient Availability'.)
+This will open the Patient Availability calendar in a new tab. (This tab is hidden until a User clicks 'Set Patient Availability'.)
 
 Patient Availability is used for the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool. Any time that is set as a Patient 'does not work', displays as unavailable in the tool. This helps a Scheduler schedule a session between a Patient and a Practitioner. 
 

@@ -3,7 +3,7 @@ id: ViewsCharts
 title: Views and Charts
 ---
 # Views
-Views of common entities can be accessed easily on the [sitemap](/docs/#sitemap). Selecting any entity on the sitemap will open up that entity's *Main Grid*. All views can be filtered and sorted according to your needs.
+Views of common entities can be accessed easily on the [sitemap](/docs/#sitemap). Selecting any entity on the sitemap will open that entity's *Main Grid*. All views can be filtered and sorted according to your needs.
 
 There are also views of relevant records configured on individual forms throughout the system. Views on forms are known as *subgrids*. Subgrids generally offer multiple views (e.g., 'Upcoming Encounters' and 'All Encounters'). You can switch between views using the View Selector.
 

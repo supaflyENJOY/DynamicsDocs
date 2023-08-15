@@ -22,7 +22,7 @@ To add Practitioner availability to the schedule, click 'Set Practitioner Availa
 
 <img src ="/img/setAvailability.jpg" width="1300" height="200"/>
 
-This will open up the Practitioner Availability calendar in a new tab. (This tab is hidden until you click 'Set Practitioner Availability'.)
+This will open the Practitioner Availability calendar in a new tab. (This tab is hidden until you click 'Set Practitioner Availability'.)
 
 <img src ="/img/practitionerAvailability.jpg" width="1300" height="600"/>
 

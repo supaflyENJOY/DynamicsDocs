@@ -9,7 +9,7 @@ A Patient refers to the client or learner who is serviced by an ABA Provider. Th
 
 ## Create a Patient Contact
 
-There are 2 Contact Main Forms. The 'Contact Type' fied in the header sets the form as either Patient, Practitioner, or Related Person.
+There are 2 Contact Main Forms. The 'Contact Type' field in the header sets the form as either Patient, Practitioner, or Related Person.
 
 The Contact Main Form for a Patient is divided into multiple tabs for an organized view of the complete patient record.
 
@@ -24,15 +24,15 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
     - *Documents* - This section is for uploading and accessing Patient documents, such as assessment reports, diagnoses, or consent forms.
     - *Timeline* - This is a running timeline of any communications or interactions with or regarding the patient. Emails, phone calls, encounters, tasks, and notes related to this patient are all tracked here. You can also initiate emails, phone calls, and tasks directly from the timeline, and the details will be automatically populated. Click the ‘+’ button to add a communication log to the timeline.
 
-- The **Medical Info** tab is for information regarding the patient's diagnosis and treatment. This tab is didvided into 2 subgrids:
-    - *Conditions* - The left subgrid displays the conditions diagnosised to the patient. The conditions added here are included on the claims created for this patient. [Read more about conditions](Conditions.md).
+- The **Medical Info** tab is for information regarding the patient's diagnosis and treatment. This tab is divided into 2 subgrids:
+    - *Conditions* - The left subgrid displays the conditions diagnosed to the patient. The conditions added here are included on the claims created for this patient. [Read more about conditions](Conditions.md).
         - Current Conditions - This view only displays the current conditions of a patient. Once the Historical As Of date is populated, the condition is no longer current. 
-        - All Conditions - This views displays all the conditions except where the Verification Status is entered in error.
+        - All Conditions - This view displays all the conditions except where the Verification Status is entered in error.
     - *Episode of Care* - The right subgrid displays the episodes of care. A patient with an active episode of care cannot be deactivated. [Read more about Episodes of Care](EpisodeOfCare.md).
 
 - The **Coverage & Auth** tab is for information regarding the patient's insurance coverage and authorizations. This tab is divided into 2 sub grids:
-    - *Coverages* - The top sugrid displays the coverage records from the insurance company. Coverage records are necessary in order to schedule Encounters. [Read more about Coverages](Coverages.md).
-    - *Authorizations* - The bottom subgrid displays the authorizations receieved from insurance. The authorization includes the coverage record as well as other information needed before scheduling an Encounter. [Read more about Authorizations](Authorization.md).
+    - *Coverages* - The top subgrid displays the coverage records from the insurance company. Coverage records are necessary in order to schedule Encounters. [Read more about Coverages](Coverages.md).
+    - *Authorizations* - The bottom subgrid displays the authorizations received from insurance. The authorization includes the coverage record as well as other information needed before scheduling an Encounter. [Read more about Authorizations](Authorization.md).
 
 - The **Care Team** tab is for tracking the practitioners who are servicing the Patient. This tab is divided into 2 sub grids:
     - *Care Team Participants* - The left subgrid displays Care Team Participants. Care team participants track practitioners who are servicing/have serviced this patient. [Read more about Care Team Participants](CareTeamParticipants.md).
@@ -52,5 +52,5 @@ Select 'Contacts' on the left navigation bar in the Clinical Area to open the Co
 - Current Patients
     -  The Current Patients view displays Patient Contact records that are Active and Current. A Patient is considered 'current' if they have an Active [Episode of Care](EpisodeOfCare.md). 
 - All Patients
-    - The All Patients view displays all the Patients in the system. This includes Active and Inactive records. (This is helpful when a Patient leaves your company and their record is deactivated but later wants to receive services from you again. You can reactivate their contact record from this view.)
+    - The All Patients view displays all the Patients in the system. This includes Active and Inactive records. (This is helpful when a Patient leaves your organization and their record is deactivated but later wants to receive services from you again. You can reactivate their contact record from this view.)
 

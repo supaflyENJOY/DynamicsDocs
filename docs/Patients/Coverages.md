@@ -8,7 +8,7 @@ Coverage is the reimbursement plan that a patient is subscribed to with an insur
 
 ##  Create a Coverage  
 
-Create a new Coverage, by clicking 'New Coverage' on the Coverages subgrid (on a Patient Contact Form), or clicking the 'New' button on the Coverages Main Grid.
+Create a new Coverage by clicking 'New Coverage' on the Coverages subgrid (on a Patient Contact Form) or by clicking the 'New' button on the Coverages Main Grid.
 
 **Coverage Information**
 - *Status Reason* - Select ‘Active’ when creating a patient’s active coverage record. 
@@ -23,7 +23,7 @@ Create a new Coverage, by clicking 'New Coverage' on the Coverages subgrid (on a
 
 ## Search Coverages
 
-By clicking on 'Coverages' on the left navigation bar in the Clinical Area, the Coverages Main Grid will open up. The Coverages Main Grid has 3 different views, all sorted by the Policy End Date with the older dates displaying first.
+By clicking on 'Coverages' on the left navigation bar in the Clinical Area, the Coverages Main Grid will open. The Coverages Main Grid has 3 different views, all sorted by the Policy End Date with the older dates displaying first.
 
 - The **Active Coverages** view displays all the Active Coverage records in the system. 
 - The **Draft Coverages** view displays all the Draft Coverage records in the system. 

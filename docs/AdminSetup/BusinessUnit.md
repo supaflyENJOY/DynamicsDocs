@@ -6,7 +6,7 @@ title: Business Units
 
 Business units are organizational units within your organization. Business units allow for tighter control of who has access to which records. 
 
-Based on how an organization is set up, there may be one business unit for all locations, or individual business units for each location. For example, a company that has one Pacific location and one Atlantic location may set up 1 business unit for both locations – if their office staff is involved in the intake and scheduling for both locations. Or they may set up 2 business units, allowing the users within each unit to access only the data for the patients and practitioners in their location. Smaller organizations usually have one business unit for the entire organization. 
+Based on how an organization is set up, there may be one business unit for all locations, or individual business units for each location. For example, an organization that has one Pacific location and one Atlantic location may set up 1 business unit for both locations – if their office staff is involved in the intake and scheduling for both locations. Or they may set up 2 business units, allowing the users within each unit to access only the data for the patients and practitioners in their location. Smaller organizations usually have one business unit for the entire organization. 
 
 Note that users’ access to records within their business unit is further defined by their individual permissions.
 

@@ -23,7 +23,7 @@ The Practitioner Role form must be saved to add Practitioner Role Codes in the P
 
  ##  Add Practitioner Role Codes
  
- To create a new Practitioner Role Code, click on the 3 dots on the subgrid. Then click on 'New Practitioner Role Code'. This will open up the New Practitioner Role Code Main Form.
+ To create a new Practitioner Role Code, click on the 3 dots on the subgrid. Then click on 'New Practitioner Role Code'. This will open the New Practitioner Role Code Main Form.
 
  - *Code* - select the role (BCBA, Behavior Technician)
  - Practitioner Role - If this form is opened via the Practitioner Roles subgrid (on the Practitioner Role Main Form), this field is populated with the 'Practitioner Role'.

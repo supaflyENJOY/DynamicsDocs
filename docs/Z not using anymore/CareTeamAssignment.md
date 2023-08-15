@@ -18,7 +18,7 @@ The subgrid displays the Patient Name, Authorization Service, Amount of Hours, F
 
 ## Create a Care Team Assignment
 
-To create a new Care Team Assignments, click 'New Care Team Assignments' on the subgrid. This will open up the New Care Team Assignments Quick Create Form.
+To create a new Care Team Assignments, click 'New Care Team Assignments' on the subgrid. This will open the New Care Team Assignments Quick Create Form.
 
 **Care Team Assignment Information**
 - *Patient* - This field is filtered to look up Patient records. After populating the Patient field, the field is locked.  
