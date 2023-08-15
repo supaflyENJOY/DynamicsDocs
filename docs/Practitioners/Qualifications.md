@@ -8,7 +8,7 @@ The Qualifcations subgrid displays the Qualification Name, Certification Date, E
 
 ## Create a Practitioner Qualification 
 
-To create a new Practitioner Qualification, click 'New Practitioner Qualification'. This will open up the New Practitioner Qualification Quick Create Form.
+To create a new Practitioner Qualification, click 'New Practitioner Qualification'. This will open the New Practitioner Qualification Quick Create Form.
 Upon clicking on an existing record in the subgrid, the record displays in pop out mode. The Practitioner field and the Qualification field are locked. 
 Upon clicking the 'New' button, the Practitioner Qualification Main Form opens. 
 

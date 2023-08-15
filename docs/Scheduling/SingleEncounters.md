@@ -14,7 +14,7 @@ There are 3 ways to create encounters:
 
 ## Create a Single Encounter
 Single encounters are scheduled on a one-off basis. 
-To create a new Encounter, click 'New Single Encounter' on the Encounters subgrid on a Patient/Practitioner, or on the Encounters Main Grid. This will open up the New Encounter Main Form.
+To create a new Encounter, click 'New Single Encounter' on the Encounters subgrid on a Patient/Practitioner, or on the Encounters Main Grid. This will open the New Encounter Main Form.
 
 ### Set Timing and Duration
 Select the date, time, service, and duration of the session.

@@ -16,5 +16,5 @@ The Encounters tab has 2 sub grids. 1 subgrid lists all the recurring encounters
 - [Read more about Single Encounters](/docs/Scheduling/SingleEncounters.md). 
 
 ## Create an Encounter 
-To create a new Encounter, click 'New Recurring Encounter' or 'New Single Encounter' on the subgrid. This will open up the New Encounter Main Form.
+To create a new Encounter, click 'New Recurring Encounter' or 'New Single Encounter' on the subgrid. This will open the New Encounter Main Form.
 

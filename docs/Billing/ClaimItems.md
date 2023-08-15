@@ -7,6 +7,12 @@ title: Claim Lines
 
 On every claim, claim items are listed as claim lines detailing the service provided to the patient.
 
+:::note
+Charge items with the same Patient, Start Date, End Date, Procedure Code, Auth Number, Place of Service, and Rendering Provider are grouped onto one claim line.
+
+Claim lines with the same Patient, Auth Number, Rendering Provider, Place of Service, and Facility are grouped onto one Claim (not exceeding 50 claim lines per claim).
+:::
+
 **Service Details**
 - *Claim* - the claim this claim line is included on.
 - *Status Reason* - the status of the claim.
@@ -39,3 +45,4 @@ On every claim, claim items are listed as claim lines detailing the service prov
 - *Description*
 
 The **Remit Lines** tab lists all remit lines for this claim line.
+

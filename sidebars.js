@@ -6,10 +6,10 @@ module.exports = {
       'Overview/ViewsCharts'
      ],
     'Setup': [
+      'AdminSetup/BusinessUnit',
     'AdminSetup/Account', 
     'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',
-   'AdminSetup/BusinessUnit',
    'AdminSetup/FeeSchedules',
     'AdminSetup/Location',
     'AdminSetup/QualificationDefinition',
@@ -58,8 +58,12 @@ module.exports = {
   'Billing/ClaimSettings',
   'Billing/ClaimItems',
   'Billing/Claims',
-  'Billing/Transactions',
-  'Billing/Remits',
+ ],
+ 'RCM':[
+  'RCM/RCMworkflow',
+  'RCM/Payment',
+  'RCM/Transactions',
+  'RCM/Remits',
  ],
  'Payroll':[
   'Payroll/Contracts',

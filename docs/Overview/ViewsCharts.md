@@ -3,7 +3,7 @@ id: ViewsCharts
 title: Views and Charts
 ---
 # Views
-Views of common entities can be accessed easily on the [sitemap](/docs/#sitemap). Selecting any entity on the sitemap will open up that entity's *Main Grid*. All views can be filtered and sorted according to your needs.
+Views of common entities can be accessed easily on the [sitemap](/docs/#sitemap). Selecting any entity on the sitemap will open that entity's *Main Grid*. All views can be filtered and sorted according to your needs.
 
 There are also views of relevant records configured on individual forms throughout the system. Views on forms are known as *subgrids*. Subgrids generally offer multiple views (e.g., 'Upcoming Encounters' and 'All Encounters'). You can switch between views using the View Selector.
 
@@ -11,11 +11,11 @@ There are also views of relevant records configured on individual forms througho
 
 ## Create a View
 
-To create a view that suits your needs, open an existing view. You can add to and edit the existing view until it displays the information you are ooking for.
+To create a view that suits your needs, open an existing view. You can add to and edit the existing view until it displays the information you are looking for.
 
-### Update Colums
+### Update Columns
  
-1.  Click the 'Edit Columns'n on the right hand side of the page
+1.  Click the 'Edit Columns' on the right-hand side of the page
 
  <img src ="/img/0f5ca226-ae9b-49b0-95b3-56a67b895713_image.png " width="350"/>
 

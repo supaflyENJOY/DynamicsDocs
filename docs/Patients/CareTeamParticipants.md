@@ -8,10 +8,10 @@ The Care Team Participants section displays a list of all practitioners that are
 
 ##  Auto-created Care Team Participants 
 A practitioner is automatically added to a patient’s care team when:
-1.	The practitioner is populated on the patient’s authorization. The care team participant start and end dates will be based on the authorization dates.
+1.	The practitioner is populated on the patient’s authorization. The care team participant's start and end dates will be based on the authorization dates.
     - If a care team participant already exists for that Patient/Practitioner combination, the dates of the care team participant will be updated to match the widest date range between all of the authorizations.
-2.	An assignment is created for the practitioner. The care team participant start and end dates will be based on the dates on the assignment.
-3.	An encounter is scheduled for the practitioner. The care team participant start and end dates will be based on the dates of the authorization.
+2.	An assignment is created for the practitioner. The care team participant's start and end dates will be based on the dates on the assignment.
+3.	An encounter is scheduled for the practitioner. The care team participant's start and end dates will be based on the dates of the authorization.
     - If a care team participant already exists for that Patient/Practitioner combination, the dates of the care team participant will be updated to match the widest date range between all of the authorizations.
 
 A care team participant record can be edited – for example, if the dates need to be extended or shortened. Care team participant records can also be added manually. 
@@ -22,7 +22,7 @@ To create a new Care Team Participant, click  'New Care Team Participant' on the
 
 - *Patient* - prepopulated when navigating from a Patient Contact record.
 - *Care Team* - prepopulated when navigating from a Patient Contact record.
-    - Populated with the most recent Patients's Care Team. 
+    - Populated with the most recent Care Team or this patient.
     - Field is locked until the Patient field is populated.  
 - *Practitioner* - locked on existing record. 
 - *Period Start* - enter the start date the practitioner should have access to the patient's care plan.

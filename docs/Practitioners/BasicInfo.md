@@ -46,6 +46,6 @@ Select 'Contacts' on the left navigation bar in the Clinical Area to open the Co
 - Active BTs
     - The Active BTs view displays Practitioner Contact records that are Active and have a [Practitioner Role](PractitionerRoles.md) that is current with the Practitioner Role Code 'Behavior Technician.'
 - All Practitioners
-    - The All Practitioners view displays all the Practitioners in the system. This includes Active and Inactive records. (This is helpful when a Practitioner stops servicing clients at your company and their record is deactivated but later wants to continue servicing. You can reactivate their contact record from this view.)
+    - The All Practitioners view displays all the Practitioners in the system. This includes Active and Inactive records. (This is helpful when a Practitioner stops servicing clients at your organization and their record is deactivated but later wants to continue servicing. You can reactivate their contact record from this view.)
 
 

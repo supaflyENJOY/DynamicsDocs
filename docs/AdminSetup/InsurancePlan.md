@@ -9,7 +9,7 @@ Insurance Plans are the various options each insurance provider offers. Add one 
 Once the Insurance Plan record is saved, you can add Insurance Plan Benefits.
 
 ## Insurance Plan Benefits
-For each insurance plan, add insurance plan benefits, which define the payer's requirements that need to be met to receieve the benefits of the insurance plan. Insurance plan benefits control how encounters can be scheduled, serviced, and billed. 
+For each insurance plan, add insurance plan benefits, which define the payer's requirements that need to be met to receive the benefits of the insurance plan. Insurance plan benefits control how encounters can be scheduled, serviced, and billed. 
 The following fields should be set on an Insurance Plan Benefit:
 - *Insurance Plan* – Select the Insurance Plan that this Insurance Plan Benefit belongs to.
 - *Service* – Select the [Healthcare Service](HealthcareService.md) that best fits this Insurance Plan Benefit. 

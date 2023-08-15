@@ -14,7 +14,7 @@ You will be able to view the domains imported by your organization. Each domain 
 Under each domain, you can view the subdomains.
 
 :::note
-The domain and subdomains are consistent across all care plans in your organization. Edits amde to the names of domains or subdomains will apply to all patient care plans in your organization.
+The domain and subdomains are consistent across all care plans in your organization. Edits made to the names of domains or subdomains will apply to all patient care plans in your organization.
 :::
 
 You can select a subdomain to view the library goals that will be available to your BCBAs as pre-written goals in the Note app.

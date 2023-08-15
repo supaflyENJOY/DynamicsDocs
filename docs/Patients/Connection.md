@@ -3,8 +3,8 @@ id: Connection
 title: Connections
 ---
 
-# Connection 
-A connection record specifies the relationship between 2 other records (e.g. a Related Contact to a Patient Contact).
+# Connections
+A connection record specifies the relationship between 2 other records (e.g., a Related Contact to a Patient Contact).
 
 ## Create a Connection
 
@@ -19,16 +19,16 @@ A new connection record can be created from a Patient Contact record. The Profil
     - General Information – Enter the name, gender, and marital status of the contact person.
     - Contact Information – enter phone numbers, email address, and preferred contact method.
     Once the record is saved it is automatically selected as the ‘Related Contact’ on the connection record.
-- *Related To Patient As* - This field is populated with the relationship between contact and patient (e.g. mother, father, babysitter etc.). This field only displays connection roles that are a 'contact relationship'. See [connection roles](#2). 
-- Patient's Primary Contact? - This field has 2 options: Patient's Primary Contact or Other Related Contact. This helps a company know who to be in touch with about the Patient. 
+- *Related To Patient As* - This field is populated with the relationship between contact and patient (e.g., mother, father, babysitter etc.). This field only displays connection roles that are a 'contact relationship'. See [connection roles](#connection-roles). 
+- Patient's Primary Contact? - This field has 2 options: Patient's Primary Contact or Other Related Contact. This helps an organization know who to be in touch with about the Patient. 
 
-## Connection Role {#2}
+## Connection Roles
 
 Most connection roles should be included in our solution. Upon implementation, additional connection roles may be added. Connection Roles explain the relationship between a contact and a patient. 
 
 A new connection role record can be created from a Connection record. Upon clicking into the 'Related To Patient As' field, select the option 'New Connection Role Record' to open the Connection Role Main Form.
 - *Name* (Required). 
-- *Connection Role Category* - This categories the type of connection.
+- *Connection Role Category* - This categorizes the type of connection.
 - *Description*
 
 In order to ensure the Connection Role displays in the 'Related To Patient As' field on the Connection Main Form, the 'Connection Role Category' must be set as 'Contact Relationship'. 
