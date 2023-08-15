@@ -28,17 +28,17 @@ Patient Availability is used for the [Schedule Assistance](../Scheduling/Schedul
 Working Hours are the general hours when a Patient can be serviced (e.g., 9:00 am - 5:00 pm with a lunch break from 12:00 am - 1:00 pm). Some Patient can have different working hours every day or week, while others have the same work hours every day. 
 
 
-To add the hours when a Patient works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
+To add the hours when a Patient can be serviced to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. 
 
 Upon clicking 'Working hours', a form will open on the side of the screen. 
 
 - *All Day* - This is a toggle which represents if the Patient is working all day or if they are working a few hours a day. 
-    - By default the toggle is off and you can enter a date.
+    - By default, the toggle is off and you can enter a date.
     - Upon switching the toggle to on, you can set a date range for all the days the Patient is working all day.
 - *Capacity* - This is a toggle. 
-    - By default the toggle is off.
+    - By default, the toggle is off.
     - Upon switching the toggle to on, the capacity field displays next to the time/date range. Then you can set a capacity limit.
-    - When the Capacity toggle is on, you can add a 'split' to their day. [Read more below](#split).
+    - When the Capacity toggle is on, you can add a 'split' to their day. [Read more below](#add-split-to-working-hours).
 - *Date* 
     - When the 'All Day' toggle is off, 1 Date field displays.
     - When the 'All Day' toggle is on, 2 Date fields display for you to set a date range.
@@ -51,25 +51,25 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
         - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.
 - *Time*
     - If the 'All Day' toggle is off, the 'Time' field displays. 
-    - Upon clicking on the 3 dots next to the time, you can add a break or a split to the work hours. [Read more below](#break).
+    - Upon clicking on the 3 dots next to the time, you can add a break or a split to the work hours. [Read more below](#add-break-to-working-hours).
 - *Time Zone*
 
-#### Add Break to Working Hours {#break}
+#### Add Break to Working Hours
 
-Beside the field used to populate the time range, 3 dots display. Upon clicking on the 3 dots next to the time, you can add a break to the work hours. By clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours. More then 1 break can be added.
+Beside the field used to populate the time range, 3 dots display. Upon clicking on the 3 dots next to the time, you can add a break to the work hours. By clicking 'Add break', the system will add a break to the work hours. You can edit the time range for the break by editing the start and end time of the work hours. More than 1 break can be added.
 
-#### Add Split to Working Hours {#split}
+#### Add Split to Working Hours
 
-When the Capacity toggle is on, you can add a 'split' to the Patients day. Beside the field used to populate the time range, 3 dots display. By clicking on the 3 dots next to the time, you can add a spliy to the work hours. Upon clicking 'Add split', the system will split the work hours into two. You can edit the time range by editing the start and end time of the work hours. More then 1 split can be added. The end time of the 1st split will be the start time of the 2nd split. 
+When the Capacity toggle is on, you can add a 'split' to the Patient's day. Beside the field used to populate the time range, 3 dots display. By clicking on the 3 dots next to the time, you can add a split to the work hours. Upon clicking 'Add split', the system will split the work hours into two. You can edit the time range by editing the start and end time of the work hours. More than 1 split can be added. The end time of the 1st split will be the start time of the 2nd split. 
 
 ### Add Non-working Hours
 
-Non-working hours are the hours when a Practitioner does not work, e.g. 2:00 pm - 4:00 pm. This can be used to schedule an appoinment or time when they will not work with Patients. 
+Non-working hours are the hours when a Patient cannot be serviced, e.g. 2:00 pm - 4:00 pm. 
 
-To add the hours when a Patient does not works to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Non-working', a form will open on the side of the screen. 
+To add the hours when a Patient cannot be serviced to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Non-working', a form will open on the side of the screen. 
 
 - *All Day* - This is a toggle which represents if the Patient is not working all day or if they are not working a few hours a day. 
-    - By default the toggle is off and you can enter a date.
+    - By default, the toggle is off and you can enter a date.
     - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is not working all day.
 - *Date* 
     - When the 'All Day' toggle is off, 1 Date field displays.
@@ -80,13 +80,13 @@ To add the hours when a Patient does not works to the calendar, click 'new'. Thi
 
 ### Add Time off 
 
-Time-off hours are the hours when a Practitioner is taking off. This can be used to schedule vacation. 
+Time-off hours are the hours when a Patient is pausing services temporarily. This can be used to schedule vacation. 
 
-To add the hours when a Patient is taking off to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Time off', a form will open on the side of the screen. 
+To add the hours when a Patient is pausing services to the calendar, click 'new'. This will display 3 options - Working hours, Non-working, Time off. Upon clicking 'Time off', a form will open on the side of the screen. 
 
-- *All Day* - This is a toggle which represents if the Patient is not working all day or if they are not working a few hours a day. 
-    - By default the toggle is off and you can enter a date.
-    - Upon switching the toggle to on, you can set a date range for all the days the Practitioner is not working all day. 
+- *All Day* - This is a toggle which represents if the Patient is not available all day or if they are not available a few hours a day. 
+    - By default, the toggle is off, and you can enter a date.
+    - Upon switching the toggle to on, you can set a date range for all the days the Patient is not available all day. 
 - *Date* 
     - When the 'All Day' toggle is off, 1 Date field displays.
     - When the 'All Day' toggle is on, 2 Date fields display for a User to set a date range.
