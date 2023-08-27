@@ -32,8 +32,10 @@ In the Users subgrid, you can view the members of your organization who have acc
 
 **Billing Provider Information**
 
-- *Billing Provider Type* - either Individual or Organization
-- *Billing Provider* - select from Practitioners
+- *Billing Provider Type* - either Individual or Organization. 
+    - If **Individual**, select a practitioner record in the Billing Provider field below, and the practitioner’s NPI number will be used on all claims for this business unit. 
+    - If **Organization**, the information in the Billing Specifications section will be used on all claims for this business unit.
+- *Billing Provider* - Select a practitioner from your practitioner list.
 
 **Billing Specifications**
 
