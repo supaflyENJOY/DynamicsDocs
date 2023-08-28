@@ -27,4 +27,8 @@ The **Address Details** section contains the address. The *Additional Directions
 
 ## Search Locations
 
-Select 'Location' on the left navigation bar in the Setup Area to open the Location Main View. The **General Service Locations** view displays active Locations which are not related to a Patient record. The **All Service Locations** view displays all the active Locations in the system.
+Select 'Location' on the left navigation bar in the Setup Area to open the Location Main View. 
+
+The **General Service Locations** view displays active Locations which are not related to a Patient record. 
+
+The **All Service Locations** view displays all the active Locations in the system.
