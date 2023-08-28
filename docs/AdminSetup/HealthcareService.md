@@ -12,6 +12,6 @@ The healthcare service type defines the session's behavior in the Note app:
   - Initial Assessment: Assessment report can be generated from the session
   - Follow-Up Assessment: Assessment report can be generated from the session
   - Direct Treatment: Data collection on care plan targets and the Direct Treatment session note template are available on the session.
-  - Non-Billable: Session Note is not required on the session.
+  - Non-Billable: A session note is not required on non-billable sessions, and the session will not be included on claims (only on payroll).
 :::
 - *Description* – optional description for the service

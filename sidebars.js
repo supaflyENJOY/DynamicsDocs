@@ -3,7 +3,8 @@ module.exports = {
     'Getting Started': [
       'Overview/Welcome',
       'Overview/Dynamics365',
-      'Overview/ViewsCharts'
+      'Overview/ViewsCharts',
+    //  'Overview/SecurityRoles'
      ],
     'Setup': [
       'AdminSetup/BusinessUnit',

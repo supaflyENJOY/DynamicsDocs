@@ -5,13 +5,14 @@ title: Fee Schedules
 
 # Fee Schedules
 
-Fee schedules are price lists where you can track the Expected and Billing Rate per service in Fee Schedule Items.
+Fee schedules are price lists where you can track a billing amount and an expected amount for the services you provide. 
 
-- *Name*
-- *Fee Schedule Number*
-- *Fee Schedule Type* - choose whether this fee schedule is for Billing or Payroll.
+- *Name* - Name the fee schedule for easy reference.
+- *Fee Schedule Type* - Choose whether this fee schedule is for Billing or Payroll.
 
 Fee schedules where Fee Schedule Type is 'Billing' can be related to a [Business Unit](../AdminSetup/BusinessUnit.md) or to a specific [Insurance Plan](../AdminSetup/InsurancePlan.md).
+
+Once the fee schedule is saved, Fee Schedule Items can be added.
 
 ## Fee Schedule Items
 
@@ -29,17 +30,31 @@ Modifiers are related to Fee Schedule Items to be included on the Claims for tha
 
 To create a modifier, go to Related > Modifiers on the Fee Schedule Item, and create a new Modifier.
 
-- *Name* - enter a name for the modifier.
-- *Modifier* - choose from modifier codes.
-- *Order*
-- *Billing Amount* - overrides the Billing Amount on the Fee Schedule when this modifier is included on a claim
-- *Expected Amount* - overrides the Expected Amount when this modifier is included on a claim
+- *Name* - Name the modifier for easy reference, so schedulers and billers can know which modifier to add when scheduling or billing.
+- *Modifier* - Choose from modifier codes, or create a new one if needed. See [modifier codes](#modifier-codes).
+- *Order* - Enter the order number (1, 2, etc.) in which this modifier should appear on a claim, if the claim line has more than one modifier.
+- *Billing Amount* - overrides the billing amount on the fee schedule when this modifier is included on a claim
+- *Expected Amount* - overrides the expected amount when this modifier is included on a claim
 
-Modifiers can be added to [encounter services](../Scheduling/SingleEncounters.md/#encounter-services) by schedulers, or to a claim it is submitted.
+Modifiers can be added to [encounter services](../Scheduling/SingleEncounters.md/#encounter-services) by schedulers, or to a charge item before the claim is submitted.
+
+## Modifier Codes
+
+To create a new modifier code, click ‘New Codeable Concept’ from the modifier field lookup. 
+<img src ="/img/modifiercodes.png" width="400"/>
+
+Enter the following information in the codeable concept fields:
+
+- *Name* – Enter the modifier code.
+- *Text* – Enter any identifying text for the modifier code.
+- *System* – https://schemas.chorus.cloud/billingmodifier
+- *Code* – Enter the modifier code as you want it to appear on the claim.
 
 ## Payroll Fee Schedules
 
 Fee schedules where the Fee Schedule Type is Payroll are used to override a practitioner's contracted hourly rate with a specific rate per service or per patient.
 
 For example, to set a higher rate for group treatment (97154), create a fee schedule item with the higher rate as the 'Billing Amount', and populate that fee schedule on the [practitioner contract](../Payroll/Contracts.md).
+
+To set a different rate for a specific patient, add a modifier to the services you want it to affect. 
 
