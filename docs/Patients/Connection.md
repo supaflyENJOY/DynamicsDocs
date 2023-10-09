@@ -19,12 +19,12 @@ A new connection record can be created from a Patient Contact record. The Profil
     - General Information – Enter the name, gender, and marital status of the contact person.
     - Contact Information – enter phone numbers, email address, and preferred contact method.
     Once the record is saved it is automatically selected as the ‘Related Contact’ on the connection record.
-- *Related To Patient As* - This field is populated with the relationship between contact and patient (e.g., mother, father, babysitter etc.). This field only displays connection roles that are a 'contact relationship'. See [connection roles](#connection-roles). 
+- *Related To Patient As* - This field is populated with the relationship between contact and patient (e.g., mother, father, teacher, etc.). This field only displays connection roles that are a 'contact relationship'. See [connection roles](#connection-roles). 
 - Patient's Primary Contact? - This field has 2 options: Patient's Primary Contact or Other Related Contact. This helps an organization know who to be in touch with about the Patient. 
 
 ## Connection Roles
 
-Most connection roles should be included in our solution. Upon implementation, additional connection roles may be added. Connection Roles explain the relationship between a contact and a patient. 
+Many connection roles are included in our solution. Upon onboarding, additional connection roles may be added. Connection Roles explain the relationship between a contact and a patient. 
 
 A new connection role record can be created from a Connection record. Upon clicking into the 'Related To Patient As' field, select the option 'New Connection Role Record' to open the Connection Role Main Form.
 - *Name* (Required). 

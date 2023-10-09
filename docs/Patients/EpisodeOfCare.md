@@ -4,9 +4,9 @@ title: Episodes of Care
 ---
 
 # Episodes of Care 
-The Episode of Care is a complete period that a patient is receiving health care. It generally begins with the patient’s referral or expressed interest in care, and ends with their discharge. 
+The Episode of Care is a complete period that a patient is receiving health care with your organization. It generally begins with the patient’s referral or expressed interest in care, and ends with their discharge.
 
-An Episode of Care includes all the services provided to the patient to treat their clinical condition during that period of time. Tracked on the Episode of Care record are the start/end dates that the patient was in each stage of intake and when active services began. 
+An Episode of Care includes all the services provided to the patient to treat their clinical condition during that period of time. Tracked on the Episode of Care record are the start/end dates that the patient is in various stages of care (Planned, Waitlist, On Hold, Active, etc.). 
 
 (Patients in Autism Care usually have just one Episode of Care record, unless they leave the organization and later return to reinitiate services with the organization.)
 
@@ -14,11 +14,11 @@ A patient’s episode of care is automatically created when an opportunity recor
 
 ## Create an Episode of Care
 
-To create a new Episode of Care, click 'New Episode of Care' on the Episode of Care subgrid (on a Patient Contact Form). This will open the New Episode of Care Quick Create.
+To create a new Episode of Care, click 'New Episode of Care' on the Episode of Care subgrid (on a Patient Contact Form). This will open the New Episode of Care Quick Create form.
 
 **Episode of Care Information**
 - *Patient*- The Patient field is prepopulated with the Patient you are navigating from and cannot be edited.
-- *Period Start Date* - The Period Start Date cannot be after the Period End Date. 
+- *Period Start Date* - Enter the start date. The Period Start Date cannot be after the Period End Date. 
 - *Period End Date*
 - *Referring Provider* - The Contact who referred the patient for services.
 
