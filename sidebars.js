@@ -4,6 +4,7 @@ module.exports = {
       'Overview/Welcome',
       'Overview/Dynamics365',
       'Overview/ViewsCharts',
+      'Overview/Dashboards',
     //  'Overview/SecurityRoles'
      ],
     'Setup': [
