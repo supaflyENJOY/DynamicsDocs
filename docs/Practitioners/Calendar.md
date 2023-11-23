@@ -10,7 +10,7 @@ The calendar displays all the sessions scheduled for this Practitioner. You can 
 
 <img src ="/img/dayWeekMonth.jpg" width="500" height="200"/>
 
-When looking at the calendar, the Ssssion displays the service that will be provided and the patient's name. Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
+When looking at the calendar, the session displays the service that will be provided and the patient's name. Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
 
 By clicking on 'more details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'delete' on the popout, the session will be deleted.
 

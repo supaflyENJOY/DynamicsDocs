@@ -55,19 +55,19 @@ module.exports = {
   'Scheduling/DeactivateEncounters',
   'Scheduling/Utilization',
  ],
-//  'Billing':[
-//   'Billing/BillingSetup',
-//   'Billing/ChargePeriods',
-//   'Billing/ClaimSettings',
-//   'Billing/ClaimItems',
-//   'Billing/Claims',
-//  ],
-//  'RCM':[
-//   'RCM/RCMworkflow',
-//   'RCM/Payment',
-//   'RCM/Transactions',
-//   'RCM/Remits',
-//  ],
+ 'Billing':[
+  'Billing/BillingSetup',
+  'Billing/ChargePeriods',
+  'Billing/ClaimSettings',
+  'Billing/ClaimItems',
+  'Billing/Claims',
+ ],
+ 'RCM':[
+  'RCM/RCMworkflow',
+  'RCM/Payment',
+  //'RCM/Transactions',
+  'RCM/Remits',
+ ],
  'Payroll':[
   'Payroll/Contracts',
   'Payroll/PayrollItems',
