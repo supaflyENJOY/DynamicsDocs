@@ -42,6 +42,7 @@ For example, if a Behavior Techician has a direct care session from 9:00-12:00, 
 - *End Date/Time* - prepopulated with the end date/time of the Encounter you are adding the Encounter Service to.
 - *Mileage* - if your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
 - *Payroll Modifiers* - 
+- *Telecare* - toggle on when the session was conducted over telecare
 
 An Encounter Service cannot be saved if the Service Code on the Authorizaton requires an Assignment and the Assignment field on the Encounter Service is null.
 

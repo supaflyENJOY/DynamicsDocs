@@ -28,6 +28,7 @@ The Service here will control the behavior of the session in the Note app, for e
 - *Unit of Measure* – The number of minutes that a single unit of this service consists of. See [Healthcare Units](#Healthcare Units).
 - *Minimum Units Required* – The minimum units required to schedule an encounter for this service.
 - *Maximum Units Allowed* – The maximum units allowed to schedule for an encounter for this service.
+- *MUE Limit* - The maximum units allowed to schedule for this service for a patient on one day.
 
 Once the Insurance Plan Benefit record is saved, the Required Qualifications can be added.
 
