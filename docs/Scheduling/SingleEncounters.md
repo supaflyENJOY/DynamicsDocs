@@ -44,7 +44,7 @@ For example, if a Behavior Techician has a direct care session from 9:00-12:00, 
 - *Payroll Modifiers* - 
 - *Telecare* - toggle on when the session was conducted over telecare
 
-An Encounter Service cannot be saved if the Service Code on the Authorizaton requires an Assignment and the Assignment field on the Encounter Service is null.
+An Encounter Service cannot be saved if the Insurance Plan Benefit for the Authorization Service requires an assignment and the assignment field on the Encounter Service is blank.
 
 ### Encounter Participants
 Encounter Participants are generated automatically based on the Patients and Practitioners for all Encounter Services on an Encounter.
