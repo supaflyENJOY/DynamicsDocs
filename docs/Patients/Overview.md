@@ -49,7 +49,7 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
 - The **Calendar** tab displays a calendar of the patient’s encounter services  scheduled for them. [Read more about the patient's Calendar](Calendar.md).
 
-## Searching Contacts
+## Search Contacts
 
 Select 'Contacts' on the left navigation bar in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 3 views related to Patient contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
 - Active Patients

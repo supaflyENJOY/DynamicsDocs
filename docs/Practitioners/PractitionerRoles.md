@@ -2,7 +2,7 @@
 id: PractitionerRole
 title: Practitioner Roles
 ---
-# Pratitioner Roles
+# Practitioner Roles
 The 'Practitioner Roles' section displays the Role (Code) and the Practitioner Role (Practitioner & Dates). 
 
 The Practitioner Role Main Form is divided into 2 sections. The first section is the the Practitioner Role Information section. This contains a Practitioner and a date range. The second section is the Practitioner Roles. This section contains a subgrid which lists the Role(s) assigned to the Practitioner in the defined date range.  
