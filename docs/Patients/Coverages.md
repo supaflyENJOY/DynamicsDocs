@@ -24,7 +24,7 @@ Create a new Coverage by clicking 'New Coverage' on the Coverages subgrid (on a 
 
 ## Search Coverages
 
-By clicking on 'Coverages' on the left navigation bar in the Clinical Area, the Coverages Main Grid will open. The Coverages Main Grid has 3 different views, all sorted by the Policy End Date with the older dates displaying first.
+Select 'Coverages' on the left navigation bar in the Clinical Area to open the Coverages Main Grid. The Coverages Main Grid has 3 different views, all sorted by the Policy End Date with the older dates displaying first.
 
 - The **Active Coverages** view displays all the Active Coverage records in the system. 
 - The **Draft Coverages** view displays all the Draft Coverage records in the system. 
