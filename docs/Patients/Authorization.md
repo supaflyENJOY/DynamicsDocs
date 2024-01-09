@@ -43,7 +43,7 @@ Every Claim has a *Billing Provider*. This is the Practitioner with the correct 
 
 ## Search Authorizations
 
-Select 'Authorizations' on the left navigation bar in the Clinical Area of the sitemap, to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views:
+Select 'Authorizations' on the left navigation bar in the Clinical Area of the sitemap to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views:
 - The **Active Authorizations** (default) view displays all the Active Authorization records in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
 - The **All Authorizations** view displays all the Authorization records in the system. The view is sorted by the Period Start Date with the newer dates displaying first.
 - The **Expiring Authorizations** view displays all the Active Authorization records in the system where the Period End Date is in the next 30 days. The view is sorted by the Period End Date with the older dates displaying first.

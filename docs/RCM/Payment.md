@@ -36,9 +36,19 @@ A payment can also include a Payment Adjustment (can be positive or negative amo
 
 ## Create a Manual Payment
 
-1. On a claim, go to the Remits Summary tab. Click 'New Claim Payment' to create a new claim payment for this claim. 
-2. On the claim payment, enter the claim payment information - such as patient name, rendering provider, total billed, total paid, etc. Save the record. 
-3. Enter more detail using the remit line records. Click 'New Claim Payment Line' on the Remit Lines subgrid. 
-4. Enter the remit line information, such as procedure code, dates of service, quantity, billed amount, paid amount etc. Save the record.
-5. You can also add remit line adjustments in the appropriate subgrid - Other Adjustments and Cost Share Adjustments.
-6. Once you're done entering the remit line details, you can go back to claim, and refresh or click 'Recalculate' to get the updated totals.
+1. On a claim, go to the Remits Summary tab. Click 'New Claim Payment' to create a new claim payment for this claim. Claim information will be populated based on the claim it is created from. 
+    - Fill out the relevant remit information (claim filing indicator, claim status code, etc.)
+    - In the Payment lookup field, select an existing payment record, or create a new one. To create a new Payment record, click 'Add New Payment'. Payment type will default to Manual, and allow you to enter the following fields: payment reference number, payment date, payer, paid amount. Click Save and Close on this Quick Create form.
+    - When you are done entering the Remit information, click Save. 
+2. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.). The Paid Amount field will be blank on all Remits and Remit Lines.
+3. Enter the Paid Amount on each Remit Line.
+4. Once you have entered the total paid on the remit lines, go back to claim and refresh or click 'Recalculate' to get the updated totals.
+
+
+## Search Payments
+
+Select 'Payments' on the left navigation bar in the RCM app to open the Payments Main Grid. The Payments Main Grid has 3 different views.
+
+- The **All Payments** view displays all Payment records in the system. 
+- The **Recent Payments** view displays all Payment records created in the last 30 days.
+- The **Manual Payments** view displays all Manual Payment records.

@@ -7,7 +7,7 @@ title: Care Team Assignments
 To enable practitioners to self-schedule their sessions in the Note app, you can assign a practitioner a total number of hours per week/month/period of a certain service. Based on the care team assignments, practitioners will have access to schedule sessions for those patients in the Note app and the sessions will be validated against the care team assignment.
 
 :::note
-Practitioners who are not given a care team assignment for a patient will only see the patient's sessions scheduled for them in Autism Care, and will only be able to edit the session in Note to the same/shorter duration as the session was originally sceduled in Autism Care.
+Practitioners who are not given a care team assignment for a patient will only see sessions that were scheduled for the patient in Autism Care, and will only be able to edit the session in Note to the same/shorter duration as the session was originally scheduled in Autism Care.
 ::: 
 
 ## Create a Care Team Assignment
@@ -49,7 +49,7 @@ If needed, update the end date on this record, and create a new Care Team Assign
 
 ## Search Care Team Assignments
 
-Click on 'Care Team Assignments' on the left navigation bar in the Clinical Area of the sitemap to open the Care Team Assignments Main Grid. The Care Team Assignments Main Grid has 3 different views.
+Select 'Care Team Assignments' on the left navigation bar in the Clinical Area of the sitemap to open the Care Team Assignments Main Grid. The Care Team Assignments Main Grid has 3 different views.
 - All Care Team Assignments (default)
     - The All Care Team Assignments view displays all the Care Team Assignment records in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
 - Current Care Team Assignments
