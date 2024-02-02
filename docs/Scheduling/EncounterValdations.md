@@ -9,7 +9,7 @@ When an Encounter Service is created, it is validated to ensure it passes a numb
 
 1. An Encounter Participant cannot overlap with another Encounter Participant.
     - For example, a patient included as the encounter participant on both an encounter from 12:00 - 2:00 and an encounter from 1:30 - 4:30 would be invalid.
-    - Direction of Technician services are allowed to overlap with Direct Treatment services for the same patient when the Encounters are at the same location, or over telecare.
+    - Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are allowed to overlap with Direct Treatment services for the same patient when the Encounters are at the same location, or over telecare.
 2. An Encounter Service cannot have more units in the given time period than the Authorization Service or Assignment allows.
 3. The Practitioner Participants on an Encounter Service must have the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
 4. The duration on the Encounter Service must be between the min/max units required from the Insurance Plan Benefit.

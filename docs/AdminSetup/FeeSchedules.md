@@ -40,15 +40,7 @@ Modifiers can be added to [encounter services](../Scheduling/SingleEncounters.md
 
 ## Modifier Codes
 
-To create a new modifier code, click ‘New Codeable Concept’ from the modifier field lookup. 
-<img src ="/img/modifiercodes.png" width="400"/>
-
-Enter the following information in the codeable concept fields:
-
-- *Name* – Enter the modifier code.
-- *Text* – Enter any identifying text for the modifier code.
-- *System* – https://schemas.chorus.cloud/billingmodifier
-- *Code* – Enter the modifier code as you want it to appear on the claim.
+Additional modifier codes can be set up for your organization by support. 
 
 ## Payroll Fee Schedules
 
