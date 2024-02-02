@@ -31,16 +31,12 @@ Modifiers are related to Fee Schedule Items to be included on the Claims for tha
 To create a modifier, go to Related > Modifiers on the Fee Schedule Item, and create a new Modifier.
 
 - *Name* - Name the modifier for easy reference, so schedulers and billers can know which modifier to add when scheduling or billing.
-- *Modifier* - Choose from modifier codes, or create a new one if needed. See [modifier codes](#modifier-codes).
+- *Modifier* - Choose from modifier codes. Additional modifier codes can be set up for your organization by support.
 - *Order* - Enter the order number (1, 2, etc.) in which this modifier should appear on a claim, if the claim line has more than one modifier.
 - *Billing Amount* - overrides the billing amount on the fee schedule when this modifier is included on a claim
 - *Expected Amount* - overrides the expected amount when this modifier is included on a claim
 
 Modifiers can be added to [encounter services](../Scheduling/SingleEncounters.md/#encounter-services) by schedulers, or to a charge item before the claim is submitted.
-
-## Modifier Codes
-
-Additional modifier codes can be set up for your organization by support. 
 
 ## Payroll Fee Schedules
 
