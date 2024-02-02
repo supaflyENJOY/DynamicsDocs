@@ -35,14 +35,7 @@ Once the Insurance Plan Benefit record is saved, the Required Qualifications can
 ### Product Codes
 This is the list of products – service codes – that you will be providing to your clients. These will be carried over to your claims when you bill insurance payers.
 
-To create a new product code, click ‘New Codeable Concept’ from the procedure field lookup.
-<img src ="/img/productcode.png" width="400"/>
-
-Enter the following information in the codeable concept fields:
-
-- *Name* – Enter the procedure code.
-- *System* – https://schemas.chorus.cloud/usclscodes/autismcare
-- *Code* – Enter the procedure code (it will appear on the claim the way it is entered here).
+Additional product codes can be set up for your organization by support. 
 
 
 ## Required Qualifications{#RequiredQualifications}
@@ -53,3 +46,23 @@ Each required qualification should be added individually. If a required qualific
 ## Insurance Plan Fee Schedules
 
 To create fee schedules specific to an insurance plan (which will override any [business unit fee schedules](../AdminSetup/FeeSchedules.md) for that service code), go to Related > Insurance Plan Fee Schedules on the Insurance Plan, and create a new Insurance Plan Fee Schedule.
+
+
+## Insurance Plan Biling Requirements
+
+To control how Claims for an insurance plan are created, go to Related > Insurance Plan Billing Requirements on the Insurance Plan, and create a new Insurance Plan Billing Requirement.
+
+Select from existing billing rules:
+- Include the time portion on the claim lines
+- Modifier 95 for services provided via telehealth
+- Modifier GT for all telehealth services
+- POS 02 for all telehealth services
+- POS 10 for all telehealth home and 02 for all other
+- Referring provider required
+- Rendering provider taxonomy code required
+- Modifier 93 audio-only telehealth
+- Modifier FQ audio-only telehealth
+- Modifier HO BCBA services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
+- Modifier U5 for BT services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
+- Single claim item per session required
+- Split claim lines with different POS/Modifier combinations: claim lines that have different POS/modifier combinations will not be grouped together, even for the same service/same day.
