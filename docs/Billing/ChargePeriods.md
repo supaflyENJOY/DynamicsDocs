@@ -32,7 +32,7 @@ To update the status of charge items:
 
 1. Select the charge items you'd like to update on the charge items subgrid on a charge period.
 2. Click 'Set Status'
-3. Choose a Status (the only statuses available to manually update charge items to are 'On Hold' and 'Ready to Bill')
+3. Choose a Status: the only statuses available to manually update charge items to are 'On Hold' and 'Ready to Bill'. Charge items cannot be set to 'Ready to Bill' if the encounter service was not yet submitted. 
 
 At the frequency your organization chooses, the system will take all 'Ready to Bill' charge items and include them as [claim lines](../Billing/Claims.md/#claim-lines) on claims.
 

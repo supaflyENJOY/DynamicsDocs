@@ -72,3 +72,11 @@ The Location field is filtered to display addresses related to this Patient and 
 The Location on the Encounter will be included as the Place of Service on the Claim.
 
 [Read more about locations](../AdminSetup/Location.md).
+
+### Update Timing and Duration
+
+To update the timing of encounters, choose the **encounter service** for which the timing needs to be updated, and update the relevant fields. 
+
+- The encounter's start time will automatically update to the start time of the earliest encounter service under it, and the encounter's end time will update to the end time of the latest encounter service under it.
+
+- The practitioner encounter participant will automatically update to match the timing of the updated encounter service. The patient encounter participant will automatically update to the timing of the encounter (the earliest start time and latest end time of all encounter services under the encounter).
