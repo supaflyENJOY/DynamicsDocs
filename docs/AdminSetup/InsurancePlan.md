@@ -48,7 +48,7 @@ Each required qualification should be added individually. If a required qualific
 To create fee schedules specific to an insurance plan (which will override any [business unit fee schedules](../AdminSetup/FeeSchedules.md) for that service code), go to Related > Insurance Plan Fee Schedules on the Insurance Plan, and create a new Insurance Plan Fee Schedule.
 
 
-## Insurance Plan Biling Requirements
+## Insurance Plan Billing Requirements
 
 To control how Claims for an insurance plan are created, go to Related > Insurance Plan Billing Requirements on the Insurance Plan, and create a new Insurance Plan Billing Requirement.
 
