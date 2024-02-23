@@ -9,8 +9,10 @@ The majority of the billing workflow is automated to ensure claims are created, 
 
 The Billing workflow happens primarily in the **Claims** app.
 
-1. A [charge item](../Billing/ChargePeriods.md) is automatically created when a practitioner submits a session in the Note app. 
-2. A billing reviewer manually updates the status of the new charge item to 'Ready to Bill' after reviewing it. Charge items can be updated in bulk.
+1. A [charge item](../Billing/ChargePeriods.md) is automatically created when an encounter service is created. The status of the charge item is set to "Scheduled". 
+    - When the session is started in the Note app, the charge item is set to status "Awaiting Submission."
+    - When the session is submitted in the Note app, the charge item is set to status "New."
+2. A billing reviewer manually updates the status of the New charge item to 'Ready to Bill' after reviewing it. Charge items can be updated in bulk.
 3. A [claim line](../Billing/ClaimItems.md) is automatically created from 'Ready to Bill' charge items, and the charge items' statuses are updated to 'Claim Line Created'.
     - Charge items with the same Patient, Start Date, End Date, Procedure Code, Auth Number, Place of Service, and Rendering Provider are grouped onto one claim line.
 4. A [claim](../Billing/Claims.md) is automatically created for all 'Ready to Bill' charge periods on a weekly/monthly basis (based on the *Charge Period Frequency* on the [business unit](../AdminSetup/BusinessUnit.md)).
