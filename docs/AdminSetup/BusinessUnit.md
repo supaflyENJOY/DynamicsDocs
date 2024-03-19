@@ -6,7 +6,7 @@ title: Business Units
 
 Business units are organizational units within your organization. Business units allow for tighter control of who has access to which records. 
 
-Based on how an organization is set up, there may be one business unit for all locations, or individual business units for each location. For example, an organization that has one Pacific location and one Atlantic location may set up 1 business unit for both locations – if their office staff is involved in the intake and scheduling for both locations. Or they may set up 2 business units, allowing the users within each unit to access only the data for the patients and practitioners in their location. Smaller organizations usually have one business unit for the entire organization. 
+Based on how an organization is set up, there may be one business unit for all locations, or individual business units for each location. For example, an organization that has one Pacific location and one Atlantic location may set up one business unit for both locations – if their office staff is involved in the intake and scheduling for both locations. Or they may set up two business units, allowing the users within each unit to access only the data for the patients and practitioners in their location. Smaller organizations usually have one business unit for the entire organization. 
 
 Note that users’ access to records within their business unit is further defined by their individual permissions.
 
@@ -25,6 +25,9 @@ Scheduling may be affected if UTC Offset (time zone) is not configured properly.
 - *Charge Period Frequency* - select whether [charge periods](../Billing/ChargePeriods.md) will be created weekly or monthly.
 - *Primary Taxonomy Code* - select the taxonomy code for this business unit.
 - *Grace Period Days* - enter the amount of days after a session takes place that a session can still be submitted.
+- *Block Supervision Submission* -  when set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
+
+<img src ="/img/BUblockSupervision.png" width="700"/>
 
 **Users**
 
