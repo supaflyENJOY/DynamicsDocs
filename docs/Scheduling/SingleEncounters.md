@@ -80,3 +80,17 @@ To update the timing of encounters, choose the **encounter service** for which t
 - The encounter's start time will automatically update to the start time of the earliest encounter service under it, and the encounter's end time will update to the end time of the latest encounter service under it.
 
 - The practitioner encounter participant will automatically update to match the timing of the updated encounter service. The patient encounter participant will automatically update to the timing of the encounter (the earliest start time and latest end time of all encounter services under the encounter).
+
+## Encounters for Other Time Zones
+A notification banner displays when your Dynamics Time Zone settings are set to a different time zone than the patient, to inform you that you are viewing timings in a different time zone than where the session took place.
+
+There are two options for creating sessions for practitioners in other time zones:
+
+1. Schedule any Encounters for practitioners in other time zones X hours later than they really took place (so if the session took place at 9:00 AM Central, schedule the session for 10:00 AM (if your personalizations are set to EST), and it will be converted to 9:00 AM for users in the Central time zone).
+
+2. In "Personalization Settings", before creating Encounters for patients in another time zone, set your Dynamics time zone to the time zone of the practitioner. Then, the timings you see will match the timings the practitioner sees and the timings submitted on Claims. 
+
+<img src ='/img/personalizationSettings.png' width='180'/>
+
+<img src ='/img/timezone.png' width='500'/>
+
