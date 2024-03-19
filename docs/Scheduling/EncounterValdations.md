@@ -16,6 +16,10 @@ When an Encounter Service is created, it is validated to ensure it passes a numb
 5. The Encounter Services for that service that day cannot exceed the MUE Limit for this service (as configured on the Insurance Plan Benefit).
 6. The date of the Encounter Service must be within the Start and End date of the Authorization.
 7. Direction of Technician services must fully overlap with Direct Treatment sessions.
+8. Optional- when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) is set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise. 
+
+<img src ="/img/BUblockSupervision.png" width="700"/>
+
 
 ## Validation Statuses
 
