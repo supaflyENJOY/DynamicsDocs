@@ -24,7 +24,7 @@ The Billing workflow happens primarily in the **Claims** app.
 8. Claims and claim line statuses that are 'Ready to Submit' are automatically submitted to the clearinghouse and updated to 'Submitted' on an hourly basis. A [claims transaction](../RCM/Transactions.md) is automatically created.
 
 
-## Duplicate Billing Repot
+## Duplicate Billing Report
 
 Billers can review a "Duplicates Report" to understand which new/ready to bill charge items have "duplicate charge items" (i.e., for the same patient, date of service, and service code) that are still awaiting submission.
 
