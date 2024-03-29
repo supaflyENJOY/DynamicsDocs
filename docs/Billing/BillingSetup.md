@@ -24,3 +24,17 @@ The Billing workflow happens primarily in the **Claims** app.
 8. Claims and claim line statuses that are 'Ready to Submit' are automatically submitted to the clearinghouse and updated to 'Submitted' on an hourly basis. A [claims transaction](../RCM/Transactions.md) is automatically created.
 
 
+## Duplicate Billing Repot
+
+Billers can review a "Duplicates Report" to understand which new/ready to bill charge items have "duplicate charge items" (i.e., for the same patient, date of service, and service code) that are still awaiting submission.
+
+This gives billers visibility to sessions that will be grouped together on a claim once all are submitted, and should therefore not be billed yet, as they may face denials if billed on separate claims.
+
+**How to export a Duplicates Report:**
+
+1. In the Claims App, in the Billing area, go to "Charge Items" on the sitemap to open the Charge Items view.
+2. Click "Export Duplicate Report" on the ribbon.
+3. Select a start date and end date within which you'd like to check for sessions that would be grouped together on claims once submitted.
+4. Click export. The excel export will include all session details as well as links to the encounter services.
+
+

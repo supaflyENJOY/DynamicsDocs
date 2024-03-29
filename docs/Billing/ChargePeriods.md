@@ -4,7 +4,7 @@ title: Charge Items
 ---
 # Charge Items
 
-When a session is submitted from the Note app, the status of the encounter service will change to 'Submitted', and a charge item will be created for the encounter service. The Charge Item is used to track all claims submitted to payers for reimbursement of its related encounter service. Charge items are grouped (by patient) into Charge Periods that cover a specific range of service dates – charge periods can be set up to span a weekly, bi-weekly, or monthly period, (or any other frequency,) according to the way your organization/billing cycle operates. 
+When a session is submitted from the Note app, the status of the encounter service will change to 'Submitted', and the status of the related charge item will become "New". The Charge Item is used to track all claims submitted to payers for reimbursement of its related encounter service. Charge items are grouped (by patient) into Charge Periods that cover a specific range of service dates – charge periods can be set up to span a weekly, bi-weekly, or monthly period, (or any other frequency,) according to the way your organization/billing cycle operates. 
 
 - *Charge Period* - the charge period this charge item is included on.
 - *Encounter Service* - the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services) this charge item was created for. Relevant fields from the encounter service display below it:
@@ -23,10 +23,12 @@ When a session is submitted from the Note app, the status of the encounter servi
 
 When reviewing charge items, you can easily view the status of the charge items to identify what needs to be done for each charge item:
 
-- Charge items are created with status **New**.
+- Charge items are created with status **Awaiting Submission**.
+- When the related encounter service is submitted, charge items become **New**.
 - Charge items that are fit to be included on Claims should be marked as **Ready to Bill** by the biller who reviewed them.
 - Charge items can be marked as **On Hold** to indicate that they should not be billed yet (e.g., if they are waiting on remaining sessions in conducted in that charge period to be submitted).
 - Charge items that are included on a claim already are at status **Claim Line Created**
+- When sessions are reopened for the provider to make edits, charge items are reverted to **Awaiting Resubmission**. Billers can review Awaiting Resubmission charge items to verify if the session was resubmited with edits that necessitate modifying and resubmitting the claim.
 
 To update the status of charge items:
 
