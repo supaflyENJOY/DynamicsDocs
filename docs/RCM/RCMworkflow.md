@@ -12,8 +12,9 @@ The Remits workflow happens primarily in the **RCM** app.
     - Each payment from a payer can include a [remit](../RCM/Remits.md) (claim payment) for a single claim, or multiple remits (claim payments) for multiple claims. 
 2. A [payment](../RCM/Payments.md) is automatically created when a payment comes into your clearinghouse. The payment is automatically posted to the claim it was paid against. The payment information fields are updated on the claim.
     - A payment can also include a Payment Adjustment (positive or negative) - when the payer wants to make an adjustment that is not related to a specific remit, or when it is for a remit not included in this payment (a past remit for example).
-3. When the payments/remits are received, they are matched up to the claims they are paying up, and can be reviewed to ensure that the maximum reimbursement was received.
-4. Very often, there will be adjustments or denials that the organization can resubmit (e.g., if a claim was submitted with the wrong authorization number, if the payer unrightfully denies payment as unauthorized, if the payer claims the member is not covered, etc.). The affected claims are then modified and resubmitted and the process begins again
+3. When the payments/remits are received, they are automatically posted to the claims they are paying up, and can be reviewed to ensure that the maximum reimbursement was received.
+    - When the system does not identify a claim to post a remit to, you can manually post the "orphaned" remit to a claim. The same goes for posting orphaned remit lines to claim lines. See [Posting Orphaned Remits](../RCM/RCMworkflow.md/#posting-orphaned-remits)
+4. Very often, there will be adjustments or denials that the organization can resubmit (e.g., if a claim was submitted with the wrong authorization number, if the payer unrightfully denies payment as unauthorized, if the payer claims the member is not covered, etc.). The affected claims are then modified and resubmitted and the process begins again.
 
 ## Correcting Claims
 To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status, allowing edits to the claim and claim line information.
@@ -29,3 +30,27 @@ Review "Awaiting Resubmission" charge items to determine if the edits made to th
 
 Update charge item from "Awaiting Resubmission" to "Claim Line Created" and modify and resubmit the claim based on the updates made to the session.
 
+## Posting Orphaned Remits
+
+Orphaned Remits are remits that come in from your clearinghouse but are not posted to any specific claim. Posting orphaned remits to the right claims will give you accurate tracking of the outstanding and paid amounts on every claim. Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will enable you to track this on a line by line basis.
+
+**Post Orphaned Remits to Claims**:
+
+1. On a Claim, go to the Remits Summary tab.
+2. Click 'Add Existing Claim Payment'. You will be brought to a lookup of all Remits.
+3. With your cursor in the "Look for records" field, press enter. At the bottom of the results, click 'Advanced lookup'.
+
+<img src ='/img/advanced lookup.png' width='800'/>
+
+4. Switch from the "Claim Payment Lookup View" to the "Orphaned Remits" view. Identify the remit for the claim based on the patient/date of service, etc.
+
+Alternately, you can utilize the "Orphaned Remits" view to go through all orphaned remits and populate the claim field on each remit.
+
+**Post Orphaned Remit lines to Claim lines**:
+
+1. Use the "Remits with Orphaned Remit Lines" view to review remits where some of the remit lines have not been posted to claim lines.
+2. Open a remit and go to the Remit Lines tab. Remit lines that haven't been posted to claim lines display in the "Orphaned Remit Lines" subgrid.
+3. Below the orphaned remit lines subgrid, you can review the claim lines on the claim this remit was posted to.
+4. Identify the claim line to post each orphaned remit to (based on the patient/date of service etc.). Copy the name of the claim line, and paste it into the claim line lookup field on the orphaned remit line.
+
+<img src ='/img/orphanedremitlines.png' width='800'/>
