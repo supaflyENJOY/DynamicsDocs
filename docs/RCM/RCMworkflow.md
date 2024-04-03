@@ -32,7 +32,9 @@ Update charge item from "Awaiting Resubmission" to "Claim Line Created" and modi
 
 ## Posting Orphaned Remits
 
-Orphaned Remits are remits that come in from your clearinghouse but are not posted to any specific claim. Posting orphaned remits to the right claims will give you accurate tracking of the outstanding and paid amounts on every claim. Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will enable you to track this on a line by line basis.
+Orphaned Remits are remits that come in from your clearinghouse but are not posted to any specific claim. 
+- Posting orphaned remits to the right claims will help you identify which claim lines the orphaned remit lines should be posted to. 
+- Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will give you accurate tracking of the outstanding and paid amounts on every claim, as well as on a line by line basis.
 
 **Post Orphaned Remits to Claims**:
 
@@ -52,5 +54,9 @@ Alternately, you can utilize the "Orphaned Remits" view to go through all orphan
 2. Open a remit and go to the Remit Lines tab. Remit lines that haven't been posted to claim lines display in the "Orphaned Remit Lines" subgrid.
 3. Below the orphaned remit lines subgrid, you can review the claim lines on the claim this remit was posted to.
 4. Identify the claim line to post each orphaned remit to (based on the patient/date of service etc.). Copy the name of the claim line, and paste it into the claim line lookup field on the orphaned remit line.
+5. Click "Recalculate" on the claim to view the updated total outstanding and paid amounts based on the remit lines that were posted to the claim lines on the claim.
 
 <img src ='/img/orphanedremitlines.png' width='800'/>
+
+find out about recalculate
+frst post remit so thtat we know which lines,  posting ines gives A/R.
