@@ -29,6 +29,13 @@ This section displays fields related to billing Claims.
 - *Rendering Provider* - This field determines which practitioner should be populated as the Rendering Provider on the claim. Some Payers require that only a properly credentialed provider (the BCBA overseeing the case) should be entered as the Rendering Provider for all services. Other Payers require that the provider who actually rendered the services during the Encounter be entered. Since the Rendering Provider is Payer based, the Account Main Form has a field to determine how to set the Rendering Provider on a claim (see [Payer Claim Settings](../AdminSetup/Account.md/#claim-settings)), and all authorizations with this payer will default to the setting on the account. However, since it is possible to have exceptions, the ‘Rendering Provider’ field on the Authorization (and Authorization Service) allows you to change the setting for a specific authorization (or authorization service). Rendering Provider can be  set as one of these two options:
     1. Practitioner on Authorization - this fills the rendering provider box on the claim with the practitioner on the authorization.
     2. Practitioner on Encounter Service - this fills the rendering provider box on the claim with the practitioner on the encounter service.
+
+:::note
+Session Note exports will print the Supervising BCBA for the case based on the rendering provider on the Claim for that session.
+- When the Practitioner on the Authorization changes mid-authorization, first bill the claims that the previous BCBA supervised, then update the Practitioner on the authorization before generating new claims.
+- If necessary, claims can be [modified and resubmitted](../RCM/RCMworkflow.md/#correcting-claims) to adjust the rendering provider for sessions billed during this transition.
+:::
+
 - *Account Rendering Provider* - This field displays the Rendering Provider field from the Account Main Form, this way it is easy to see what the setting is on the Account. 
 - *Billing Provider* - This field determines which practitioner or group practice should be set as the Billing Provider on the claim. By default, the billing provider is set to be the billing provider set up on the business unit. However, in some scenarios, you may want to have a different practitioner serve as the billing provider for some authorizations. Here you have the ability to select either the practitioner on the authorization, or a different practitioner to be the billing provider on all claims for this authorization. 
 

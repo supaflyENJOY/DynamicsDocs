@@ -23,5 +23,6 @@ A remit can also include a Remit Adjustment (can be positive or negative amount)
 
 Select 'Remits' on the sitemap in the RCM app to open the Remits Main Grid. The Remits Main Grid has 3 different views:
 - The **Recent Remits** (default) view displays remits where the related [transaction](../RCM/Transactions.md) was created in the last 30 days.
-- The **All Remits** view displays all the Claim Payment records in the system. 
-- The **Remits with Orphaned Remit Lines** view displays all the Remits where Remit Lines weren’t posted to claim lines. Remit Lines are named with Procedure Code and Start Date for easy matching to Claim Lines.
+- The **All Remits** view displays all the remit records in the system. 
+- The **Orphaned Remits** view displays remits that do not have a related claim. These remits should be [posted to claims](../RCM/RCMworkflow.md/#posting-orphaned-remits) as a prerequisite for posting orphaned remit lines to claim lines.
+- The **Remits with Orphaned Remit Lines** view displays all the remits where remit lines weren’t posted to claim lines. These remit lines should be [posted to claim lines](../RCM/RCMworkflow.md/#posting-orphaned-remits) to accurately update the total outstanding and paid amounts on the claim. Remit lines are named with Procedure Code and Start Date for easy matching to claim lines.
