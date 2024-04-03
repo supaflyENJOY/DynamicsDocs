@@ -33,7 +33,7 @@ This section displays fields related to billing Claims.
 :::note
 Session Note exports will print the Supervising BCBA for the case based on the rendering provider on the Claim for that session.
 - When the Practitioner on the Authorization changes mid-authorization, first bill the claims that the previous BCBA supervised, then update the Practitioner on the authorization before generating new claims.
-- Some claims will need to be [modified and resubmitted](../RCM/RCMworkflow.md/#correcting-claims) to adjust the rendering provider for sessions billed during this transition.
+- If necessary, claims can be [modified and resubmitted](../RCM/RCMworkflow.md/#correcting-claims) to adjust the rendering provider for sessions billed during this transition.
 :::
 
 - *Account Rendering Provider* - This field displays the Rendering Provider field from the Account Main Form, this way it is easy to see what the setting is on the Account. 
