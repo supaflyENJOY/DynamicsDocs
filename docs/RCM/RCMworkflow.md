@@ -57,6 +57,3 @@ Alternately, you can utilize the "Orphaned Remits" view to go through all orphan
 5. Click "Recalculate" on the claim to view the updated total outstanding and paid amounts based on the remit lines that were posted to the claim lines on the claim.
 
 <img src ='/img/orphanedremitlines.png' width='800'/>
-
-find out about recalculate
-frst post remit so thtat we know which lines,  posting ines gives A/R.
