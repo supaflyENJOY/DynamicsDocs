@@ -21,3 +21,27 @@ You can select a subdomain to view the library goals that will be available to y
 
 <img src ="/img/domain.png" width="850"/>
 
+## Assessment Report Templates
+
+Your organization can choose to provide report templates for initial and follow-up assessment reports. The template is a word document that is stored on the System Contact in Dynamics.
+
+To view your organization's templates, or upload new ones:
+
+1. Search "System" and open the contact with the name "System."
+2. On the timeline, there are two notes: "InitialAssessment-Report-Template" and "Reassessment-Report-Template". *Do not modify the titles of the notes*.
+    - The inital assessment report template will be available from sessions in Note that are created for [healthcare services](../AdminSetup/HealthcareService.md) with service type "initial assessment".
+    - The reassessment report template will be available from sessions in Note that are created for healthcare services with service type "follow-up assessment".
+
+<img src ="/img/assessmentreport.png" width="900"/>
+
+3. To upload or switch a template, click the pencil icon on the note of the template you'd like to upload/switch.
+4. Remove the current attachment if there is one, and upload your updated template.
+
+
+:::note
+In order for the Note app to insert data into the assessment report, the following placeholders have to be present in the Word document:
+- {{Skill Acquisition}}
+- {{Behaviors}}
+
+Read about the data that is inserted into the report on our [Note Documentation](https://notedocs.chorus.cloud/docs/Reports/AssessmentReport#assessment-data).
+:::
