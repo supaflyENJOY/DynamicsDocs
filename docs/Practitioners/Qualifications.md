@@ -8,18 +8,28 @@ The Qualifcations subgrid displays the Qualification Name, Certification Date, E
 
 ## Create a Practitioner Qualification 
 
-To create a new Practitioner Qualification, click 'New Practitioner Qualification'. This will open the New Practitioner Qualification Quick Create Form.
-Upon clicking on an existing record in the subgrid, the record displays in pop out mode. The Practitioner field and the Qualification field are locked. 
-Upon clicking the 'New' button, the Practitioner Qualification Main Form opens. 
+To create a new Practitioner Qualification, click 'New Practitioner Qualification'. 
 
 <img src ="/img/qualification.jpg" width="900"/>
 
 - *Practitioner* - This field is prepopulated with the Practitioner navigating from.
-- *Qualification*
-    - Upon saving this record, this field is locked and cannot be edited. 
+- *Qualification* - Choose from [qualification definitions](../AdminSetup/QualificationDefinition.md).
 - *Certification Date*
 - *Expiration Date*
 - *Qualification Number*
+
+On existing practitioner qualifications, use the timeline, status reason, and application fields to track the workflow for getting this qualification credentialed by insurance:
+- *Status Reasons*:
+    - Active (default)
+    - Application Sent to Provider
+    - Provider Application Received
+    - Credentialed Effectively
+    - Denied
+- *Application Sent* - date the application was sent to the practitioner
+- *Signed Application Received* - date the signed application was returned by the practitioner
+- *Submitted to Insurance* - date the credentialing application was submitted to insurance
+
+Applications can be uploaded to the timeline on the right side of the practitioner qualification form. Relevant communications regarding credentialing for this practitioner can also be tracked here. 
 
 
 ## Qualifications on Insurance Plan Benefits
