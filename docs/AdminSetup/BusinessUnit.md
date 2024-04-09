@@ -26,6 +26,7 @@ Scheduling may be affected if UTC Offset (time zone) is not configured properly.
 - *Primary Taxonomy Code* - select the taxonomy code for this business unit.
 - *Grace Period Days* - enter the amount of days after a session takes place that a session can still be submitted.
 - *Block Supervision Submission* -  when set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
+- *Business Logo* - where your business logo is stored to be inserted on [session note exports](../Patients/Overview.md/#export-patient-session-notes) and [automated emails](../Patients/Connection.md/#primary-contact-engagement-emails).
 
 <img src ="/img/BUblockSupervision.png" width="700"/>
 

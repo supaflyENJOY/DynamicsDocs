@@ -43,9 +43,10 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
     - *Care Team Participants* - The left subgrid displays Care Team Participants. Care team participants track practitioners who are servicing/have serviced this patient. [Read more about Care Team Participants](CareTeamParticipants.md).
     - *Care Team Assignments* - The right subgrid displays the Care Team Assignments. Care team assignments track practitioners who are assigned a number of hours for a certain authorization service with the patient. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
 
-- The **Encounters** tab lists the scheduled encounters for the patient. This tab is divided into 2 sub grids: 
+- The **Encounters** tab lists the scheduled encounters for the patient. This tab is divided into 3 sub grids: 
     - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. [Read more about Recurring Encounters](../Scheduling/RecurringEncounters.md).
-    - *Single Encounters* - The bottom subgrid displays individual encounters (encounter occurrences and single encounters). [Read more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future.
+    - *Single Encounters* - The middle subgrid displays individual encounters (encounter occurrences and single encounters). [Read more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future.
+    - *Encounter Services* - The bottom subgrid displays the encounter services from this patient's encounters. [Read more about Encounter Services](../Scheduling/SingleEncounters.md/#encounter-services). The default view is set to 'Upcoming Encounter Services' - all Encounter Services where the Start Date/Time is in the future.
 
 - The **Calendar** tab displays a calendar of the patient’s encounter services  scheduled for them. [Read more about the patient's Calendar](Calendar.md).
 
@@ -59,3 +60,39 @@ Select 'Contacts' on the left navigation bar in the Clinical Area to open the Co
 - All Patients
     - The All Patients view displays all the Patients in the system. This includes Active and Inactive records. (This is helpful when a Patient leaves your organization and their record is deactivated but later wants to receive services from you again. You can reactivate their contact record from this view.)
 
+## Export Patient Session Notes
+
+*Coming Soon!*
+
+A session note export can be exported from the Encounter Service subgrid on a patient contact. 
+
+Click "Export Session Notes" on the ribbon of the Encounter Service view. Enter the date range you'd like to export session notes from, and click "Export."
+
+The export displays the following:
+- Organization logo (based on the logo uploaded to the patient's [business unit](../AdminSetup/BusinessUnit.md))
+- Session details:
+    - Patient full name
+    - Patient DOB
+    - Patient diagnosis
+    - Date of service rendered
+    - Time in
+    - Time out
+    - Duration of session
+    - Units utilized (based on [charge item](../Billing/ChargePeriods.md/#charge-items))
+    - Place of service (location type and address of encounter [location](../AdminSetup/Location.md))
+    - Conducted over Telecare (when telecare is indicated on the encounter service)
+    - Service rendered (procedure code and service name)
+    - Rendering Provider (practitioner on encounter service)
+    - Supervising BCBA / NPI number (rendering provider on [claim](../Billing/Claims.md), or practitioner on [authorization](../Patients/Authorization.md) when claim has not been generated yet)
+    - Other individuals present (name of encounter participants from overlapping encounters)
+- Notes (session narrative written in the Note app)
+- Primary Targets addressed in this session
+
+    | Area | Subdomain | Goal | Target | Correct/Total Trials | Score|
+    |-|-|-|-|-|-|
+- Problem Behaviors / Barriers to Treatment Plan Implementation
+
+    | Behavior Category | Behavior | Behavior Objective | Count |
+    |-|-|-|-|
+- Electronically Signed By / Date Signed (for submitted sessions)
+- Footer (page number, patient name, patient DOB, member ID from primary [coverage](../Patients/Coverages.md))

@@ -26,9 +26,10 @@ The Contact Main Form for a Practitioner is divided into multiple tabs for an or
 
 - The **Care Team Assignments** tab is for assigning a utilization of hours authorized for a certain authorization service to a practitioner. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
 
-- The **Encounters** tab lists the scheduled encounters for the practitioner. This tab is divided into 2 sub grids: 
+- The **Encounters** tab lists the scheduled encounters for the practitioner. This tab is divided into 3 sub grids: 
     - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. [Read more about Recurring Encounters](../Scheduling/RecurringEncounters.md).
-    - *Single Encounters* - The bottom subgrid displays individual encounters (encounter occurrences). [Read more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
+    - *Single Encounters* - The middle subgrid displays individual encounters (encounter occurrences). [Read more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
+    - *Encounter Services* - The bottom subgrid displays the encounter services from this practitioner's encounters. [Read more about Encounter Services](../Scheduling/SingleEncounters.md/#encounter-services). The default view is set to 'Upcoming Encounter Services' - all Encounter Services where the Start Date/Time is in the future.
 
 - The **Calendar** tab displays the practitioner's calendar of encounter services scheduled for them. [Read more about the practitioner's Calendar](Calendar.md).
 

@@ -33,3 +33,18 @@ A new connection role record can be created from a Connection record. Upon click
 
 In order to ensure the Connection Role displays in the 'Related To Patient As' field on the Connection Main Form, the 'Connection Role Category' must be set as 'Contact Relationship'. 
 
+## Primary Contact Engagement Emails
+
+To give parents and primary contacts visibility to and understanding of a patient's treatment and progress, AI-assisted emails are generated weekly to provide a summary of the care plan targets that were focused on that week.
+
+Emails are sent to all related contacts that are marked as the Patient's Primary Contact (on the connection record), and are not marked as "Do Not Bulk Email" (on the related person contact record).
+
+Emails are sent on Mondays at 8:00 AM EST and summarize targets and sessions from the previous Monday through Sunday.
+
+**Email Content**
+1. Targets activated this week
+2. Targets mastered this week
+3. Targets addressed this week
+4. This week's sessions
+5. Upcoming sessions
+6. AI-assisted summary of patient progress
