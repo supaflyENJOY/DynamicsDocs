@@ -26,6 +26,10 @@ the **BT Data Per Day** report allows easy monitoring of practitioner performanc
 
 The **Care Plans** report is an organized view of each patient's complete care plan. Filter by provider, client, skill acquisition domain/subdomain, or target status and review target configurations, instructions, intervention techniques, etc. for full visibility to your organization's care plans.
 
+:::note
+To reset all filters you applied to the report, simply refresh your browser.
+:::
+
 ## Account Receivable
 
 The Accounts Receivable (AR) Report gives your billing mangers a bird's eye view of the cashflow in your organization.
@@ -33,6 +37,10 @@ The Accounts Receivable (AR) Report gives your billing mangers a bird's eye view
 - View the Total Expected Amount from all Claims per Payer. Compare to the Total Paid by Payer, Total Paid to Practitioner, and Total Outstanding.
 - Filter results by Patient or Practitioner
 - Click the link icon on any row in the results table to open the Encounter Service in a new tab.
+
+:::note
+To reset all filters you applied to the report, simply refresh your browser.
+:::
 
 ## Supervision Ratios
 The Supervision Ratios Report gives you an easy way to monitor how much supervision each practitioner and patient are receiving.
@@ -45,3 +53,7 @@ This report calculates the ratio of supervision (Direction of Technician service
 - Filter by patients/practitioners with less than 5/10/20 % supervision ratios
 - Filter by specific authorization to review
 - Click the link icon on any row in the results table to open the Encounter Service in a new tab.
+
+:::note
+To reset all filters you applied to the report, simply refresh your browser.
+:::

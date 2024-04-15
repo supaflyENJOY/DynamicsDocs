@@ -23,7 +23,8 @@ When a session is submitted from the Note app, the status of the encounter servi
 
 When reviewing charge items, you can easily view the status of the charge items to identify what needs to be done for each charge item:
 
-- Charge items are created with status **Awaiting Submission**.
+- Charge items are created with status **Scheduled**.
+- When the related encounter service is started (and becomes "In Progress"), charge items become **Awaiting Submission**.
 - When the related encounter service is submitted, charge items become **New**.
 - Charge items that are fit to be included on Claims should be marked as **Ready to Bill** by the biller who reviewed them.
 - Charge items can be marked as **On Hold** to indicate that they should not be billed yet (e.g., if they are waiting on remaining sessions in conducted in that charge period to be submitted).
