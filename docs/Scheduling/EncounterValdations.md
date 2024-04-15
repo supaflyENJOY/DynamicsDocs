@@ -33,7 +33,7 @@ When an Encounter Service or Encounter Participant fails validation, in addition
 
 ## Invalid Recurring Encounters
 
-On recurring encounters, if one or move child encounter occurrences are invalid the encounter will have a red banner displayed.
+On recurring encounters, if one or more child encounter occurrences are invalid the encounter will have a red banner displayed.
 
 ### Locate Invalid Encounter on a Recurring Encounter
 
