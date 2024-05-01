@@ -32,17 +32,20 @@ For example, if a Behavior Techician has a direct care session from 9:00-12:00, 
 **Encounter Service Information**
 - *Encounter* - prepopulated with the Encounter you are adding the Encounter Service to.
 - *Service Type* - choose from 2 options:
-    - Assignment - session will be validated against the Care Team Assignment. Provider will have access to edit the session in the Note app.
-    - Service - session will be validated against the Authorization Service. Provider will have limited access to edit the session in the Note app (only can be edited within the same week for the same or shorter duration)
+    - Assignment - Session will be validated against the Care Team Assignment. Provider will have access to edit the session in the Note app.
+    - Service - Session will be validated against the Authorization Service. Provider will have limited access to edit the session in the Note app (the session can be edited within the same week for the same or shorter duration than originally scheduled).
 - *Assignment* - displays on form when Service Type is set to 'Assignment'. The Encounter Patient and Practitioner will be created based on the Patient and Practitioner on the Care Team Assignment.
 - *Encounter Patient* - displays on form when Service Type is set to 'Service'. Select the patient.
 - *Encounter Practitioner* - displays on form when Service Type is set to 'Service'. Select the practitioner.
 - *Authorization Service* - displays on form when Service Type is set to 'Service'. Select the Authorization for this Patient.
+:::note
+An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on an encounter service. This is to ensure sessions are always billed to primary coverage before they are resubmitted to secondary.
+:::
 - *Start Date/Time* - prepopulated with the start date/time of the Encounter you are adding the Encounter Service to.
 - *End Date/Time* - prepopulated with the end date/time of the Encounter you are adding the Encounter Service to.
-- *Mileage* - if your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
+- *Mileage* - If your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
 - *Payroll Modifiers* - 
-- *Telecare* - toggle on when the session was conducted over telecare
+- *Telecare* - Toggle on when the session was conducted over telecare
 
 An Encounter Service cannot be saved if the Insurance Plan Benefit for the Authorization Service requires an assignment and the assignment field on the Encounter Service is blank.
 

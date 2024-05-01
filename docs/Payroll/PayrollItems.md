@@ -15,6 +15,7 @@ When an encounter service is submitted in the Note app and a charge item is crea
 
 For group sessions, one payroll item will have many encounter service payroll items.
 
+Encounter service payroll items are visible on each payroll item form.
 
 ## Payroll Items
 
@@ -48,7 +49,25 @@ A payroll period will start with only the start date populated, and is considere
 
 Once you add an end date to a payroll period, a new payroll period is created, with a start date for the day after the end date of the closed payroll period. Payroll items cannot be added to closed payroll periods.
 
-[Export an Excel report](../Overview/ViewsCharts#export-to-excel) of all the payroll items in the closed payroll period to upload to your payroll system.
+### Payroll Export
+After you have closed a payroll period, generate a payroll export to upload to your payroll system.
+
+1. On the Payroll Periods Main Grid, select the payroll period(s) you'd like to generate a report for.
+2. Click "Payroll Export" on the ribbon.
+3. An excel file will be generated with the following columns:
+    - Practitioner First and Last Name
+    - Employee ID
+    - Contract Type (salary or hourly based on [practitioner contract](../Payroll/Contracts.md))
+    - Salary (for practitioners with salary contracts)
+    - Payroll Period 
+    - Default Rate (hourly rate for practitioners with hourly contracts)
+    - Actual Rate (rate on the payroll item, based on [payroll fee schedules](../AdminSetup/FeeSchedules.md/#payroll-fee-schedules))
+    - Regular Hours (total hours on all payroll items for this practitioner and this rate)
+    - Regular Pay (calculated pay amount for this practitioner and this rate)
+    - Non-billable Hours (total hours on all payroll items for [non-billable services](../AdminSetup/HealthcareService.md) for this practitioner and this rate)
+    - Non-billable Pay (calculated pay amount for this practitioner and this rate)
+    - Reimbursements (calculated pay amount for reimbursement payroll items)
+
 
 ## Manual Payroll Batches
 
