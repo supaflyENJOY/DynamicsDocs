@@ -19,7 +19,9 @@ Alternately, you can choose to cancel an individual Encounter Service under an E
 
 You can deactivate encounters, related encounter services, and related encounter participants when an encounter was scheduled in error.
 
-### Deactivate Encounter Occurrences
+:::note
+If observations were already collected on the session in the Note app, the encounter service cannot be deactivated.
+:::
 
 1.  On the main grid user can select the Encounters to be deactivated.
 
@@ -34,16 +36,20 @@ You can deactivate encounters, related encounter services, and related encounter
 
 <img src ="/img/399c27bd-f552-4bb9-9433-5ec75c60271e_image.png" width="500" height="200"/>
 
-4.  All related records(Encounter, Encounter Services, Encounter Participant) will be deactivated
+4.  All related records (encounter, encounter services, encounter participant) will be deactivated
 A single encounter can also be deactivated from the main form by clicking 'Deactivate' on the form's ribbon.
 
-### Deactivate Recurring Encounters
+## Deactivate Recurring Encounters
 
 Recurring encounters are parents to a set of related encounters that were generated based on the recurrence pattern selected.
 
 The recurring parent cannot be deactivated. You can deactivate the related Encounter Occurrences to deactivate all the sessions generated from this recurring encounter.
 
-#### Recurrence pattern set by end date
+:::note
+If observations were already collected on any of the encounter occurrences of a recurring encounter in the Note app, the recurring encounter cannot be deactivated.
+:::
+
+### Recurrence pattern set by end date
 
 1.  Update the end date on the recurrence information to one day before the first scheduled encounter.
 
@@ -53,7 +59,7 @@ The recurring parent cannot be deactivated. You can deactivate the related Encou
 
 <img src ="/img/ConfirmUpdate.png" width="500" height="200"/>
 
-#### Recurrence pattern set by number of occurrences
+### Recurrence pattern set by number of occurrences
 
 1.  Navigate to the encounter occurrences tab on the recurring encounter.
 

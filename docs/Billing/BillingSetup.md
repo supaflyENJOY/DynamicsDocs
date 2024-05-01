@@ -38,3 +38,23 @@ This gives billers visibility to sessions that will be grouped together on a cla
 4. Click export. The excel export will include all session details as well as links to the encounter services.
 
 
+## Billing Export
+
+If your organization uses an external billing system, when you are ready to bill for the charge items in a charge period, generate a billing export to upload to your billing system.
+
+1. On the Charge Items Main Grid, select the Ready to Bill charge item(s) you'd like to generate a report for.
+2. Click "Billing Export" on the ribbon.
+3. An excel file will be generated with the following columns:
+    - Practitioner First and Last Name
+    - Employee ID
+    - Contract Type (salary or hourly based on [practitioner contract](../Payroll/Contracts.md))
+    - Salary (for practitioners with salary contracts)
+    - Payroll Period 
+    - Default Rate (hourly rate for practitioners with hourly contracts)
+    - Actual Rate (rate on the payroll item, based on [payroll fee schedules](../AdminSetup/FeeSchedules.md/#payroll-fee-schedules))
+    - Regular Hours (total hours on all payroll items for this practitioner and this rate)
+    - Regular Pay (calculated pay amount for this practitioner and this rate)
+    - Non-billable Hours (total hours on all payroll items for [non-billable services](../AdminSetup/HealthcareService.md) for this practitioner and this rate)
+    - Non-billable Pay (calculated pay amount for this practitioner and this rate)
+    - Reimbursements (calculated pay amount for reimbursement payroll items)
+4. You will be prompted whether you'd like to mark the exported charge items as "billed externally" to track that these charge items have been exported for billing through an external system.

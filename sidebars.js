@@ -55,6 +55,10 @@ module.exports = {
   'Scheduling/DeactivateEncounters',
   'Scheduling/Utilization',
  ],
+ 'Payroll':[
+  'Payroll/Contracts',
+  'Payroll/PayrollItems',
+ ],
  'Billing':[
   'Billing/BillingSetup',
   'Billing/ChargePeriods',
@@ -67,10 +71,6 @@ module.exports = {
   'RCM/Payment',
   //'RCM/Transactions',
   'RCM/Remits',
- ],
- 'Payroll':[
-  'Payroll/Contracts',
-  'Payroll/PayrollItems',
  ],
 //  'CRM':[
 //   'CRM/Lead',

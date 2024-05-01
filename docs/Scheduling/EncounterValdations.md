@@ -37,15 +37,25 @@ On recurring encounters, if one or more child encounter occurrences are invalid 
 
 ### Locate Invalid Encounter on a Recurring Encounter
 
-1.  Navigate to the related tab on the encounter/recurring encounter
-2.  Select Encounter Validation Failures
+1.  Navigate to the Encounter Validation Failures on the recurring encounter
 
-<img src ="/img/RelatedEncounterValidationFailures.png" width="700"/>
-
-3.  Select the Encounter Validation Failure
+2.  Select the Encounter Validation Failure
 
 <img src ="/img/SelectEncounterValidationFailures.png" width="700"/>
 
-4.  Select the Encounter Service that hasn't passed validation
+3.  Select the Encounter Service that hasn't passed validation
 
 <img src ="/img/FailedEncounterService.png" width="700"/>
+
+## Rerun Validation
+
+To rerun validation, open the encounter service or encounter participant you'd like to revalidate, and click "Rerun Validation." Refresh the record to see the updated validation status.
+
+To rerun validation on multiple records:
+
+1. Go to an encounter service or encounter participants view.
+2. Select the encounter services/participants you'd like to revalidate.
+3. Click "Edit".
+4. Navigate to the "Header" tab on the form.
+5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
+

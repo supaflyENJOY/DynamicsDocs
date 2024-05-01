@@ -21,6 +21,9 @@ To create a new Care Team Assignments:
 - *Patient* - prepopulated with the Patient navigating from.
 - *Episode of Care* - prepopulated with current Episode of Care for this Patient.
 - *Authorization Service* - select the authorization service this assignment is based on. This will ensure that the assignment (together with all other assignments for this authorization service) is not going over the maximum authorized hours.
+:::note
+An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on a care team assignment. This is to ensure sessions are always billed to primary coverage before they are resubmitted to secondary.
+:::
 - *Period Start Date* - prepopulated with Authorization Service Start Date and can be changed if necessary.. The Period Start Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
 - *Period End Date* - prepopulated with Authorization Service End Date and can be changed if necessary. The Period End Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
 
