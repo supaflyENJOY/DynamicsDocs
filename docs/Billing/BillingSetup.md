@@ -52,14 +52,14 @@ If your organization uses an external billing system, when you are ready to bill
     - Place Of Service
     - Location Type (on the encounter [location](../AdminSetup/Location.md))
     - Business Unit
-    - Start Date and Time (on the encounter service)
-    - End Date and Time (on the encounter service)
-    - Duration (on the encounter service)
+    - Start Date and Time
+    - End Date and Time
+    - Duration
     - Practitioner First and Last Name
     - Patient First and Last Name
     - Patient MRN
     - Authorization #
-    - Billable Units (on the charge item)
+    - Billable Units
     - Billing Unit Type (on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits))
     - Procedure Code (on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits))
     - Practitioner Qualification (based on the practitioner's [qualifications](../Practitioners/Qualifications.md))
