@@ -15,6 +15,8 @@ To cancel an Encounter, select the encounter you'd like to cancel from any Encou
 
 Alternately, you can choose to cancel an individual Encounter Service under an Encounter, while leaving the parent Encounter and the rest of its Encounter Services scheduled.
 
+When an encounter service is canceled, its related charge item and payroll item are deactivated, (unless the payroll item is already in a closed payroll period).
+
 ## Deactivate Encounters
 
 You can deactivate encounters, related encounter services, and related encounter participants when an encounter was scheduled in error.

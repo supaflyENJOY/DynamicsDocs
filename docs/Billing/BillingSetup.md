@@ -39,7 +39,6 @@ This gives billers visibility to sessions that will be grouped together on a cla
 
 
 ## Billing Export
-Coming Soon!
 
 If your organization uses an external billing system, when you are ready to bill for the charge items in a charge period, generate a billing export to upload to your billing system.
 
