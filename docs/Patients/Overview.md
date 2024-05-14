@@ -62,8 +62,6 @@ Select 'Contacts' on the left navigation bar in the Clinical Area to open the Co
 
 ## Export Patient Session Notes
 
-*Coming Soon!*
-
 A session note export can be exported from the Encounter Service subgrid on a patient contact. 
 
 Click "Export Session Notes" on the ribbon of the Encounter Service view. Enter the date range you'd like to export session notes from, and click "Export."

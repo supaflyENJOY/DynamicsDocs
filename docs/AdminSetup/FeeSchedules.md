@@ -44,5 +44,15 @@ Fee schedules where the Fee Schedule Type is Payroll are used to override a prac
 
 For example, to set a higher rate for group treatment (97154), create a fee schedule item with the higher rate as the 'Billing Amount', and populate that fee schedule on the [practitioner contract](../Payroll/Contracts.md).
 
-To set a different rate for a specific patient, add a modifier to the services you want it to affect. 
+To set a different rate for a specific patient/practitioner:
+1. Go to the fee schedule for this practitioner (the fee schedule populated on the practitioner contact). If there is no fee schedule for this practitioner yet, create a new one and populate it on the practitioner contract.
+2. Create fee schedule items for the services that the practitioner provides. Enter the regular rate the practitioner recieves for those services as the billing amount.
+3. On the Fee Schedule Item for the services that will have a different rate per patient, go to Related > Modifiers. Create a new modifier, and give it a meaningful name.
+<img src ="/img/payrollmod.png" width="700"/>
+4. Request a codeable concept for this modifier from support. (Support will create a codeable concept in system https://schemas.chorus.cloud/payrollmodifier.)
+5. Enter the adjusted rate for this patient and this service as the billing amount on the modifier.
+6. Now, any time a session is scheduled for this patient, practitioner, and service, select the modifier you created on the encounter service "payroll modifiers" field, or by going to Related Encounter Service Payroll Modifiers on the encounter service, creating a new encounter service payroll modifier, and selecting the modifier.
+
+
+
 
