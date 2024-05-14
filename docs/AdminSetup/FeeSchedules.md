@@ -51,7 +51,7 @@ To set a different rate for a specific patient/practitioner:
 <img src ="/img/payrollmod.png" width="700"/>
 4. Request a codeable concept for this modifier from support. (Support will create a codeable concept in system https://schemas.chorus.cloud/payrollmodifier.)
 5. Enter the adjusted rate for this patient and this service as the billing amount on the modifier.
-6. Now, any time a session is scheduled for this patient, practitioner, and service, select the modifier you created on the encounter service "payroll modifiers" field, or by going to Related Encounter Service Modifiers on the encounter service and selecting the modifier.
+6. Now, any time a session is scheduled for this patient, practitioner, and service, select the modifier you created on the encounter service "payroll modifiers" field, or by going to Related Encounter Service Payroll Modifiers on the encounter service, creating a new encounter service payroll modifier, and selecting the modifier.
 
 
 
