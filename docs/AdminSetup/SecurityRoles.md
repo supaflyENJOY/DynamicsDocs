@@ -22,7 +22,7 @@ Our system comes with built-in security roles that are common to the administrat
 
 **Scheduler Roles** have access to Patient and Practitioner information and availability, as well as authorizations and assignments, and all other records that contribute to the scheduling workflow.
 - *Scheduler Manager*
-- *Scheduler Admin*
+- *Scheduler Admin* (has access to additional workflows, such as [overriding validation failures](../Scheduling/EncounterValdations.md/#override-validation-failures), and [reopening submitted sessions](../Scheduling/UnsubmitEncounters.md))
 
 **Clinical Roles** have access to Patient and Practitioner information and schedules, as well as to the organization's goal bank library, and clinical data collection and care plan records.
 - *Clinical Manager*

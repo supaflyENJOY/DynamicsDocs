@@ -7,6 +7,7 @@ title: Transactions
 
 There are 2 types of transactions:
 1. **Claims Transactions** - outgoing transactions posted to your clearinghouse
+2. **Remit Transaction** - incoming transactions posted to your financial dimension
 
 **Transaction Details**
 - *Date Submitted* - date submitted to the clearinghouse

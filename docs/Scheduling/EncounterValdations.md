@@ -7,18 +7,18 @@ title: Encounter Validations
 
 When an Encounter Service is created, it is validated to ensure it passes a number of validation rules:
 
-1. An Encounter Participant cannot overlap with another Encounter Participant.
+1. The date of the Encounter Service must be within the Start and End date of the Authorization.
+2. An Encounter Service cannot have more units in the given time period than the Authorization Service or Assignment allows.
+3. The Encounter Services for that service that day cannot exceed the MUE Limit for this service (as configured on the Insurance Plan Benefit).
+4. The duration on the Encounter Service must be between the min/max units required from the Insurance Plan Benefit.
+5. The Practitioner Participants on an Encounter Service must have the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
+6. An Encounter Participant cannot overlap with another Encounter Participant.
     - For example, a patient included as the encounter participant on both an encounter from 12:00 - 2:00 and an encounter from 1:30 - 4:30 would be invalid.
     - Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are allowed to overlap with Direct Treatment services for the same patient when the Encounters are at the same location, or over telecare.
-2. An Encounter Service cannot have more units in the given time period than the Authorization Service or Assignment allows.
-3. The Practitioner Participants on an Encounter Service must have the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
-4. The duration on the Encounter Service must be between the min/max units required from the Insurance Plan Benefit.
-5. The Encounter Services for that service that day cannot exceed the MUE Limit for this service (as configured on the Insurance Plan Benefit).
-6. The date of the Encounter Service must be within the Start and End date of the Authorization.
 7. Direction of Technician services must fully overlap with Direct Treatment sessions.
-8. Optional- when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) is set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session (with the same location / telecare) is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise. 
-
+8. Optional- when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) is set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session (with the same location / telecare) is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
 <img src ="/img/BUblockSupervision.png" width="700"/>
+9. Optional- when "Grace Period Days" on the [business unit](../AdminSetup/BusinessUnit.md) is populated, the encounter service must be submitted within that many days after the scheduled date of the session.
 
 
 ## Validation Statuses
@@ -59,3 +59,9 @@ To rerun validation on multiple records:
 4. Navigate to the "Header" tab on the form.
 5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
 
+## Override Validation Failures
+Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the provider to submit sessions that failed for certain reasons.
+
+1. Go to the failed encounter service or participant.
+2. Go the Related > Encounter Validation Failure that has been approved to be overriden.
+3. Click "Override". The validation failure record will remain active, but the session will not fail validation for this reason again.
