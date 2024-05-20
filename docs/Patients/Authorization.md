@@ -8,7 +8,7 @@ Authorizations are the force behind the entire scheduling and billing workflow. 
 
 ## Create an Authorization  
 
-To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
+To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form, under the "Coverages and Auths" tab) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
 
 **Authorization Information**
 - *Patient* - prepopulated as the patient whose profile you are navigating from when entering the authorization.
