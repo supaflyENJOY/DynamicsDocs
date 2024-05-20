@@ -53,6 +53,7 @@ module.exports = {
   'Scheduling/CareTeamAssignments',
   'Scheduling/EncounterValidations',
   'Scheduling/DeactivateEncounters',
+  'Scheduling/UnsubmitEncounters',
   'Scheduling/Utilization',
  ],
  'Payroll':[
