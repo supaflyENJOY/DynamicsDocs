@@ -30,7 +30,7 @@ The **Care Plans** report is an organized view of each patient's complete care p
 To reset all filters you applied to the report, simply refresh your browser.
 :::
 
-## Account Receivable
+## Accounts Receivable
 
 The Accounts Receivable (AR) Report gives your billing mangers a bird's eye view of the cashflow in your organization.
 

@@ -23,3 +23,9 @@ Creating a Recurring Encounter follows the same workflow as creating a [Single E
 - *End* – select how to end this recurrence – by an end date, or a number of occurrences.
     - *End Date* (when End is 'By End Date') – the day on which the recurrence should stop repeating.
     - *Total Occurrences* (when end is 'By Number of Occurrences') – the total number of occurrences to generate according to this recurrence pattern.
+
+## Edit a Recurring Encounter
+The end date of recurring encounters can be moved earlier to deactivate encounter occurrences after the updated end date.
+
+- The end date of a recurring encounter can be edited one time.
+- The end date cannot be changed to a date where there are encounter occurrences after the new end date with observations already collected on them in the Note app.
