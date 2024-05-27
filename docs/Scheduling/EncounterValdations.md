@@ -60,8 +60,10 @@ To rerun validation on multiple records:
 5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
 
 ## Override Validation Failures
-Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the provider to submit sessions that failed for certain reasons.
+Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the practitioner to submit sessions that failed for certain reasons.
 
 1. Go to the failed encounter service or participant.
 2. Go the Related > Encounter Validation Failure that has been approved to be overriden.
-3. Click "Override". The validation failure record will remain active, but the session will not fail validation for this reason again.
+3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
+
+Overriden validatons display in a yellow banner on the encounter service or participant so it is clear that this session previously failed a validation and has since been allowed to pass.
