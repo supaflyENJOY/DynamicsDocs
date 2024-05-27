@@ -35,7 +35,7 @@ In addition to payroll items created when encounter services are submitted, payr
 - *Encounter Service* - the encounter service the mileage/service is relevant to, when the earning code type is Mileage or Service.
 - *Quantity* - the amount of miles travelled, when the earning code type is Mileage.
 - *Duration* - the duration of the service, when the earning code type is Service.
-- *Rate* - the rate per hour the provider earns for the mileage/service, when the the earning code type is Mileage or Service.
+- *Rate* - the rate per hour the practitioner earns for the mileage/service, when the the earning code type is Mileage or Service.
 - *Status Reason* - payroll items created by encounter service submissions are labeled "Automated." Payroll items can also be labeled "Manual Batch" and "Manually Paid" to enable [processing payroll outside of a payroll period](../Payroll/PayrollItems.md/#manual-payroll-batches).
 
 Receipts or other relevant communications or attachments can be added to the *timeline* on the payroll item.

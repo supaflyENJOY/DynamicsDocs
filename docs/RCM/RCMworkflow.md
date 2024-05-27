@@ -24,7 +24,7 @@ When the modified claim is ready to be submitted, click the 'Save & Submit' butt
 If the validation passes, the status reason of the claim will be updated to 'Ready to Submit', and will be submitted with the next batch of claims being submitted to the clearinghouse.
 
 ## Session Resubmissions
-When an encounter service was "unsubmitted" to allow the practitioner to make edits, if a claim line was already created, the charge item will be set to "Awaiting Resubmission" (by support).
+When an encounter service was reopened to allow the practitioner to make edits, if a claim line was already created, the charge item will be set to "Awaiting Resubmission".
 
 Review "Awaiting Resubmission" charge items to determine if the edits made to the session necessitate modifying and resubmitting the claim.
 

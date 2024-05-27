@@ -32,8 +32,8 @@ For example, if a Behavior Techician has a direct care session from 9:00-12:00, 
 **Encounter Service Information**
 - *Encounter* - prepopulated with the Encounter you are adding the Encounter Service to.
 - *Service Type* - choose from 2 options:
-    - Assignment - Session will be validated against the Care Team Assignment. Provider will have access to edit the session in the Note app.
-    - Service - Session will be validated against the Authorization Service. Provider will have limited access to edit the session in the Note app (the session can be edited within the same week for the same or shorter duration than originally scheduled).
+    - Assignment - Session will be validated against the Care Team Assignment. Practitioner will have access to edit the session in the Note app.
+    - Service - Session will be validated against the Authorization Service. Practitioner will have limited access to edit the session in the Note app (the session can be edited within the same week for the same or shorter duration than originally scheduled).
 - *Assignment* - displays on form when Service Type is set to 'Assignment'. The Encounter Patient and Practitioner will be created based on the Patient and Practitioner on the Care Team Assignment.
 - *Encounter Patient* - displays on form when Service Type is set to 'Service'. Select the patient.
 - *Encounter Practitioner* - displays on form when Service Type is set to 'Service'. Select the practitioner.
