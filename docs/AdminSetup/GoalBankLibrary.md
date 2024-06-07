@@ -5,7 +5,9 @@ title: Goal Bank Library
 
 # Goal Bank Library
 
-Your organization can choose to import a goal bank to provide a library of pre-written goals and targets for your BCBAs use when creating care plans in the Note app.
+Your organization can choose to import a goal bank to provide a library of pre-written goals and targets for your BCBAs to use when creating care plans in the Note app.
+
+[Learn more about Goal and Target Libraries in Note](https://notedocs.chorus.cloud/docs/CarePlan/GoalTargetLibraries).
 
 To view the goal bank library, click 'Goal Bank Library' on the Care Plan section of the Setup area of the sitemap.
 
@@ -20,6 +22,21 @@ The domain and subdomains are consistent across all care plans in your organizat
 You can select a subdomain to view the library goals that will be available to your BCBAs as pre-written goals in the Note app.
 
 <img src ="/img/domain.png" width="850"/>
+
+You can select a goal to view the library targets that will be available to you BCBAs as pre-written targets in the Note app.
+
+You can select a target to view and edit the default configurations that will be available on this library target when imported to a Patient's care plan.
+[Learn more about Default Configurations in Note](https://notedocs.chorus.cloud/docs/CarePlan/DefaultConfiguration).
+
+
+:::note
+Edits made to the goal name, target name, and default target configurations will only affect the goal/target libraries. Edits will not be applied to goals/targets that have been imported from the library to existing patient care plans.
+:::
+
+<img src ="/img/targetlibrary.png" width="850"/>
+
+
+
 
 ## Assessment Report Templates
 
