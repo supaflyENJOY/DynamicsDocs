@@ -46,6 +46,7 @@ An authorization service for an authorization covered by [secondary coverage](..
 - *Mileage* - If your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
 - *Payroll Modifiers* - 
 - *Telecare* - Toggle on when the session was conducted over telecare
+- *Cancelation Reason* displays on form when Status Reason is Canceled.
 
 An Encounter Service cannot be saved if the Insurance Plan Benefit for the Authorization Service requires an assignment and the assignment field on the Encounter Service is blank.
 
