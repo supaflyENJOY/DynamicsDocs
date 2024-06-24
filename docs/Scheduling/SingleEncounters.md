@@ -64,9 +64,6 @@ To create an encounter participant, click 'New Encounter Practitioner' on the En
     - Patient
     - Practitioner
     - Related Contact
-- *Start Date/Time* - prepopulated with the start date/time of the Encounter you are adding the Encounter Participant to.
-- *Duration* - prepopulated with the duration of the Encounter you are adding the Encounter Participant to.
-- *End Date/Time* - prepopulated with the end date/time of the Encounter you are adding the Encounter Participant to.
 
 ### Encounter Location
 Th final step of creating an encounter is selecting the Location.
@@ -82,8 +79,6 @@ The Location on the Encounter will be included as the Place of Service on the Cl
 To update the timing of encounters, choose the **encounter service** for which the timing needs to be updated, and update the relevant fields. 
 
 - The encounter's start time will automatically update to the start time of the earliest encounter service under it, and the encounter's end time will update to the end time of the latest encounter service under it.
-
-- The practitioner encounter participant will automatically update to match the timing of the updated encounter service. The patient encounter participant will automatically update to the timing of the encounter (the earliest start time and latest end time of all encounter services under the encounter).
 
 ## Encounters for Other Time Zones
 A notification banner displays when your Dynamics Time Zone settings are set to a different time zone than the patient, to inform you that you are viewing timings in a different time zone than where the session took place.
