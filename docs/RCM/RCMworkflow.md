@@ -30,6 +30,19 @@ Review "Awaiting Resubmission" charge items to determine if the edits made to th
 
 Update charge item from "Awaiting Resubmission" to "Claim Line Created" and modify and resubmit the claim based on the updates made to the session.
 
+## Cases
+Create a case on a claim to effectively track historical information regarding resubmissions.
+1. On a claim, go to the Cases tab.
+2. Click 'New Case' to create a new case. Fill in the relevant detail on the case, including subject, CARC codes, account, and patient.
+3. Save the case.
+
+To add an existing case to multiple claims, either:
+
+- Open the case. In the Bulk Case Claims section, click 'Add Existing Claim'. Choose the claim to link to this case.
+
+or:
+- On each claim you'd like to link to this case, go to the Cases tab. Click 'Add Existing Case'. Choose the case to link to the this claim.
+
 ## Posting Orphaned Remits
 
 Orphaned Remits are remits that come in from your clearinghouse but are not posted to any specific claim. 
