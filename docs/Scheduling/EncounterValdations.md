@@ -5,48 +5,233 @@ title: Encounter Validations
 
 # Encounter Validations
 
-When an Encounter Service is created, it is validated to ensure it passes a number of validation rules:
-
-1. The date of the Encounter Service must be within the Start and End date of the Authorization Service.
-2. An Encounter Service cannot have more units in the given time period than the Authorization Service or Assignment allows.
-3. The Encounter Services for that patient that service that day cannot exceed the MUE Limit for this service (as configured on the Insurance Plan Benefit).
-4. The duration of the Encounter Service must be between the min/max units required on the Insurance Plan Benefit.
-5. The Practitioner Participants on an Encounter Service must have the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
-6. An Encounter Service cannot overlap with another Encounter Encounter Service for the same patient/practitioner.
-    - For example, an encounter service for patient John Doe from 12:00 - 2:00 would be an invalid overlap with an encounter service for patient John Doe from 1:30 - 4:30.
-    - For example, an encounter service for practitioner Robert Brown from 9:00 - 11:30 would be an invalid overlap with an encounter service for practitioner Robert Brown 11:15 - 2:15.
-    - Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are allowed to overlap with Direct Treatment or Group Behavior Treatment services for the same patient when the Encounters are at the same location, or over telecare.
-7. Direction of Technician sessions must fully overlap with Direct Treatment or Group Behavor Treatment sessions.
-8. Optional- when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) is set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment or Group Behavior Treatment session (with the same location / telecare) is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
-<img src ="/img/BUblockSupervision.png" width="700"/>
-9. Optional- when "Grace Period Days" on the [business unit](../AdminSetup/BusinessUnit.md) is populated, the encounter service must be submitted within that many days after the scheduled date of the session.
-
-
-## Validation Statuses
+When an Encounter Service is created, it is validated to ensure it passes a number of validation rules.
 
 - When an Encounter is Scheduled, the *Validation Status* on each of its Encounter Services is set to 'Pending'. 
 - While validation is running, the *Validation Status* on the Encounter Service is 'Validating'.
 - After validation is completed, the *Validation Status* either becomes 'Passed' or 'Failed'.
 
-## Invalid Single Encounters
+When validation fails, a red banner will display at the top of the screen on the Encounter and the failed Encounter Service. The banner can be expanded to view the validation that failed.
 
-When an Encounter Service fails validation, in addition to the Validation Status being set to 'failed', a red banner will be displayed at the top of the screen on the Encounter and the failed Encounter Service. The banner can be expanded to view the validation that failed.
+On recurring encounters, if one or more child encounter occurrences are invalid, a red banner will display on the Encounter. The Encounter Validation tab shows all failures and which encounter service they apply to for this recurring encounter.
 
-## Invalid Recurring Encounters
+**Encounter Validations**
 
-On recurring encounters, if one or more child encounter occurrences are invalid the encounter will have a red banner displayed.
+1. Session date is within authorized date range.
+2. Session does not exceed the authorized or assigned units for a given date range.
+3. Session does not exceed the MUE limit of units of this service allowed per day.
+4. Session duration is between the minimum units required and maximum units allowed.
+5. Practitioner of the session has required credentials for this service.
+6. Session does not overlap with another session for the same patient/practitioner.
+7. Supervision sessions fully overlap with Direct or Group Treatment sessions.
+8. Supervision sessions fully overlap with *submitted* Direct or Group Treatment sessions (optional).
+9. Session is submitted within the configured grace period (optional).
 
-### Locate Invalid Encounter on a Recurring Encounter
 
-1.  Navigate to the Encounter Validation Failures on the recurring encounter
+## Resolving Encounter Validation Failures
 
-2.  Select the Encounter Validation Failure
+### Date is not within authorized date range
+This validation ensures that all sessions will be billed within the date range of the authorization service to prevent them from being denied as unauthorized services.
 
-<img src ="/img/SelectEncounterValidationFailures.png" width="700"/>
+**Validation fails** if the encounter service is scheduled on a date before or after the authorization service dates.
 
-3.  Select the Encounter Service that hasn't passed validation
+**To resolve**:
+1. If the Service Type on the encounter service is: 
+    
+    a. Assignment, click on the assignment, then select the authorization service to open it and view its dates. 
+    
+    b. Service, click the authorization service to open it and view its dates. 
+2. Go back to the failed encounter service and update the date to be within the authorization service. 
+3. Save the record. Validation will rerun on the encounter service and it will update to 'Passed.'
 
-<img src ="/img/FailedEncounterService.png" width="700"/>
+Below are instructions to change the authorization service if you see the encounter service is connected to the incorrect one. 
+1. View all authorizations in the Coverage & Auths tab on the patient contact. 
+2. Determine which authorization it should be connected to. If the Service Type on the encounter service is: 
+    
+    a. Assignment, update the assignment on the encounter service to the assignment for the correct authorization service. 
+    
+    b. Service, update the authorization service on the encounter service. 
+3. Save the record. Validation will rerun on the encounter service and it will update to 'Passed.'
+
+### Exceeds authorized units
+This validation ensures that the authorized units per week/month/authorization period on the authorization service is not exceeded to prevent sessions from being denied as unauthorized services.
+
+**Validation fails** if the sum of a patient's scheduled hours in a week/month/authorization period exceeds the authorized units on the authorization service.
+
+:::note
+The authorized units can be set to hours/units per week/month/authorization period. When set to hours/units per week/month, you can choose whether encounters are validated as authorized, or based on how the authorized units would convert to total units per authorization period.
+
+This allows for tracking utilization on a weekly/monthly basis, while validating encounters based on total units for the entire authorization period.
+Read more about [authorization services](../Patients/AuthorizationServices.md).
+:::
+
+**To resolve**:
+1. If the service type on the encounter service is: 
+    
+    a. Assignment, click on the assignment, then select the authorization service to open it.
+    
+    b. Service, click the authorization service to open it.
+2. Review the authorized units.
+3. Identify and shorten/cancel sessions as needed:
+    
+    a. If the authorization service is authorized per week/month and validated as authorized, open the patient's calendar and go to the week/month of the failing session. Review the hours scheduled and determine how much to shorten/cancel the failed session.
+
+    b. If the authorization service is authorized or validated as total units, identify which sessions in the date range of the authorization service should be shortened/canceled.
+
+### Exceeds assigned units
+This validation ensures that the assigned hours per day/week/month/assignment period on the care team assignment is not exceeded to prevent sessions from being denied as unauthorized services.
+
+**Validation fails** if the sum of a practitioner's scheduled hours for a specific service in a day/week/month/assignment period exceeds the assignment hours on the care team assignment.
+
+**To resolve**:
+1. Click on the assignment on the encounter service.
+2. Review the assignment units.
+3. Identify and shorten/cancel sessions as needed:
+    
+    a. If the care team assignment is assigned per day/week/month, open the practitioner's calendar and go to the day/week/month of the failing session. Review the hours scheduled and inform the practitioner how much to shorten/cancel the failed session.
+
+    b. If the care team assignment is assigned per assignment period, inform the practitioner which sessions in the date range of the care team assignment should be shortened/canceled.
+
+### Exceeds MUE limit
+This validation ensures that the total time for a service in one day doesn’t go over the MUE limit for each patient.  
+MUE - Medically Unlikely Edit is the maximum number of units per service a patient may receive in a day. 
+
+**Validation fails** if the sum of a patient’s scheduled hours in a day exceeds the MUE limit for that service, whether it's provided by one practitioner or several. 
+
+**To resolve**:
+1. If the service type on the encounter service is: 
+    
+    a. Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits). 
+    
+    b. Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
+2. Check the units in the MUE Limit field and multiply by the unit of measure to find the total hours allowed for this service per day. 
+3. Go to the patient’s calendar to see which session needs to be shortened or rescheduled. 
+4. Click on the encounter service that needs to be updated and make the necessary changes. 
+5. Save the record. Validation will rerun on the failed encounter service and it will update to 'Passed.' 
+
+### Duration exceeds the maximum units allowed
+This validation ensures that a session's duration does not exceed the total units allowed for a session of this service.
+
+**Validation fails** if a session is scheduled or conducted for more than the Max Units Allowed. 
+
+**To resolve**:
+1. If the Service Type on the encounter service is: 
+    
+    a. Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related insurance plan benefit. 
+    
+    b. Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
+2. Check the units in the Max Units Allowed field and multiply by the unit of measure to get the maximum duration for sessions of this service. 
+3. Go back to the failed encounter service and adjust the session duration so it doesn’t exceed the maximum units allowed. 
+4. Save the record. Validation will rerun on the encounter service and it will update to 'Passed.'
+
+### Duration does not meet the minimum units required
+This validation ensures that a session lasts at least the minimum required duration for this service.  
+
+**Validation fails** if the duration of a session is less than the Minimum Units Required for that service. 
+
+**To resolve**:
+1. If the Service Type on the encounter service is: 
+    
+    a. Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related insurance plan benefit. 
+    
+    b. Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
+2. Check the units in the Min Units Required field and multiply by the unit of measure to get the minimum duration for sessions of this service. 
+3. Go back to the failed encounter service and adjust the duration to meet or exceed the minimum duration required. 
+4. Save the record. Validation will rerun on the encounter service and it will update to 'Passed.'
+
+
+### Practitioner does not have required credentials
+This validation ensures that the practitioner on the session has the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
+
+**Validation fails** if there is a required qualification for this service, and the practitioner on this encounter service does not have a that qualification.
+
+**To resolve**:
+1. If the Service Type on the encounter service is: 
+    
+    a. Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related insurance plan benefit. 
+    
+    b. Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
+2. Review the Required Qualifications set on this insurance plan benefit
+3. Go to the Qualifications tab on the practitioner contact. Add a new practitioner qualification as needed, or update the expiration date of the existing one.
+4. Go back to the failed encounter service and [Rerun Validation](../Scheduling/EncounterValdations.md/#rerun-validation), and it will update to 'Passed.'
+
+### Patient/practitioner overlaps with another encounter
+This validation ensures that sessions do not overlap with eachother to prevent billed sessions from being denied for overlapping with other billed sessions.
+
+**Validation fails**
+- If a practitioner on an encounter service is scheduled on another encounter service where the timing of the sessions overlap. For example, an encounter service for practitioner Robert Brown from 11:30 - 1:30 would fail validation for overlapping with an encounter service for practitioner Robert Brown 9:45 - 11:45.
+- If a patient on an encounter service is scheduled on another encounter service where the timing of the sessions overlap. For example, an encounter service for patient John Doe from 1:30 - 4:30 would be an invalid overlap with an encounter service for patient John Doe from 12:00 - 2:00, unless it is an allowed overlap:
+    1. Direction of Technician with Direct Treatment
+    2. Direction of Technician with Group Behavior Treatment
+    3. Adaptive Behavior Treatment with Protocol Modification with Direct Treatment
+    4. Adaptive Behavior Treatment with Protocol Modification with Group Behavior Treatment
+
+:::note
+Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are only allowed to overlap with Direct Treatment or Group Behavior Treatment services for the same patient when the encounters are at the same location, or over telecare.
+Allowed overlaps are based on the service type on the [Healthcare Service](../AdminSetup/HealthcareService.md).
+:::
+
+**To resolve**:
+1. Go to the patient/practitioner calendar to view the overlapping sessions.
+2. Determine which session should be adjusted and update the time to not overlap. Or, instruct the practitioner to adjust the time of the session in Note.
+3. Validation will rerun on the failed encounter service and it will update to 'Passed.'
+
+### Supervision encounter service does not fully overlap direct care 
+This validation ensures supervision happens during a direct care session with the same patient, either at the same location or through telecare. 
+:::note
+Supervision validations only run on sessions where the [Healthcare Service](../AdminSetup/HealthcareService.md) of the related authorization service is set to ‘Direction of Technician’ service type. Check that Service Type is set correctly to ensure this validation is running for the correct services. 
+:::
+
+**Validation fails**:
+
+- If a supervision session does not fully overlap with a direct or group treatment session. 
+- If a supervision and a direct/group treatment session are not scheduled at the same location and neither are set to telecare. 
+
+**To resolve**:
+
+1. Go to the session on the patient’s calendar to see what the error is. 
+2. After determining the error and confirming with the practitioner, you can either: 
+    
+    a. Update the supervision session time to occur during the direct care session on the failed encounter service. 
+    
+    b. Ask the practitioner to correct the timing of the session in Note and sync their app. 
+3. Save the record. Validation will rerun on the failed encounter service and it will update to 'Passed.'
+
+
+### Overlapping direct care session was not yet submitted
+This validation ensures supervision happens during a *submitted* direct care session with the same patient, either at the same location or through telecare. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
+
+This validation is optional and only runs when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization is set to Yes.
+
+<img src ="/img/BUblockSupervision.png" width="700"/>
+
+**Validation fails** if a supervision session fully overlaps with a direct/group treatment session at the same location or telecare, but the direct/group treatment session was not yet submitted.
+
+**To resolve**:
+
+1. Go to the session on the patient’s calendar to view the overlapping session
+2. Ask the practitioner of the direct/group treatment session to submit the session in Note. 
+3. When the direct/group treatment session is submitted, validation will rerun on the failed supervision session and it will update to 'Passed.'
+
+
+### Encounter Service is not within Grace Period
+This validation ensures sessions can only be submitted within a certain amount of days after the scheduled date of the session.
+
+This validation is optional and only runs when "Grace Period Days" on the [business unit](../AdminSetup/BusinessUnit.md) is populated.
+
+**Validation fails** if it has bee more than the "grace period days" since the start of the session.
+
+**To resolve**:
+ 1. If the practitioner has been approved to submit a session past the grace period, [overrride the validation failure](../Scheduling/EncounterValdations.md/#override-validation-failures)
+
+## Override Validation Failures
+Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the practitioner to submit sessions that failed for certain reasons.
+
+1. Go to the failed encounter service.
+2. Go the Related > Encounter Validation Failure that has been approved to be overriden.
+3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
+
+Overriden validatons display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
 
 ## Rerun Validation
 
@@ -60,11 +245,3 @@ To rerun validation on multiple records:
 4. Navigate to the "Header" tab on the form.
 5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
 
-## Override Validation Failures
-Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the practitioner to submit sessions that failed for certain reasons.
-
-1. Go to the failed encounter service.
-2. Go the Related > Encounter Validation Failure that has been approved to be overriden.
-3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
-
-Overriden validatons display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
