@@ -13,9 +13,8 @@ Practitioners who are not given a care team assignment for a patient will only s
 ## Create a Care Team Assignment
 To create a new Care Team Assignments:
 1. Click the 'New' button on the Care Team Assignments Main Grid to open the Care Team Assignment Main Form.
-2. Click 'New Care Plan Activity' on the Care Team Assignments subgrid (on a Patient Contact Form) to open the Care Team Assignment Quick Create.
+2. Click 'New Care Plan Activity' on the Care Team Assignments subgrid (on a Patient Contact Form) to open the Care Team Assignment Quick Create form.
 
-<img src ="/img/careTeamAssignmentSubgrid.jpg" width="900"/>
 
 **Care Team Assignment Information**
 - *Patient* - prepopulated with the Patient navigating from.

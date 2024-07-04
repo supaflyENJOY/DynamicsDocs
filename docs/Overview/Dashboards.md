@@ -50,7 +50,7 @@ To reset all filters you applied to the report, simply refresh your browser.
 
 ## Accounts Receivable
 
-The Accounts Receivable (AR) Report gives your billing mangers a bird's eye view of the cashflow in your organization.
+The Accounts Receivable (AR) Report gives your billing managers a bird's eye view of the cashflow in your organization.
 
 - View the Total Expected Amount from all Claims per Payer. Compare to the Total Paid by Payer, Total Paid to Practitioner, and Total Outstanding.
 - Filter results by Patient or Practitioner
