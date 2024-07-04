@@ -49,7 +49,8 @@ Orphaned Remits are remits that come in from your clearinghouse but are not post
 - Posting orphaned remits to the right claims will help you identify which claim lines the orphaned remit lines should be posted to. 
 - Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will give you accurate tracking of the outstanding and paid amounts on every claim, as well as on a line by line basis.
 
-**Post Orphaned Remits to Claims**:
+<details>
+<summary> How to Post Orphaned Remits to Claims</summary>
 
 1. On a Claim, go to the Remits Summary tab.
 2. Click 'Add Existing Claim Payment'. You will be brought to a lookup of all Remits.
@@ -59,9 +60,12 @@ Orphaned Remits are remits that come in from your clearinghouse but are not post
 
 4. Switch from the "Claim Payment Lookup View" to the "Orphaned Remits" view. Identify the remit for the claim based on the patient/date of service, etc.
 
+</details>
+
 Alternately, you can utilize the "Orphaned Remits" view to go through all orphaned remits and populate the claim field on each remit.
 
-**Post Orphaned Remit lines to Claim lines**:
+<details>
+<summary> How to Post Orphaned Remit lines to Claim lines</summary>
 
 1. Use the "Remits with Orphaned Remit Lines" view to review remits where some of the remit lines have not been posted to claim lines.
 2. Open a remit and go to the Remit Lines tab. Remit lines that haven't been posted to claim lines display in the "Orphaned Remit Lines" subgrid.
@@ -70,3 +74,4 @@ Alternately, you can utilize the "Orphaned Remits" view to go through all orphan
 5. Click "Recalculate" on the claim to view the updated total outstanding and paid amounts based on the remit lines that were posted to the claim lines on the claim.
 
 <img src ='/img/orphanedremitlines.png' width='800'/>
+</details>

@@ -49,8 +49,6 @@ This validation ensures that all sessions will be billed within the date range o
 ### Exceeds Authorized Units
 This validation ensures that the authorized units per week/month/authorization period on the authorization service is not exceeded to prevent sessions from being denied as unauthorized services.
 
-**Validation fails** if the sum of a patient's scheduled hours in a week/month/authorization period exceeds the authorized units on the authorization service.
-
 :::note
 The authorized units can be set to hours/units per week/month/authorization period. When set to hours/units per week/month, you can choose whether encounters are validated as authorized, or based on how the authorized units would convert to total units per authorization period.
 
@@ -72,9 +70,7 @@ Read more about [authorization services](../Patients/AuthorizationServices.md).
 </details>
 
 ### Exceeds Assigned Units
-This validation ensures that the assigned hours per day/week/month/assignment period on the care team assignment is not exceeded to prevent sessions from being denied as unauthorized services.
-
-**Validation fails** if the sum of a practitioner's scheduled hours for a specific service in a day/week/month/assignment period exceeds the assignment hours on the care team assignment.
+This validation ensures that the assigned hours per day/week/month/assignment period on the [care team assignment](../Scheduling/CareTeamAssignments.md) is not exceeded to prevent sessions from being denied as unauthorized services, even when scheduled by practitioners.
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>
@@ -89,7 +85,7 @@ This validation ensures that the assigned hours per day/week/month/assignment pe
 
 ### Exceeds MUE Limit
 This validation ensures that the total time for a service in one day doesn’t go over the MUE limit for each patient, whether it's provided by one practitioner or several. .  
-MUE - Medically Unlikely Edit is the maximum number of units per service a patient may receive in a day. 
+*MUE - Medically Unlikely Edit* is the maximum number of units per service a patient may receive in a day. 
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>
@@ -137,8 +133,6 @@ This validation ensures that a session lasts at least the minimum duration requi
 
 ### Practitioner Does not have Required Credentials
 This validation ensures that the practitioner on the session has the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
-
-**Validation fails** if there is a required qualification for this service, and the practitioner on this encounter service does not have a that qualification.
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>
@@ -207,8 +201,6 @@ This validation is optional and only runs when "Block Supervision Submission" on
 
 <img src ="/img/BUblockSupervision.png" width="700"/>
 
-**Validation fails** if a supervision session fully overlaps with a direct/group treatment session at the same location or telecare, but the direct/group treatment session was not yet submitted.
-
 <details>
 <summary> How to Resolve this Validation Failure</summary>
 
@@ -224,7 +216,6 @@ This validation ensures sessions can only be submitted within a certain amount o
 
 This validation is optional and only runs when "Grace Period Days" on the [business unit](../AdminSetup/BusinessUnit.md) is populated.
 
-**Validation fails** if it has bee more than the "grace period days" since the start of the session.
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>
