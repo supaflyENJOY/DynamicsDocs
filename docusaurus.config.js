@@ -78,6 +78,11 @@ const config = {
          // },
         ],
       },
+      algolia: {
+        apiKey: 'bc972bbdd9c718d7473c295e86048b24',
+        indexName: 'DynamicsDocs',
+        appId: '1U3EFD2Y2W',
+      },
       footer: {
         style: 'dark',
         links: [
